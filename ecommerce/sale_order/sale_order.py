@@ -25,6 +25,7 @@ from tools import config
 import netsvc
 import wizard
 from tools.translate import _
+import decimal_precision as dp
 
 class ecommerce_saleorder(osv.osv):
 
@@ -252,7 +253,7 @@ class ecommerce_order_line(osv.osv):
         'order_id': fields.many2one('ecommerce.saleorder', 'eOrder Ref'),
         'product_id': fields.many2one('product.product', 'Product', domain=[('sale_ok','=',True)], change_default=True),
         'product_uom_id': fields.many2one('product.uom', 'Product UOM',required=True),
-        'price_unit': fields.float('Unit Price',digits=(16,2), required=True),
+        'price_unit': fields.float('Unit Price',digits_compute=dp.get_precision('Account'), required=True),
     }
     
     def onchange_product(self, cr, uid, ids, product_id):
