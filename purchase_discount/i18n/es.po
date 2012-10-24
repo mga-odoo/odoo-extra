@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: openobject-addons\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2009-11-25 14:05+0000\n"
-"PO-Revision-Date: 2011-02-15 15:26+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2012-10-23 10:46+0000\n"
+"Last-Translator: Omar (Pexego) <bronxkds@hotmail.com>\n"
 "Language-Team: Spanish <es@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-09-25 05:02+0000\n"
-"X-Generator: Launchpad (build 16019)\n"
+"X-Launchpad-Export-Date: 2012-10-24 05:25+0000\n"
+"X-Generator: Launchpad (build 16179)\n"
 
 #. module: purchase_discount
 #: constraint:ir.ui.view:0
@@ -29,112 +29,5 @@ msgstr "Líneas de órdenes de compra con Descuento"
 
 #. module: purchase_discount
 #: field:purchase.order.line,discount:0
-#: report:purchase.discount.order:0
 msgid "Discount (%)"
 msgstr "(%) Descuento"
-
-#. module: purchase
-#: report:purchase.discount.order:0
-msgid "Validated by :"
-msgstr "Validado por :"
-
-#. module: purchase
-#: report:purchase.discount.order:0
-msgid "Fax :"
-msgstr "Fax :"
-
-#. module: purchase
-#: report:purchase.discount.order:0
-msgid "UoM"
-msgstr "UdM"
-
-#. module: purchase
-#: report:purchase.discount.order:0
-msgid "Net Price"
-msgstr "Precio neto"
-
-#. module: purchase
-#: report:purchase.discount.order:0
-msgid "Our order reference :"
-msgstr "Nuestra referencia:"
-
-#. module: purchase
-#: report:purchase.discount.order:0
-msgid "Applicable Taxes"
-msgstr "Impuestos"
-
-#. module: purchase
-#: report:purchase.discount.order:0
-msgid "Taxes :"
-msgstr "Impuestos :"
-
-#. module: purchase
-#: report:purchase.discount.order:0
-msgid "N° :"
-msgstr "N° :"
-
-#. module: purchase
-#: report:purchase.discount.order:0
-msgid "Product Description"
-msgstr "Descripción producto"
-
-#. module: purchase
-#: report:purchase.discount.order:0
-msgid "Your order reference :"
-msgstr "Tu referencia :"
-
-#. module: purchase
-#: report:purchase.discount.order:0
-msgid "Shipping address :"
-msgstr "Dirección envío :"
-
-#. module: purchase
-#: report:purchase.discount.order:0
-msgid "TOTAL :"
-msgstr "TOTAL :"
-
-#. module: purchase
-#: report:purchase.discount.order:0
-msgid "Tél. :"
-msgstr "Tél. :"
-
-#. module: purchase
-#: report:purchase.discount.order:0
-msgid "Unit Price"
-msgstr "Precio un."
-
-#. module: purchase
-#: report:purchase.discount.order:0
-msgid "Qty"
-msgstr "Cant"
-
-#. module: purchase
-#: report:purchase.discount.order:0
-msgid "Date ordered :"
-msgstr "Fecha orden :"
-
-#. module: purchase
-#: report:purchase.discount.order:0
-msgid "Date Promised"
-msgstr "Fecha prometida"
-
-#. module: purchase
-#: report:purchase.discount.order:0
-msgid "Net Total :"
-msgstr "Total neto :"
-
-#. module: purchase
-#: report:purchase.discount.order:0
-msgid "TVA :"
-msgstr "CIF/NIF :"
-
-#. module: purchase
-#: report:purchase.discount.order:0
-msgid "Quotation N°"
-msgstr "Presupuesto Nº"
-
-#. module: purchase
-#: report:purchase.discount.order:0
-msgid "Order N°"
-msgstr "Pedido Nº"
-
