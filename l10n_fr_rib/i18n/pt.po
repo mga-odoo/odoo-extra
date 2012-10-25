@@ -39,16 +39,6 @@ msgid "Bank Code"
 msgstr ""
 
 #. module: l10n_fr_rib
-#: model:res.partner.bank.type.field,name:l10n_fr_rib.rib_bic_field
-msgid "bank_bic"
-msgstr "bank_bic"
-
-#. module: l10n_fr_rib
-#: model:res.partner.bank.type.field,name:l10n_fr_rib.rib_office_field
-msgid "office"
-msgstr ""
-
-#. module: l10n_fr_rib
 #: field:res.bank,rib_code:0
 msgid "RIB Bank Code"
 msgstr ""
@@ -74,21 +64,11 @@ msgid "RIB Bank Details"
 msgstr ""
 
 #. module: l10n_fr_rib
-#: model:res.partner.bank.type.field,name:l10n_fr_rib.rib_bank_code_field
-msgid "bank_code"
-msgstr ""
-
-#. module: l10n_fr_rib
 #: code:addons/l10n_fr_rib/bank.py:109
 #, python-format
 msgid ""
 "\n"
 "The RIB key %s does not correspond to the other codes: %s %s %s."
-msgstr ""
-
-#. module: l10n_fr_rib
-#: model:res.partner.bank.type.field,name:l10n_fr_rib.rib_key_field
-msgid "key"
 msgstr ""
 
 #. module: l10n_fr_rib
@@ -116,8 +96,3 @@ msgstr ""
 #: model:ir.model,name:l10n_fr_rib.model_res_bank
 msgid "Bank"
 msgstr "Banco"
-
-#. module: l10n_fr_rib
-#: model:res.partner.bank.type.field,name:l10n_fr_rib.rib_acc_number_field
-msgid "acc_number"
-msgstr ""
