@@ -34,6 +34,9 @@ import netsvc
 from osv import osv, fields
 from tools.translate import _
 
+class invalid_gs1_128(osv.except_osv):
+    """Indicate an error occurred while decoding a GS1-128 code"""
+    pass
 
 class product_gs1_128(osv.osv):
     """GS1-128 bar codes decoder configuration"""
@@ -93,7 +96,7 @@ class product_gs1_128(osv.osv):
         separator = user.gs1_128_separator or '\x1D'
 
         if gs1_128_string[:len(prefix)] != prefix:
-            raise osv.except_osv(_('Error decoding GS1-128 code'),
+            raise invalid_gs1_128(_('Error decoding GS1-128 code'),
                                  _('Could not decode GS1-128 code : wrong prefix - the code should start with "%s"') % prefix)
 
         # We are going to use lots of regular expressions to decode the string,
@@ -152,7 +155,7 @@ class product_gs1_128(osv.osv):
                     try:
                         groups = value_regexps[ai].match(gs1_128_string, position).groupdict()
                     except AttributeError:
-                        raise osv.except_osv(_('Error decoding GS1-128 code'),
+                        raise invalid_gs1_128(_('Error decoding GS1-128 code'),
                                              _('Could not decode GS1-128 code: incorrect value for Application Identifer "%s" at position %d') % (ai, position))
 
 
@@ -174,7 +177,7 @@ class product_gs1_128(osv.osv):
                     break
             else:
                 # We couldn't find another valid AI in the rest of the code, give up
-                raise osv.except_osv(_('Error decoding GS1-128 code'),
+                raise invalid_gs1_128(_('Error decoding GS1-128 code'),
                                       _('Could not decode GS1-128 code : unknown Application Identifier at position %d') % position)
 
         return results
