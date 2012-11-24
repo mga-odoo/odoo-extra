@@ -14,13 +14,12 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-09-25 05:01+0000\n"
-"X-Generator: Launchpad (build 16019)\n"
+"X-Launchpad-Export-Date: 2012-11-24 07:13+0000\n"
+"X-Generator: Launchpad (build 16293)\n"
 
 #. module: lunch
-#: model:ir.model,name:lunch.model_lunch_category view:lunch.category:0
-#: view:lunch.order:0 field:lunch.order,category:0
 #: field:lunch.product,category_id:0
+#: field:lunch.product.category,name:0
 msgid "Category"
 msgstr "Kategória"
 
@@ -30,7 +29,7 @@ msgid "Reset cashbox"
 msgstr "Kézi pénztár ürítése"
 
 #. module: lunch
-#: view:lunch.order:0 selection:lunch.order,state:0
+#: selection:lunch.order,state:0
 msgid "Confirmed"
 msgstr "Megerősített"
 
@@ -98,8 +97,9 @@ msgid "Invalid model name in the action definition."
 msgstr ""
 
 #. module: lunch
-#: field:lunch.cashmove,user_cashmove:0 field:lunch.order,user_id:0
-#: field:report.lunch.amount,user_id:0 field:report.lunch.order,user_id:0
+#: field:lunch.cashmove,user_id:0
+#: field:lunch.order,user_id:0
+#: field:report.lunch.order.line,user_id:0
 msgid "User Name"
 msgstr "Felhasználónév"
 
@@ -114,18 +114,21 @@ msgid "Total box"
 msgstr "Osszes doboz"
 
 #. module: lunch
-#: field:lunch.order,product:0
+#: field:lunch.order.line,product_id:0
+#: field:lunch.product,name:0
 msgid "Product"
 msgstr "Termék"
 
 #. module: lunch
-#: field:lunch.cashmove,name:0 report:lunch.order:0 view:lunch.product:0
+#: field:lunch.cashmove,description:0
+#: report:lunch.order.line:0
 #: field:lunch.product,description:0
 msgid "Description"
 msgstr "Leírás"
 
 #. module: lunch
-#: field:lunch.order,price:0 field:lunch.product,price:0
+#: field:lunch.order.line,price:0
+#: field:lunch.product,price:0
 msgid "Price"
 msgstr "Ár"
 
@@ -135,7 +138,11 @@ msgid "No"
 msgstr "Nem"
 
 #. module: lunch
-#: view:lunch.category:0 report:lunch.order:0 view:lunch.order:0
+#: field:lunch.cashmove,order_id:0
+#: selection:lunch.cashmove,state:0
+#: report:lunch.order.line:0
+#: view:lunch.order.line:0
+#: field:lunch.order.line,order_id:0
 msgid "Order"
 msgstr "Megrendelés"
 
@@ -145,7 +152,9 @@ msgid "Created date"
 msgstr ""
 
 #. module: lunch
-#: model:ir.ui.menu,name:lunch.menu_lunch_category_root_configuration
+#: model:ir.module.category,name:lunch.module_lunch_category
+#: model:ir.ui.menu,name:lunch.menu_lunch
+#: model:ir.ui.menu,name:lunch.menu_lunch_title
 msgid "Lunch"
 msgstr "Ebéd"
 
@@ -177,7 +186,7 @@ msgid " Order of the day"
 msgstr ""
 
 #. module: lunch
-#: model:ir.ui.menu,name:lunch.menu_lunch_category_root
+#: model:ir.ui.menu,name:lunch.menu_lunch_config
 msgid "Configuration"
 msgstr ""
 
@@ -226,18 +235,21 @@ msgid "lunch.cashbox"
 msgstr ""
 
 #. module: lunch
-#: view:lunch.cashmove:0 field:lunch.order,date:0
+#: field:lunch.cashmove,date:0
+#: field:lunch.order,date:0
+#: field:lunch.order.line,date:0
 msgid "Date"
 msgstr "Dátum"
 
 #. module: lunch
-#: field:lunch.cashmove,amount:0 field:report.lunch.amount,amount:0
+#: field:lunch.cashmove,amount:0
 msgid "Amount"
 msgstr "Összeg"
 
 #. module: lunch
-#: model:ir.actions.act_window,name:lunch.action_lunch_product_form
-#: model:ir.ui.menu,name:lunch.menu_lunch_product_form view:lunch.product:0
+#: model:ir.actions.act_window,name:lunch.action_lunch_products
+#: model:ir.ui.menu,name:lunch.menu_lunch_products
+#: field:lunch.order,order_line_ids:0
 msgid "Products"
 msgstr "Termékek"
 
@@ -294,12 +306,12 @@ msgid "Box Name"
 msgstr "Doboz megnevezése"
 
 #. module: lunch
-#: field:lunch.cashbox,manager:0
+#: model:res.groups,name:lunch.group_lunch_manager
 msgid "Manager"
 msgstr "Menedzser"
 
 #. module: lunch
-#: report:lunch.order:0
+#: report:lunch.order.line:0
 msgid "Unit Price"
 msgstr "Egységár"
 
@@ -314,7 +326,10 @@ msgid "Total price"
 msgstr "Végösszeg"
 
 #. module: lunch
-#: view:lunch.order.confirm:0
+#: view:lunch.cancel:0
+#: view:lunch.order.line:0
+#: view:lunch.order.order:0
+#: view:lunch.validation:0
 msgid "Cancel"
 msgstr "Mégse"
 

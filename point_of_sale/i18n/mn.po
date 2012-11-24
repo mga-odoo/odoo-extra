@@ -14,16 +14,18 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-09-25 05:06+0000\n"
-"X-Generator: Launchpad (build 16019)\n"
+"X-Launchpad-Export-Date: 2012-11-24 07:17+0000\n"
+"X-Generator: Launchpad (build 16293)\n"
 
 #. module: point_of_sale
-#: report:pos.details:0 report:pos.details_summary:0
+#: report:pos.details:0
+#: report:pos.details_summary:0
 msgid "Total paid"
 msgstr "Төлсөн дүн"
 
 #. module: point_of_sale
-#: report:pos.details:0 report:pos.details_summary:0
+#: report:pos.details:0
+#: report:pos.details_summary:0
 msgid "Qty of product"
 msgstr "Барааны тоо"
 
@@ -83,7 +85,7 @@ msgid "Orders of the day"
 msgstr "Өдрийн Ордерууд"
 
 #. module: point_of_sale
-#: code:addons/point_of_sale/point_of_sale.py:640
+#: code:addons/point_of_sale/point_of_sale.py:1140
 #, python-format
 msgid "No Pricelist !"
 msgstr "Үнийн жагсаалт алга!"
@@ -95,11 +97,17 @@ msgid "Select an Open Sale Order"
 msgstr ""
 
 #. module: point_of_sale
-#: report:account.statement:0 report:all.closed.cashbox.of.the.day:0
-#: report:pos.details:0 report:pos.details_summary:0 report:pos.lines:0
-#: field:pos.order,company_id:0 field:pos.order.line,company_id:0
-#: report:pos.payment.report.user:0 report:pos.sales.user:0
-#: report:pos.sales.user.today:0 report:pos.user.product:0
+#: report:account.statement:0
+#: report:all.closed.cashbox.of.the.day:0
+#: report:pos.details:0
+#: report:pos.details_summary:0
+#: report:pos.lines:0
+#: field:pos.order,company_id:0
+#: field:pos.order.line,company_id:0
+#: report:pos.payment.report.user:0
+#: report:pos.sales.user:0
+#: report:pos.sales.user.today:0
+#: report:pos.user.product:0
 #: field:report.pos.order,company_id:0
 msgid "Company"
 msgstr "Компани"
@@ -117,7 +125,8 @@ msgstr ""
 
 #. module: point_of_sale
 #: model:ir.actions.report.xml,name:point_of_sale.pos_lines_detail
-#: report:pos.details:0 report:pos.details_summary:0
+#: report:pos.details:0
+#: report:pos.details_summary:0
 msgid "Details of Sales"
 msgstr "Борлуулалтын дэлгэрэнгүй"
 
@@ -149,12 +158,16 @@ msgid "Line Description"
 msgstr "Мөрийн тайлбар"
 
 #. module: point_of_sale
-#: field:pos.order,shop_id:0 field:report.pos.order,shop_id:0
+#: field:pos.config,shop_id:0
+#: field:pos.order,shop_id:0
+#: field:report.pos.order,shop_id:0
 msgid "Shop"
 msgstr "Дэлгүүр"
 
 #. module: point_of_sale
-#: wizard_button:pos.refund_order,init,refund_n_quit:0
+#. openerp-web
+#: code:addons/point_of_sale/static/src/xml/pos.xml:352
+#, python-format
 msgid "Ok"
 msgstr "Ok"
 
@@ -175,7 +188,9 @@ msgid "Detail of Sales"
 msgstr "Борлуулалтын Дэлгэрэнгүй"
 
 #. module: point_of_sale
-#: report:pos.details:0 report:pos.invoice:0 field:pos.order,amount_tax:0
+#: report:pos.details:0
+#: report:pos.invoice:0
+#: field:pos.order,amount_tax:0
 msgid "Taxes"
 msgstr "Татвар"
 
@@ -233,7 +248,11 @@ msgid "VAT(%)"
 msgstr "НӨАТ(%)"
 
 #. module: point_of_sale
+#: code:addons/point_of_sale/point_of_sale.py:1039
+#: code:addons/point_of_sale/point_of_sale.py:1055
 #: report:pos.invoice:0
+#: report:pos.lines:0
+#, python-format
 msgid "Tax"
 msgstr "Татвар"
 
@@ -242,10 +261,12 @@ msgstr "Татвар"
 msgid "Total Transaction"
 msgstr "Нийт гүйлгээ"
 
+#. module: point_of_sale
 #. openerp-web
-#: /home/odo/repositories/addons/trunk/point_of_sale/static/src/xml/pos.xml:64
+#: code:addons/point_of_sale/static/src/xml/pos.xml:83
+#, python-format
 msgid "Disc"
-msgstr "Хөнгөлөлт"
+msgstr "Хөнг"
 
 #. module: point_of_sale
 #: report:pos.invoice:0
@@ -258,7 +279,9 @@ msgid "Scan Barcode"
 msgstr "Бааркод унших"
 
 #. module: point_of_sale
-#: report:account.statement:0 field:report.pos.order,partner_id:0
+#: report:account.statement:0
+#: model:ir.model,name:point_of_sale.model_res_partner
+#: field:report.pos.order,partner_id:0
 msgid "Partner"
 msgstr "Харилцагч"
 
@@ -328,15 +351,15 @@ msgstr "Төлөлтийн нэр"
 msgid "Order Lines"
 msgstr "Захиалгын мөрүүд"
 
-#. #-#-#-#-#  point_of_sale.pot (OpenERP Server 6.1rc1)  #-#-#-#-#
 #. module: point_of_sale
-#. #-#-#-#-#  point_of_sale.pot.web (PROJECT VERSION)  #-#-#-#-#
 #. openerp-web
-#: report:pos.details:0 report:pos.payment.report.user:0
-#: report:pos.user.product:0 field:report.sales.by.margin.pos,qty:0
+#: code:addons/point_of_sale/static/src/xml/pos.xml:78
+#: report:pos.details:0
+#: report:pos.payment.report.user:0
+#: report:pos.user.product:0
+#: field:report.sales.by.margin.pos,qty:0
 #: field:report.sales.by.margin.pos.month,qty:0
-#: /home/odo/repositories/addons/trunk/point_of_sale/static/src/xml/pos.xml:32
-#: /home/odo/repositories/addons/trunk/point_of_sale/static/src/xml/pos.xml:59
+#, python-format
 msgid "Qty"
 msgstr "Тоо"
 
@@ -384,8 +407,10 @@ msgid "Reporting"
 msgstr "Тайлан"
 
 #. module: point_of_sale
-#: view:report.sales.by.margin.pos:0 view:report.sales.by.margin.pos.month:0
-#: view:report.sales.by.user.pos:0 view:report.sales.by.user.pos.month:0
+#: view:report.sales.by.margin.pos:0
+#: view:report.sales.by.margin.pos.month:0
+#: view:report.sales.by.user.pos:0
+#: view:report.sales.by.user.pos.month:0
 #: view:report.transaction.pos:0
 msgid "POS "
 msgstr "POS "
@@ -428,7 +453,9 @@ msgid "Configuration"
 msgstr "Тохиргоо"
 
 #. module: point_of_sale
-#: report:pos.invoice:0 report:pos.lines:0 field:pos.order.line,price_unit:0
+#: report:pos.invoice:0
+#: report:pos.lines:0
+#: field:pos.order.line,price_unit:0
 #: report:pos.payment.report.user:0
 msgid "Unit Price"
 msgstr "Нэгж үнэ"
@@ -466,9 +493,10 @@ msgid "Draft Invoice"
 msgstr "Ноорог Нэхэмжлэл"
 
 #. module: point_of_sale
-#: field:pos.discount,discount:0 field:pos.order.line,discount:0
+#: field:pos.discount,discount:0
+#: field:pos.order.line,discount:0
 msgid "Discount (%)"
-msgstr "Хөнгөлөлт(%)"
+msgstr "Хөнгөлөлт (%)"
 
 #. module: point_of_sale
 #: model:ir.actions.wizard,name:point_of_sale.pos_add_product
@@ -496,28 +524,39 @@ msgid "Define default journals"
 msgstr "Үндсэн журнал сонгох"
 
 #. module: point_of_sale
+#: field:account.bank.statement,pos_session_id:0
 #: field:account.bank.statement.line,pos_statement_id:0
 #: field:pos.order,amount_return:0
+#: field:pos.session.opening,pos_session_name:0
+#: field:pos.session.opening,pos_session_username:0
 msgid "unknown"
 msgstr "тодорхойгүй"
 
 #. module: point_of_sale
-#: view:account.journal:0 model:ir.model,name:point_of_sale.model_pos_order
-#: model:ir.ui.menu,name:point_of_sale.menu_point_root_touchscreen
+#: view:account.journal:0
+#: model:ir.model,name:point_of_sale.model_pos_order
+#: model:ir.ui.menu,name:point_of_sale.menu_point_rep
+#: model:ir.ui.menu,name:point_of_sale.menu_point_root
+#: field:pos.session,config_id:0
+#: field:pos.session.opening,pos_config_id:0
 #: view:product.product:0
+#: view:res.partner:0
+#: view:res.users:0
 msgid "Point of Sale"
 msgstr "Борлуулалтын цэг"
 
 #. module: point_of_sale
-#: view:pos.order:0 field:pos.payment.report.user,user_id:0
-#: field:pos.sale.user,user_id:0 field:pos.sales.user.today,user_id:0
-#: view:report.pos.order:0 field:report.pos.order,user_id:0
+#: view:pos.order:0
+#: field:pos.order,user_id:0
 msgid "Salesman"
 msgstr "Борлуулагч"
 
 #. module: point_of_sale
-#: report:pos.details:0 view:pos.order:0 selection:pos.order,state:0
-#: view:report.pos.order:0 selection:report.pos.order,state:0
+#: report:pos.details:0
+#: view:pos.order:0
+#: selection:pos.order,state:0
+#: view:report.pos.order:0
+#: selection:report.pos.order,state:0
 msgid "Invoiced"
 msgstr "Нэхэмжилсэн"
 
@@ -563,7 +602,8 @@ msgid "Draft"
 msgstr "Ноорог"
 
 #. module: point_of_sale
-#: field:pos.order,amount_paid:0 selection:pos.order,state:0
+#: field:pos.order,amount_paid:0
+#: selection:pos.order,state:0
 msgid "Paid"
 msgstr "Төлсөн"
 
@@ -583,7 +623,8 @@ msgid "E-mail :"
 msgstr "И-мэйл:"
 
 #. module: point_of_sale
-#: report:pos.details:0 report:pos.details_summary:0
+#: report:pos.details:0
+#: report:pos.details_summary:0
 msgid "Total invoiced"
 msgstr "Нэхэмжилсэн дүн"
 
@@ -593,7 +634,7 @@ msgid "Sales of the day"
 msgstr "Өдрийн борлуулалт"
 
 #. module: point_of_sale
-#: code:addons/point_of_sale/point_of_sale.py:358
+#: code:addons/point_of_sale/point_of_sale.py:819
 #, python-format
 msgid "Please provide a partner for the sale."
 msgstr "Харилцагчийг сонгоно уу."
@@ -614,10 +655,13 @@ msgid "Discount"
 msgstr "Хөнгөлөлт"
 
 #. module: point_of_sale
-#: report:account.statement:0 report:all.closed.cashbox.of.the.day:0
-#: view:pos.details:0 report:pos.sales.user:0 report:pos.sales.user.today:0
-#: report:pos.user.product:0 view:report.cash.register:0
-#: field:report.cash.register,user_id:0
+#: report:account.statement:0
+#: report:all.closed.cashbox.of.the.day:0
+#: field:pos.box.entries,user_id:0
+#: report:pos.sales.user:0
+#: report:pos.sales.user.today:0
+#: view:pos.session:0
+#: report:pos.user.product:0
 #: field:report.sales.by.margin.pos,user_id:0
 #: field:report.sales.by.margin.pos.month,user_id:0
 #: field:report.sales.by.user.pos,user_id:0
@@ -638,7 +682,8 @@ msgid "Payment Name"
 msgstr "Төлбөрийн Нэр"
 
 #. module: point_of_sale
-#: report:pos.details:0 field:report.transaction.pos,date_create:0
+#: report:pos.details:0
+#: field:report.transaction.pos,date_create:0
 msgid "Date"
 msgstr "Огноо"
 
@@ -676,15 +721,16 @@ msgstr "Бүх борлуулалт"
 msgid "Compute"
 msgstr "Тооцоолох"
 
-#. #-#-#-#-#  point_of_sale.pot (OpenERP Server 6.1rc1)  #-#-#-#-#
 #. module: point_of_sale
-#. #-#-#-#-#  point_of_sale.pot.web (PROJECT VERSION)  #-#-#-#-#
 #. openerp-web
-#: report:all.closed.cashbox.of.the.day:0 report:pos.invoice:0
-#: report:pos.lines:0 report:pos.payment.report.user:0
-#: /home/odo/repositories/addons/trunk/point_of_sale/static/src/xml/pos.xml:49
-#: /home/odo/repositories/addons/trunk/point_of_sale/static/src/xml/pos.xml:93
-#: /home/odo/repositories/addons/trunk/point_of_sale/static/src/xml/pos.xml:271
+#: code:addons/point_of_sale/static/src/xml/pos.xml:214
+#: code:addons/point_of_sale/static/src/xml/pos.xml:435
+#: code:addons/point_of_sale/static/src/xml/pos.xml:599
+#: report:all.closed.cashbox.of.the.day:0
+#: report:pos.invoice:0
+#: report:pos.lines:0
+#: report:pos.payment.report.user:0
+#, python-format
 msgid "Total:"
 msgstr "Нийт:"
 
@@ -711,7 +757,9 @@ msgid "Create _Invoice"
 msgstr "Нэхэмжлэл үүсгэх"
 
 #. module: point_of_sale
-#: report:pos.invoice:0 report:pos.lines:0 field:pos.order.line,qty:0
+#: report:pos.invoice:0
+#: report:pos.lines:0
+#: field:pos.order.line,qty:0
 #: field:report.sales.by.user.pos,qty:0
 #: field:report.sales.by.user.pos.month,qty:0
 msgid "Quantity"
@@ -748,12 +796,11 @@ msgstr "Үнийн жагсаалт"
 msgid "Discount percentage"
 msgstr "Хөнгөлөлтийн хувь"
 
-#. #-#-#-#-#  point_of_sale.pot (OpenERP Server 6.1rc1)  #-#-#-#-#
 #. module: point_of_sale
-#. #-#-#-#-#  point_of_sale.pot.web (PROJECT VERSION)  #-#-#-#-#
 #. openerp-web
+#: code:addons/point_of_sale/static/src/xml/pos.xml:264
 #: model:ir.actions.act_window,name:point_of_sale.action_report_pos_receipt
-#: /home/odo/repositories/addons/trunk/point_of_sale/static/src/xml/pos.xml:231
+#, python-format
 msgid "Receipt"
 msgstr "Талон"
 
@@ -796,14 +843,30 @@ msgid "Done"
 msgstr "Дууссан"
 
 #. module: point_of_sale
+#. openerp-web
+#: code:addons/point_of_sale/static/src/xml/pos.xml:338
 #: model:ir.actions.report.xml,name:point_of_sale.pos_invoice_report
-#: report:pos.invoice:0 view:pos.order:0 field:pos.order,invoice_id:0
+#: report:pos.invoice:0
+#: view:pos.order:0
+#: field:pos.order,invoice_id:0
+#, python-format
 msgid "Invoice"
 msgstr "Нэхэмжлэл"
 
 #. module: point_of_sale
-#: view:pos.box.entries:0 view:pos.box.out:0 view:pos.confirm:0
-#: view:pos.make.payment:0 view:pos.open.statement:0 view:pos.receipt:0
+#. openerp-web
+#: code:addons/point_of_sale/static/src/xml/pos.xml:323
+#: view:pos.confirm:0
+#: view:pos.details:0
+#: view:pos.discount:0
+#: view:pos.ean_wizard:0
+#: view:pos.make.payment:0
+#: view:pos.open.statement:0
+#: view:pos.payment.report:0
+#: view:pos.payment.report.user:0
+#: view:pos.receipt:0
+#: view:pos.sale.user:0
+#, python-format
 msgid "Cancel"
 msgstr "Цуцлах"
 
@@ -823,7 +886,8 @@ msgid "Order lines"
 msgstr "Ордерууд"
 
 #. module: point_of_sale
-#: field:pos.order,name:0 field:pos.order.line,order_id:0
+#: field:pos.order,name:0
+#: field:pos.order.line,order_id:0
 msgid "Order Ref"
 msgstr "Ордер Заалт"
 
@@ -841,7 +905,8 @@ msgstr ""
 "болохгүй!"
 
 #. module: point_of_sale
-#: report:pos.details:0 report:pos.details_summary:0
+#: report:pos.details:0
+#: report:pos.details_summary:0
 msgid "Total of the day"
 msgstr "Өдрийн дүн"
 
@@ -851,7 +916,8 @@ msgid "Pos Payment"
 msgstr "ПОС Төлбөр"
 
 #. module: point_of_sale
-#: report:pos.details:0 report:pos.details_summary:0
+#: report:pos.details:0
+#: report:pos.details_summary:0
 msgid "Total discount"
 msgstr "Нийт хөнгөлөлт"
 
@@ -876,19 +942,19 @@ msgid "Taxes:"
 msgstr "Татварууд"
 
 #. module: point_of_sale
-#: view:pos.order:0 view:report.transaction.pos:0
+#: view:pos.order:0
+#: view:report.transaction.pos:0
 msgid "Amount total"
 msgstr "Бүгд дүн"
 
-#. #-#-#-#-#  point_of_sale.pot (OpenERP Server 6.1rc1)  #-#-#-#-#
 #. module: point_of_sale
-#. #-#-#-#-#  point_of_sale.pot.web (PROJECT VERSION)  #-#-#-#-#
-#. openerp-web
 #: model:ir.model,name:point_of_sale.model_product_product
-#: report:pos.details:0 field:pos.order.line,product_id:0
-#: report:pos.payment.report.user:0 report:pos.user.product:0
-#: view:report.pos.order:0 field:report.pos.order,product_id:0
-#: /home/odo/repositories/addons/trunk/point_of_sale/static/src/xml/pos.xml:29
+#: report:pos.details:0
+#: field:pos.order.line,product_id:0
+#: report:pos.payment.report.user:0
+#: report:pos.user.product:0
+#: view:report.pos.order:0
+#: field:report.pos.order,product_id:0
 msgid "Product"
 msgstr "Бараа"
 
@@ -903,11 +969,10 @@ msgid ":"
 msgstr ":"
 
 #. module: point_of_sale
-#: view:account.bank.statement:0 report:account.statement:0
+#: view:account.bank.statement:0
+#: report:account.statement:0
 #: report:all.closed.cashbox.of.the.day:0
 #: model:ir.model,name:point_of_sale.model_account_journal
-#: field:pos.config.journal,journal_id:0 field:pos.order,sale_journal:0
-#: view:report.cash.register:0 field:report.cash.register,journal_id:0
 #: field:report.pos.order,journal_id:0
 msgid "Journal"
 msgstr "Журнал"
@@ -923,8 +988,10 @@ msgid "Canceled Invoice"
 msgstr "Цуцалсан нэхэмжлэл"
 
 #. module: point_of_sale
-#: view:report.sales.by.margin.pos:0 view:report.sales.by.margin.pos.month:0
-#: view:report.sales.by.user.pos:0 view:report.sales.by.user.pos.month:0
+#: view:report.sales.by.margin.pos:0
+#: view:report.sales.by.margin.pos.month:0
+#: view:report.sales.by.user.pos:0
+#: view:report.sales.by.user.pos.month:0
 #: view:report.transaction.pos:0
 msgid "POS"
 msgstr "POS"
@@ -949,13 +1016,15 @@ msgstr ""
 msgid "Default gift journal"
 msgstr "Бэлгийн журнал"
 
-#. #-#-#-#-#  point_of_sale.pot (OpenERP Server 6.1rc1)  #-#-#-#-#
 #. module: point_of_sale
-#. #-#-#-#-#  point_of_sale.pot.web (PROJECT VERSION)  #-#-#-#-#
 #. openerp-web
+#: code:addons/point_of_sale/static/src/xml/pos.xml:209
+#: code:addons/point_of_sale/static/src/xml/pos.xml:295
+#: code:addons/point_of_sale/wizard/pos_payment.py:78
 #: model:ir.actions.act_window,name:point_of_sale.action_pos_payment
-#: report:pos.details:0 view:pos.order:0
-#: /home/odo/repositories/addons/trunk/point_of_sale/static/src/xml/pos.xml:87
+#: report:pos.details:0
+#: view:pos.order:0
+#, python-format
 msgid "Payment"
 msgstr "Төлбөр"
 
@@ -990,6 +1059,7 @@ msgid "Ce bon est valide jusqu'au"
 msgstr ""
 
 #. module: point_of_sale
+#: view:pos.order:0
 #: field:pos.order,statement_ids:0
 msgid "Payments"
 msgstr "Төлбөр"
@@ -1006,12 +1076,14 @@ msgid "UserError"
 msgstr ""
 
 #. module: point_of_sale
-#: report:pos.details:0 report:pos.details_summary:0
+#: report:pos.details:0
+#: report:pos.details_summary:0
 msgid "Summary"
 msgstr "Хураангуй"
 
 #. module: point_of_sale
-#: field:pos.config.journal,name:0 report:pos.invoice:0 report:pos.lines:0
+#: report:pos.invoice:0
+#: report:pos.lines:0
 msgid "Description"
 msgstr "Тайлбар"
 
@@ -1032,9 +1104,11 @@ msgid "Payment Term"
 msgstr "Төлбөрийн Нөхцөл"
 
 #. module: point_of_sale
-#: report:account.statement:0 field:pos.box.entries,amount:0
-#: field:pos.box.out,amount:0 report:pos.invoice:0
-#: field:pos.make.payment,amount:0 report:pos.user.product:0
+#: report:account.statement:0
+#: field:pos.box.entries,amount:0
+#: report:pos.invoice:0
+#: field:pos.make.payment,amount:0
+#: report:pos.user.product:0
 #: field:report.transaction.pos,amount:0
 msgid "Amount"
 msgstr "Дүн"
@@ -1062,29 +1136,31 @@ msgid "Company:"
 msgstr "Компани:"
 
 #. module: point_of_sale
-#: report:pos.details:0 report:pos.details_summary:0 report:pos.lines:0
-#: report:pos.payment.report.user:0 report:pos.sales.user:0
-#: report:pos.sales.user.today:0 report:pos.user.product:0
+#: report:pos.details:0
+#: report:pos.details_summary:0
+#: report:pos.lines:0
+#: report:pos.payment.report.user:0
+#: report:pos.sales.user:0
+#: report:pos.sales.user.today:0
+#: report:pos.user.product:0
 msgid "Print Date"
 msgstr "Хэвлэсэн Огноо"
 
-#. #-#-#-#-#  point_of_sale.pot (OpenERP Server 6.1rc1)  #-#-#-#-#
 #. module: point_of_sale
-#. #-#-#-#-#  point_of_sale.pot.web (PROJECT VERSION)  #-#-#-#-#
-#. openerp-web
-#: field:pos.order,amount_total:0 report:pos.payment.report.user:0
+#: field:pos.order,amount_total:0
+#: report:pos.payment.report.user:0
+#: view:pos.session:0
 #: field:report.sales.by.user.pos,amount:0
 #: field:report.sales.by.user.pos.month,amount:0
-#: /home/odo/repositories/addons/trunk/point_of_sale/static/src/xml/pos.xml:33
 msgid "Total"
 msgstr "Нийт"
 
-#. #-#-#-#-#  point_of_sale.pot (OpenERP Server 6.1rc1)  #-#-#-#-#
 #. module: point_of_sale
-#. #-#-#-#-#  point_of_sale.pot.web (PROJECT VERSION)  #-#-#-#-#
 #. openerp-web
-#: report:pos.details:0 report:pos.invoice:0 report:pos.lines:0
-#: /home/odo/repositories/addons/trunk/point_of_sale/static/src/xml/pos.xml:30
-#: /home/odo/repositories/addons/trunk/point_of_sale/static/src/xml/pos.xml:69
+#: code:addons/point_of_sale/static/src/xml/pos.xml:88
+#: report:pos.details:0
+#: report:pos.invoice:0
+#: report:pos.lines:0
+#, python-format
 msgid "Price"
 msgstr "Үнэ"
