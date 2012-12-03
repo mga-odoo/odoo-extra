@@ -254,7 +254,7 @@ class sale_shop(osv.osv):
                        delivery_carrier.export_needs_tracking, stock_picking.carrier_tracking_ref
                 from stock_picking
                 left join sale_order on sale_order.id = stock_picking.sale_id
-                left join stock_picking as pickings on (sale_order.id = pickings.sale_id and pickings.type='out' AND picking.state != 'cancel')
+                left join stock_picking as pickings on (sale_order.id = pickings.sale_id and pickings.type='out' AND pickings.state != 'cancel')
                 left join ir_model_data on stock_picking.id = ir_model_data.res_id and ir_model_data.model='stock.picking'
                 left join delivery_carrier on delivery_carrier.id = stock_picking.carrier_id
                 where shop_id = %s and ir_model_data.res_id ISNULL and stock_picking.state = 'done' and stock_picking.type = 'out'
