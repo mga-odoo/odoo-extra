@@ -74,8 +74,9 @@ class purchase_order(osv.osv):
         Extend the invoice creation action to preset the payment options.
         """
         # Create the invoice as usual.
-        invoice_id = super(purchase_order, self).action_invoice_create(cr, uid,
-                                                            ids, context=context)
+        invoice_id = super(purchase_order, self).action_invoice_create(
+                                                        cr, uid,
+                                                        ids, context=context)
         
         #
         # Check if the order has payment info.

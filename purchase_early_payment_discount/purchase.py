@@ -153,8 +153,9 @@ class purchase_order(osv.osv):
             Inherited method for writing early_payment_discount value in
             created invoice
         """
-        invoice_id = super(purchase_order, self).action_invoice_create(cr,
-                                                        uid, ids, context=context)
+        invoice_id = super(purchase_order, self).action_invoice_create(
+                                                        cr, uid, ids, 
+                                                        context=context)
         invoice_obj = self.pool.get('account.invoice')
         current_purchase = self.browse(cr, uid, ids)[0]
         if current_purchase.early_payment_discount:
