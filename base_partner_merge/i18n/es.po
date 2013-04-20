@@ -14,8 +14,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-11-24 07:11+0000\n"
-"X-Generator: Launchpad (build 16293)\n"
+"X-Launchpad-Export-Date: 2013-04-20 05:35+0000\n"
+"X-Generator: Launchpad (build 16567)\n"
 
 #. module: base_partner_merge
 #: help:base_partner_address.merge,init,address_id2:0
@@ -25,7 +25,7 @@ msgstr ""
 #. module: base_partner_merge
 #: model:ir.module.module,shortdesc:base_partner_merge.module_meta_information
 msgid "Partner Merger"
-msgstr ""
+msgstr "Fusión de Empresa"
 
 #. module: base_partner_merge
 #: code:addons/base_partner_merge/wizard/merge_partners.py:0
@@ -33,7 +33,7 @@ msgstr ""
 #: model:ir.ui.menu,name:base_partner_merge.menu_wizard_base_partner_merge
 #, python-format
 msgid "Merge Partners"
-msgstr ""
+msgstr "Fusión de Empresas"
 
 #. module: base_partner_merge
 #: wizard_field:base_partner.merge,init,partner_id2:0
@@ -49,7 +49,7 @@ msgstr ""
 #: code:addons/base_partner_merge/wizard/merge_partners_address.py:0
 #, python-format
 msgid "Merge Partner Addresses"
-msgstr ""
+msgstr "Fusión de direcciónes de empresa"
 
 #. module: base_partner_merge
 #: wizard_field:base_partner_address.merge,init,address_id1:0

@@ -14,8 +14,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-11-24 07:13+0000\n"
-"X-Generator: Launchpad (build 16293)\n"
+"X-Launchpad-Export-Date: 2013-04-20 05:37+0000\n"
+"X-Generator: Launchpad (build 16567)\n"
 
 #. module: hr_payroll
 #: report:employees.salary:0
@@ -129,7 +129,7 @@ msgstr ""
 #: field:hr.salary.rule,company_id:0
 #: field:hr.salary.rule.category,company_id:0
 msgid "Company"
-msgstr ""
+msgstr "Firma"
 
 #. module: hr_payroll
 #: help:hr.employee,employee_account:0
@@ -150,7 +150,7 @@ msgstr ""
 #: view:hr.payslip:0
 #: view:hr.payslip.run:0
 msgid "Set to Draft"
-msgstr ""
+msgstr "Taslağa Ayarlayın"
 
 #. module: hr_payroll
 #: report:payroll.advice:0
@@ -175,7 +175,7 @@ msgstr ""
 #: model:ir.model,name:hr_payroll.model_hr_payslip
 #: report:payslip:0
 msgid "Pay Slip"
-msgstr ""
+msgstr "Makbuz"
 
 #. module: hr_payroll
 #: view:hr.allounce.deduction.categoty:0
@@ -264,14 +264,14 @@ msgstr ""
 #: report:paylip.details:0
 #: report:payslip:0
 msgid "Amount"
-msgstr ""
+msgstr "Tutar"
 
 #. module: hr_payroll
 #: view:hr.payslip:0
 #: view:hr.payslip.line:0
 #: model:ir.model,name:hr_payroll.model_hr_payslip_line
 msgid "Payslip Line"
-msgstr ""
+msgstr "Maaş bordrosu Satır"
 
 #. module: hr_payroll
 #: field:hr.passport,country_id:0
@@ -282,7 +282,7 @@ msgstr ""
 #: code:addons/hr_payroll/wizard/hr_payroll_payslips_by_employees.py:52
 #, python-format
 msgid "Warning !"
-msgstr ""
+msgstr "Uyarı!"
 
 #. module: hr_payroll
 #: code:addons/hr_payroll/hr_payroll.py:0
@@ -409,7 +409,7 @@ msgstr ""
 #. module: hr_payroll
 #: view:hr.payslip:0
 msgid "From"
-msgstr ""
+msgstr "itibaren"
 
 #. module: hr_payroll
 #: field:hr.payroll.advice.line,bysal:0
@@ -475,7 +475,7 @@ msgstr ""
 #: field:hr.payslip.line,employee_id:0
 #: model:ir.model,name:hr_payroll.model_hr_employee
 msgid "Employee"
-msgstr ""
+msgstr "Personel"
 
 #. module: hr_payroll
 #: field:hr.payroll.employees.detail,date_from:0
@@ -528,7 +528,7 @@ msgstr ""
 #. module: hr_payroll
 #: view:payslip.lines.contribution.register:0
 msgid "Print"
-msgstr ""
+msgstr "Yazıcı"
 
 #. module: hr_payroll
 #: view:hr.payslip:0
@@ -596,7 +596,7 @@ msgstr ""
 #: field:hr.salary.rule,amount_fix:0
 #: selection:hr.salary.rule,amount_select:0
 msgid "Fixed Amount"
-msgstr ""
+msgstr "Sabit Tutar"
 
 #. module: hr_payroll
 #: selection:hr.payroll.register,state:0
@@ -639,7 +639,7 @@ msgstr ""
 #. module: hr_payroll
 #: view:hr.payslip:0
 msgid "Payslip"
-msgstr ""
+msgstr "Maaş Bordrosu"
 
 #. module: hr_payroll
 #: view:hr.allounce.deduction.categoty:0
@@ -773,14 +773,14 @@ msgstr ""
 #: field:hr.payslip.line,amount_select:0
 #: field:hr.salary.rule,amount_select:0
 msgid "Amount Type"
-msgstr ""
+msgstr "Tutar Türü"
 
 #. module: hr_payroll
 #: field:hr.payslip.line,category_id:0
 #: view:hr.salary.rule:0
 #: field:hr.salary.rule,category_id:0
 msgid "Category"
-msgstr ""
+msgstr "Kategori"
 
 #. module: hr_payroll
 #: field:hr.payslip,move_line_ids:0
@@ -817,7 +817,7 @@ msgstr ""
 #: field:hr.payslip.run,slip_ids:0
 #: model:ir.actions.act_window,name:hr_payroll.act_hr_employee_payslip_list
 msgid "Payslips"
-msgstr ""
+msgstr "Maaş Bordroları"
 
 #. module: hr_payroll
 #: report:payslip.pdf:0
@@ -853,7 +853,7 @@ msgstr ""
 #: field:hr.salary.rule,amount_percentage:0
 #: selection:hr.salary.rule,amount_select:0
 msgid "Percentage (%)"
-msgstr ""
+msgstr "Yüzde (%)"
 
 #. module: hr_payroll
 #: field:hr.payroll.advice,register_id:0
@@ -933,7 +933,7 @@ msgstr ""
 #: field:hr.payslip.line,active:0
 #: field:hr.salary.rule,active:0
 msgid "Active"
-msgstr ""
+msgstr "Etkin"
 
 #. module: hr_payroll
 #: field:hr.employee,employee_account:0
@@ -975,7 +975,7 @@ msgstr ""
 #: report:paylip.details:0
 #: report:payslip:0
 msgid "Designation"
-msgstr ""
+msgstr "Atama"
 
 #. module: hr_payroll
 #: report:hr.payroll.register.sheet:0
@@ -1010,7 +1010,7 @@ msgstr ""
 #: report:paylip.details:0
 #: report:payslip:0
 msgid "Authorized Signature"
-msgstr ""
+msgstr "Yetkili İmza"
 
 #. module: hr_payroll
 #: view:hr.allounce.deduction.categoty:0
@@ -1079,7 +1079,7 @@ msgstr ""
 #: report:paylip.details:0
 #: report:payslip:0
 msgid "Code"
-msgstr ""
+msgstr "Kod"
 
 #. module: hr_payroll
 #: model:ir.actions.act_window,name:hr_payroll.action_view_hr_bank_advice_tree
@@ -1112,7 +1112,7 @@ msgstr ""
 #: field:hr.payslip.worked_days,sequence:0
 #: field:hr.salary.rule,sequence:0
 msgid "Sequence"
-msgstr ""
+msgstr "Sıralama"
 
 #. module: hr_payroll
 #: field:hr.payroll.year.salary,salary_on:0
@@ -1148,12 +1148,12 @@ msgstr ""
 #: view:hr.payslip.line:0
 #: model:ir.model,name:hr_payroll.model_hr_payroll_structure
 msgid "Salary Structure"
-msgstr ""
+msgstr "Maaş Yapısı"
 
 #. module: hr_payroll
 #: view:hr.payslip:0
 msgid "Cancel"
-msgstr ""
+msgstr "İptal"
 
 #. module: hr_payroll
 #: field:hr.payslip.line,amount:0
@@ -1219,7 +1219,7 @@ msgstr ""
 #. module: hr_payroll
 #: view:hr.payslip.line:0
 msgid "Calculations"
-msgstr ""
+msgstr "Hesaplamalar"
 
 #. module: hr_payroll
 #: wizard_view:wizard.year.salary,init:0
@@ -1271,7 +1271,7 @@ msgstr ""
 #: field:hr.salary.rule,note:0
 #: field:hr.salary.rule.category,note:0
 msgid "Description"
-msgstr ""
+msgstr "Açıklama"
 
 #. module: hr_payroll
 #: field:hr.employee,pg_joining:0
@@ -1283,7 +1283,7 @@ msgstr ""
 #: model:ir.ui.menu,name:hr_payroll.menu_hr_root_payroll
 #: model:ir.ui.menu,name:hr_payroll.payroll_configure
 msgid "Payroll"
-msgstr ""
+msgstr "Bordro"
 
 #. module: hr_payroll
 #: view:hr.payroll.employees.detail:0
@@ -1306,7 +1306,7 @@ msgstr ""
 #: report:paylip.details:0
 #: report:payslip:0
 msgid "Address"
-msgstr ""
+msgstr "adres"
 
 #. module: hr_payroll
 #: help:hr.employee,property_bank_account:0
@@ -1321,7 +1321,7 @@ msgstr ""
 #. module: hr_payroll
 #: view:hr.salary.rule.category:0
 msgid "Notes"
-msgstr ""
+msgstr "Notlar"
 
 #. module: hr_payroll
 #: model:ir.ui.menu,name:hr_payroll.payroll_configure
@@ -1355,7 +1355,7 @@ msgstr ""
 #: report:paylip.details:0
 #: report:payslip:0
 msgid "Name"
-msgstr ""
+msgstr "Adı"
 
 #. module: hr_payroll
 #: report:payslip.pdf:0
@@ -1378,13 +1378,13 @@ msgstr ""
 #: field:hr.payslip.employees,employee_ids:0
 #: view:hr.payslip.line:0
 msgid "Employees"
-msgstr ""
+msgstr "Personeller"
 
 #. module: hr_payroll
 #: report:paylip.details:0
 #: report:payslip:0
 msgid "Bank Account"
-msgstr ""
+msgstr "Banka Hesabı"
 
 #. module: hr_payroll
 #: field:hr.payroll.advice.line,name:0
@@ -1404,7 +1404,7 @@ msgstr ""
 #: field:hr.payslip.worked_days,contract_id:0
 #: model:ir.model,name:hr_payroll.model_hr_contract
 msgid "Contract"
-msgstr ""
+msgstr "Sözleşme"
 
 #. module: hr_payroll
 #: selection:payroll.analysis,init,type:0
@@ -1489,4 +1489,4 @@ msgstr ""
 #: report:paylip.details:0
 #: report:payslip:0
 msgid "Total"
-msgstr ""
+msgstr "Toplam"

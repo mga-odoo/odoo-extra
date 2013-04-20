@@ -13,8 +13,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-11-24 07:18+0000\n"
-"X-Generator: Launchpad (build 16293)\n"
+"X-Launchpad-Export-Date: 2013-04-20 05:42+0000\n"
+"X-Generator: Launchpad (build 16567)\n"
 
 #. module: portal
 #: wizard_view:portal.create_user,init:0
@@ -345,7 +345,7 @@ msgstr "取消"
 #. module: portal
 #: field:portal.payment.acquirer,name:0
 msgid "Name"
-msgstr ""
+msgstr "名称"
 
 #. module: portal
 #: wizard_field:portal.create_menu,second,view_id_tree:0

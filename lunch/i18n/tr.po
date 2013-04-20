@@ -14,14 +14,14 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-11-24 07:13+0000\n"
-"X-Generator: Launchpad (build 16293)\n"
+"X-Launchpad-Export-Date: 2013-04-20 05:37+0000\n"
+"X-Generator: Launchpad (build 16567)\n"
 
 #. module: lunch
 #: field:lunch.product,category_id:0
 #: field:lunch.product.category,name:0
 msgid "Category"
-msgstr ""
+msgstr "Kategori"
 
 #. module: lunch
 #: view:lunch.cashbox.clean:0
@@ -31,7 +31,7 @@ msgstr ""
 #. module: lunch
 #: selection:lunch.order,state:0
 msgid "Confirmed"
-msgstr ""
+msgstr "Onaylandı"
 
 #. module: lunch
 #: constraint:ir.model:0
@@ -101,7 +101,7 @@ msgstr ""
 #: field:lunch.order,user_id:0
 #: field:report.lunch.order.line,user_id:0
 msgid "User Name"
-msgstr ""
+msgstr "Kullanıcı Adı"
 
 #. module: lunch
 #: view:report.lunch.amount:0
@@ -117,20 +117,20 @@ msgstr ""
 #: field:lunch.order.line,product_id:0
 #: field:lunch.product,name:0
 msgid "Product"
-msgstr ""
+msgstr "Ürün"
 
 #. module: lunch
 #: field:lunch.cashmove,description:0
 #: report:lunch.order.line:0
 #: field:lunch.product,description:0
 msgid "Description"
-msgstr ""
+msgstr "Açıklama"
 
 #. module: lunch
 #: field:lunch.order.line,price:0
 #: field:lunch.product,price:0
 msgid "Price"
-msgstr ""
+msgstr "Fiyat"
 
 #. module: lunch
 #: view:lunch.cashbox.clean:0 view:lunch.order.cancel:0
@@ -144,7 +144,7 @@ msgstr ""
 #: view:lunch.order.line:0
 #: field:lunch.order.line,order_id:0
 msgid "Order"
-msgstr ""
+msgstr "Sipariş"
 
 #. module: lunch
 #: field:lunch.cashmove,create_date:0
@@ -156,7 +156,7 @@ msgstr ""
 #: model:ir.ui.menu,name:lunch.menu_lunch
 #: model:ir.ui.menu,name:lunch.menu_lunch_title
 msgid "Lunch"
-msgstr ""
+msgstr "Öğle yemeği"
 
 #. module: lunch
 #: field:lunch.order,descript:0
@@ -188,7 +188,7 @@ msgstr ""
 #. module: lunch
 #: model:ir.ui.menu,name:lunch.menu_lunch_config
 msgid "Configuration"
-msgstr ""
+msgstr "Yapılandırma"
 
 #. module: lunch
 #: model:ir.actions.act_window,name:lunch.action_lunch_order_cancel
@@ -239,19 +239,19 @@ msgstr ""
 #: field:lunch.order,date:0
 #: field:lunch.order.line,date:0
 msgid "Date"
-msgstr ""
+msgstr "Tarih"
 
 #. module: lunch
 #: field:lunch.cashmove,amount:0
 msgid "Amount"
-msgstr ""
+msgstr "Tutar"
 
 #. module: lunch
 #: model:ir.actions.act_window,name:lunch.action_lunch_products
 #: model:ir.ui.menu,name:lunch.menu_lunch_products
 #: field:lunch.order,order_line_ids:0
 msgid "Products"
-msgstr ""
+msgstr "Ürünler"
 
 #. module: lunch
 #: model:ir.ui.menu,name:lunch.menu_lunch_category_form
@@ -308,12 +308,12 @@ msgstr ""
 #. module: lunch
 #: model:res.groups,name:lunch.group_lunch_manager
 msgid "Manager"
-msgstr ""
+msgstr "Yönetici"
 
 #. module: lunch
 #: report:lunch.order.line:0
 msgid "Unit Price"
-msgstr ""
+msgstr "Birim Fiyatı"
 
 #. module: lunch
 #: field:lunch.order.confirm,confirm_cashbox:0
@@ -331,7 +331,7 @@ msgstr ""
 #: view:lunch.order.order:0
 #: view:lunch.validation:0
 msgid "Cancel"
-msgstr ""
+msgstr "İptal"
 
 #. module: lunch
 #: view:lunch.cashbox.clean:0

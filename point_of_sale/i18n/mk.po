@@ -14,20 +14,20 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2013-02-22 05:26+0000\n"
-"X-Generator: Launchpad (build 16506)\n"
+"X-Launchpad-Export-Date: 2013-04-20 05:42+0000\n"
+"X-Generator: Launchpad (build 16567)\n"
 
 #. module: point_of_sale
 #: report:pos.details:0
 #: report:pos.details_summary:0
 msgid "Total paid"
-msgstr ""
+msgstr "Вкупно платено"
 
 #. module: point_of_sale
 #: report:pos.details:0
 #: report:pos.details_summary:0
 msgid "Qty of product"
-msgstr ""
+msgstr "Количина на производ"
 
 #. module: point_of_sale
 #: view:pos.order:0
@@ -37,7 +37,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_report_transaction_pos
 msgid "transaction for the pos"
-msgstr ""
+msgstr "Трансакција за место на продажба"
 
 #. module: point_of_sale
 #: wizard_view:pos.discount,init:0
@@ -85,10 +85,10 @@ msgid "Orders of the day"
 msgstr ""
 
 #. module: point_of_sale
-#: code:addons/point_of_sale/point_of_sale.py:1139
+#: code:addons/point_of_sale/point_of_sale.py:1142
 #, python-format
 msgid "No Pricelist !"
-msgstr ""
+msgstr "Нема ценовник !"
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.action_pos_get_sale
@@ -110,12 +110,12 @@ msgstr ""
 #: report:pos.user.product:0
 #: field:report.pos.order,company_id:0
 msgid "Company"
-msgstr ""
+msgstr "Компанија"
 
 #. module: point_of_sale
 #: report:pos.invoice:0
 msgid "Invoice Date"
-msgstr ""
+msgstr "Датум на фактура"
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/pos.py:0
@@ -128,12 +128,12 @@ msgstr ""
 #: report:pos.details:0
 #: report:pos.details_summary:0
 msgid "Details of Sales"
-msgstr ""
+msgstr "Детали за продажби"
 
 #. module: point_of_sale
 #: report:pos.invoice:0
 msgid "Base"
-msgstr ""
+msgstr "Основа"
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.action_pos_scan_product
@@ -145,7 +145,7 @@ msgstr ""
 #. module: point_of_sale
 #: field:pos.order.line,price_subtotal_incl:0
 msgid "Subtotal"
-msgstr ""
+msgstr "Вкупно"
 
 #. module: point_of_sale
 #: rml:pos.invoice:0
@@ -162,19 +162,19 @@ msgstr ""
 #: field:pos.order,shop_id:0
 #: field:report.pos.order,shop_id:0
 msgid "Shop"
-msgstr ""
+msgstr "Продавница"
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:352
+#: code:addons/point_of_sale/static/src/xml/pos.xml:342
 #, python-format
 msgid "Ok"
-msgstr ""
+msgstr "ОК"
 
 #. module: point_of_sale
 #: view:pos.order:0
 msgid "Notes"
-msgstr ""
+msgstr "Белешки"
 
 #. module: point_of_sale
 #: field:stock.picking,pos_order:0
@@ -192,25 +192,25 @@ msgstr ""
 #: report:pos.invoice:0
 #: field:pos.order,amount_tax:0
 msgid "Taxes"
-msgstr ""
+msgstr "Даноци"
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.action_pos_order_line
 #: model:ir.actions.act_window,name:point_of_sale.action_pos_order_line_day
 #: model:ir.actions.act_window,name:point_of_sale.action_pos_order_line_form
 msgid "Sale line"
-msgstr ""
+msgstr "Продажна линија"
 
 #. module: point_of_sale
 #: report:pos.lines:0
 msgid "No. Of Articles"
-msgstr ""
+msgstr "Број на артикли"
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/report/pos_invoice.py:46
 #, python-format
 msgid "Please create an invoice for this sale."
-msgstr ""
+msgstr "Креирајте фактура за оваа продажба."
 
 #. module: point_of_sale
 #: field:pos.order,date_validity:0
@@ -248,30 +248,30 @@ msgid "VAT(%)"
 msgstr ""
 
 #. module: point_of_sale
-#: code:addons/point_of_sale/point_of_sale.py:1038
-#: code:addons/point_of_sale/point_of_sale.py:1054
+#: code:addons/point_of_sale/point_of_sale.py:1041
+#: code:addons/point_of_sale/point_of_sale.py:1057
 #: report:pos.invoice:0
 #: report:pos.lines:0
 #, python-format
 msgid "Tax"
-msgstr ""
+msgstr "Данок"
 
 #. module: point_of_sale
 #: view:report.transaction.pos:0
 msgid "Total Transaction"
-msgstr ""
+msgstr "Вкупна трансакција"
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:83
+#: code:addons/point_of_sale/static/src/xml/pos.xml:89
 #, python-format
 msgid "Disc"
-msgstr ""
+msgstr "Попуст"
 
 #. module: point_of_sale
 #: report:pos.invoice:0
 msgid "Fax :"
-msgstr ""
+msgstr "Факс :"
 
 #. module: point_of_sale
 #: view:pos.scan.product:0
@@ -283,7 +283,7 @@ msgstr ""
 #: model:ir.model,name:point_of_sale.model_res_partner
 #: field:report.pos.order,partner_id:0
 msgid "Partner"
-msgstr ""
+msgstr "Партнер"
 
 #. module: point_of_sale
 #: field:pos.order,payments:0
@@ -308,22 +308,22 @@ msgstr ""
 #. module: point_of_sale
 #: view:pos.order:0
 msgid "POS Orders"
-msgstr ""
+msgstr "Налози на точка за продажба"
 
 #. module: point_of_sale
 #: report:pos.lines:0
 msgid "Disc. (%)"
-msgstr ""
+msgstr "Попуст(%)"
 
 #. module: point_of_sale
 #: report:pos.details_summary:0
 msgid "Sales total"
-msgstr ""
+msgstr "Вкупно продажби"
 
 #. module: point_of_sale
 #: report:pos.invoice:0
 msgid "Supplier Invoice"
-msgstr ""
+msgstr "Фактура на добавувач"
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/point_of_sale.py:1210
@@ -334,7 +334,7 @@ msgstr ""
 #. module: point_of_sale
 #: view:pos.order.line:0
 msgid "Sum of subtotals"
-msgstr ""
+msgstr "Сума на под износи"
 
 #. module: point_of_sale
 #: field:pos.make.payment,payment_date:0
@@ -349,11 +349,11 @@ msgstr ""
 #. module: point_of_sale
 #: field:pos.order,lines:0
 msgid "Order Lines"
-msgstr ""
+msgstr "Ставки на нарачка"
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:78
+#: code:addons/point_of_sale/static/src/xml/pos.xml:84
 #: report:pos.details:0
 #: report:pos.payment.report.user:0
 #: report:pos.user.product:0
@@ -361,7 +361,7 @@ msgstr ""
 #: field:report.sales.by.margin.pos.month,qty:0
 #, python-format
 msgid "Qty"
-msgstr ""
+msgstr "Количина"
 
 #. module: point_of_sale
 #: model:ir.module.module,shortdesc:point_of_sale.module_meta_information
@@ -389,12 +389,12 @@ msgstr ""
 #. module: point_of_sale
 #: field:pos.order.line,create_date:0
 msgid "Creation Date"
-msgstr ""
+msgstr "Датум на креирање"
 
 #. module: point_of_sale
 #: report:pos.invoice:0
 msgid "PRO-FORMA"
-msgstr ""
+msgstr "ПРО-ФАКТУРА"
 
 #. module: point_of_sale
 #: rml:pos.receipt:0
@@ -413,7 +413,7 @@ msgstr ""
 #: view:report.sales.by.user.pos.month:0
 #: view:report.transaction.pos:0
 msgid "POS "
-msgstr ""
+msgstr "Место на продажба "
 
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_pos_config_journal
@@ -450,7 +450,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.ui.menu,name:point_of_sale.menu_point_config_product
 msgid "Configuration"
-msgstr ""
+msgstr "Конфигурација"
 
 #. module: point_of_sale
 #: report:pos.invoice:0
@@ -458,7 +458,7 @@ msgstr ""
 #: field:pos.order.line,price_unit:0
 #: report:pos.payment.report.user:0
 msgid "Unit Price"
-msgstr ""
+msgstr "Единечна цена"
 
 #. module: point_of_sale
 #: constraint:ir.ui.view:0
@@ -473,7 +473,7 @@ msgstr ""
 #. module: point_of_sale
 #: field:pos.order,nb_print:0
 msgid "Number of Print"
-msgstr ""
+msgstr "Број на печатење"
 
 #. module: point_of_sale
 #: model:ir.ui.menu,name:point_of_sale.menu_wizard_default_journal
@@ -490,13 +490,13 @@ msgstr ""
 #. module: point_of_sale
 #: report:pos.invoice:0
 msgid "Draft Invoice"
-msgstr ""
+msgstr "Нацрт фактура"
 
 #. module: point_of_sale
 #: field:pos.discount,discount:0
 #: field:pos.order.line,discount:0
 msgid "Discount (%)"
-msgstr ""
+msgstr "Попуст (%)"
 
 #. module: point_of_sale
 #: model:ir.actions.wizard,name:point_of_sale.pos_add_product
@@ -506,7 +506,7 @@ msgstr ""
 #. module: point_of_sale
 #: view:pos.order.line:0
 msgid "Total qty"
-msgstr ""
+msgstr "Вкупна количина"
 
 #. module: point_of_sale
 #: model:ir.ui.menu,name:point_of_sale.menu_action_pos_order_line
@@ -530,7 +530,7 @@ msgstr ""
 #: field:pos.session.opening,pos_session_name:0
 #: field:pos.session.opening,pos_session_username:0
 msgid "unknown"
-msgstr ""
+msgstr "непознато"
 
 #. module: point_of_sale
 #: view:account.journal:0
@@ -543,13 +543,13 @@ msgstr ""
 #: view:res.partner:0
 #: view:res.users:0
 msgid "Point of Sale"
-msgstr ""
+msgstr "Место на продажба"
 
 #. module: point_of_sale
 #: view:pos.order:0
 #: field:pos.order,user_id:0
 msgid "Salesman"
-msgstr ""
+msgstr "Продавач"
 
 #. module: point_of_sale
 #: report:pos.details:0
@@ -558,7 +558,7 @@ msgstr ""
 #: view:report.pos.order:0
 #: selection:report.pos.order,state:0
 msgid "Invoiced"
-msgstr ""
+msgstr "Фактурирано"
 
 #. module: point_of_sale
 #: rml:pos.receipt:0
@@ -605,17 +605,17 @@ msgstr ""
 #: field:pos.order,amount_paid:0
 #: selection:pos.order,state:0
 msgid "Paid"
-msgstr ""
+msgstr "Платено"
 
 #. module: point_of_sale
 #: report:pos.invoice:0
 msgid "VAT :"
-msgstr ""
+msgstr "ДДВ :"
 
 #. module: point_of_sale
 #: view:pos.order.line:0
 msgid "POS Order lines"
-msgstr ""
+msgstr "Ставки од налогот за местото на продажба"
 
 #. module: point_of_sale
 #: rml:pos.receipt:0
@@ -626,7 +626,7 @@ msgstr ""
 #: report:pos.details:0
 #: report:pos.details_summary:0
 msgid "Total invoiced"
-msgstr ""
+msgstr "Вкупно фактурирано"
 
 #. module: point_of_sale
 #: model:ir.ui.menu,name:point_of_sale.menu_trans_pos_tree_today
@@ -637,12 +637,12 @@ msgstr ""
 #: code:addons/point_of_sale/point_of_sale.py:818
 #, python-format
 msgid "Please provide a partner for the sale."
-msgstr ""
+msgstr "Обезбедете партнер за продажбата."
 
 #. module: point_of_sale
 #: view:pos.order.line:0
 msgid "POS Order line"
-msgstr ""
+msgstr "Ставка од налогот за точката на продажба"
 
 #. module: point_of_sale
 #: rml:pos.receipt:0
@@ -669,12 +669,12 @@ msgstr ""
 #: field:report.transaction.pos,user_id:0
 #: model:res.groups,name:point_of_sale.group_pos_user
 msgid "User"
-msgstr ""
+msgstr "Корисник"
 
 #. module: point_of_sale
 #: field:pos.make.payment,payment_date:0
 msgid "Payment Date"
-msgstr ""
+msgstr "Датум на плаќање"
 
 #. module: point_of_sale
 #: field:pos.payment,payment_name:0
@@ -685,13 +685,13 @@ msgstr ""
 #: report:pos.details:0
 #: field:report.transaction.pos,date_create:0
 msgid "Date"
-msgstr ""
+msgstr "Датум"
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.action_trans_pos_tree
 #: model:ir.model,name:point_of_sale.model_report_sales_by_user_pos
 msgid "Sales by user"
-msgstr ""
+msgstr "Продажби по корисник"
 
 #. module: point_of_sale
 #: wizard_button:pos.add_product,init,add:0
@@ -703,7 +703,7 @@ msgstr ""
 #: model:ir.actions.act_window,name:point_of_sale.action_pos_discount
 #: view:pos.discount:0
 msgid "Apply Discount"
-msgstr ""
+msgstr "Примени попуст"
 
 #. module: point_of_sale
 #: rml:pos.details:0
@@ -723,21 +723,21 @@ msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:214
-#: code:addons/point_of_sale/static/src/xml/pos.xml:435
-#: code:addons/point_of_sale/static/src/xml/pos.xml:599
+#: code:addons/point_of_sale/static/src/xml/pos.xml:220
+#: code:addons/point_of_sale/static/src/xml/pos.xml:426
+#: code:addons/point_of_sale/static/src/xml/pos.xml:596
 #: report:all.closed.cashbox.of.the.day:0
 #: report:pos.invoice:0
 #: report:pos.lines:0
 #: report:pos.payment.report.user:0
 #, python-format
 msgid "Total:"
-msgstr ""
+msgstr "Вкупно:"
 
 #. module: point_of_sale
 #: field:pos.order,picking_id:0
 msgid "Picking"
-msgstr ""
+msgstr "Требување"
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/wizard/pos_get_sale.py:54
@@ -763,12 +763,12 @@ msgstr ""
 #: field:report.sales.by.user.pos,qty:0
 #: field:report.sales.by.user.pos.month,qty:0
 msgid "Quantity"
-msgstr ""
+msgstr "Количина"
 
 #. module: point_of_sale
 #: report:pos.invoice:0
 msgid "Refund"
-msgstr ""
+msgstr "Повлечи"
 
 #. module: point_of_sale
 #: rml:pos.details:0
@@ -789,7 +789,7 @@ msgstr ""
 #. module: point_of_sale
 #: field:pos.order,pricelist_id:0
 msgid "Pricelist"
-msgstr ""
+msgstr "Ценовник"
 
 #. module: point_of_sale
 #: wizard_field:pos.discount,init,discount:0
@@ -798,11 +798,11 @@ msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:264
+#: code:addons/point_of_sale/static/src/xml/pos.xml:254
 #: model:ir.actions.act_window,name:point_of_sale.action_report_pos_receipt
 #, python-format
 msgid "Receipt"
-msgstr ""
+msgstr "Сметка"
 
 #. module: point_of_sale
 #: view:account.bank.statement:0 view:pos.order:0 field:pos.order,state:0
@@ -819,12 +819,12 @@ msgstr ""
 #. module: point_of_sale
 #: field:report.transaction.pos,no_trans:0
 msgid "Number of Transaction"
-msgstr ""
+msgstr "Број на трансакција"
 
 #. module: point_of_sale
 #: report:pos.invoice:0
 msgid "Net Total:"
-msgstr ""
+msgstr "Вкупно нето:"
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/pos.py:0
@@ -840,22 +840,22 @@ msgstr ""
 #. module: point_of_sale
 #: view:pos.order:0
 msgid "Done"
-msgstr ""
+msgstr "Завршено"
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:338
+#: code:addons/point_of_sale/static/src/xml/pos.xml:328
 #: model:ir.actions.report.xml,name:point_of_sale.pos_invoice_report
 #: report:pos.invoice:0
 #: view:pos.order:0
 #: field:pos.order,invoice_id:0
 #, python-format
 msgid "Invoice"
-msgstr ""
+msgstr "Фактура"
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:323
+#: code:addons/point_of_sale/static/src/xml/pos.xml:313
 #: view:pos.confirm:0
 #: view:pos.details:0
 #: view:pos.discount:0
@@ -868,7 +868,7 @@ msgstr ""
 #: view:pos.sale.user:0
 #, python-format
 msgid "Cancel"
-msgstr ""
+msgstr "Откажи"
 
 #. #-#-#-#-#  point_of_sale.pot (OpenERP Server 6.1rc1)  #-#-#-#-#
 #. module: point_of_sale
@@ -883,13 +883,13 @@ msgstr ""
 #. module: point_of_sale
 #: view:pos.order:0
 msgid "Order lines"
-msgstr ""
+msgstr "Ставки на нарачка"
 
 #. module: point_of_sale
 #: field:pos.order,name:0
 #: field:pos.order.line,order_id:0
 msgid "Order Ref"
-msgstr ""
+msgstr "Референца на налог"
 
 #. module: point_of_sale
 #: view:pos.make.payment:0
@@ -906,7 +906,7 @@ msgstr ""
 #: report:pos.details:0
 #: report:pos.details_summary:0
 msgid "Total of the day"
-msgstr ""
+msgstr "Вкупно на денот"
 
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_pos_payment
@@ -917,7 +917,7 @@ msgstr ""
 #: report:pos.details:0
 #: report:pos.details_summary:0
 msgid "Total discount"
-msgstr ""
+msgstr "Вкупен попуст"
 
 #. module: point_of_sale
 #: field:pos.order,invoice_wanted:0
@@ -932,18 +932,21 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_pos_order_line
 msgid "Lines of Point of Sale"
-msgstr ""
+msgstr "Ставки на местото за продажба"
 
 #. module: point_of_sale
+#. openerp-web
+#: code:addons/point_of_sale/static/src/xml/pos.xml:427
 #: report:pos.invoice:0
+#, python-format
 msgid "Taxes:"
-msgstr ""
+msgstr "Даноци:"
 
 #. module: point_of_sale
 #: view:pos.order:0
 #: view:report.transaction.pos:0
 msgid "Amount total"
-msgstr ""
+msgstr "Вкупен износ"
 
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_product_product
@@ -954,7 +957,7 @@ msgstr ""
 #: view:report.pos.order:0
 #: field:report.pos.order,product_id:0
 msgid "Product"
-msgstr ""
+msgstr "Производ"
 
 #. module: point_of_sale
 #: view:pos.order:0
@@ -973,7 +976,7 @@ msgstr ""
 #: model:ir.model,name:point_of_sale.model_account_journal
 #: field:report.pos.order,journal_id:0
 msgid "Journal"
-msgstr ""
+msgstr "Дневник"
 
 #. module: point_of_sale
 #: field:pos.scan.product,gencod:0
@@ -992,17 +995,17 @@ msgstr ""
 #: view:report.sales.by.user.pos.month:0
 #: view:report.transaction.pos:0
 msgid "POS"
-msgstr ""
+msgstr "Место на продажба"
 
 #. module: point_of_sale
 #: model:ir.actions.report.xml,name:point_of_sale.pos_lines_report
 msgid "Pos Lines"
-msgstr ""
+msgstr "Ставки на точка на продажба"
 
 #. module: point_of_sale
 #: report:pos.invoice:0
 msgid "Tel. :"
-msgstr ""
+msgstr "Тел. :"
 
 #. module: point_of_sale
 #: field:pos.payment,payment_nb:0
@@ -1016,15 +1019,15 @@ msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:209
-#: code:addons/point_of_sale/static/src/xml/pos.xml:295
+#: code:addons/point_of_sale/static/src/xml/pos.xml:215
+#: code:addons/point_of_sale/static/src/xml/pos.xml:285
 #: code:addons/point_of_sale/wizard/pos_payment.py:79
 #: model:ir.actions.act_window,name:point_of_sale.action_pos_payment
 #: report:pos.details:0
 #: view:pos.order:0
 #, python-format
 msgid "Payment"
-msgstr ""
+msgstr "Плаќање"
 
 #. module: point_of_sale
 #: model:ir.ui.menu,name:point_of_sale.menu_action_pos_order_tree3
@@ -1060,12 +1063,12 @@ msgstr ""
 #: view:pos.order:0
 #: field:pos.order,statement_ids:0
 msgid "Payments"
-msgstr ""
+msgstr "Плаќања"
 
 #. module: point_of_sale
 #: report:pos.invoice:0
 msgid "Supplier Refund"
-msgstr ""
+msgstr "Поврат на добавувач"
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/wizard/wizard_get_sale.py:0
@@ -1077,18 +1080,18 @@ msgstr ""
 #: report:pos.details:0
 #: report:pos.details_summary:0
 msgid "Summary"
-msgstr ""
+msgstr "Резиме"
 
 #. module: point_of_sale
 #: report:pos.invoice:0
 #: report:pos.lines:0
 msgid "Description"
-msgstr ""
+msgstr "Опис"
 
 #. module: point_of_sale
 #: model:ir.actions.report.xml,name:point_of_sale.pos_details_summary
 msgid "Sales (summary)"
-msgstr ""
+msgstr "Продажби (резиме)"
 
 #. module: point_of_sale
 #: field:pos.order,account_move:0
@@ -1109,7 +1112,7 @@ msgstr ""
 #: report:pos.user.product:0
 #: field:report.transaction.pos,amount:0
 msgid "Amount"
-msgstr ""
+msgstr "Износ"
 
 #. module: point_of_sale
 #: view:pos.order:0
@@ -1119,7 +1122,7 @@ msgstr ""
 #. module: point_of_sale
 #: report:pos.details_summary:0
 msgid "Mode of Taxes"
-msgstr ""
+msgstr "Режим на даноци"
 
 #. module: point_of_sale
 #: rml:pos.details:0
@@ -1142,7 +1145,7 @@ msgstr ""
 #: report:pos.sales.user.today:0
 #: report:pos.user.product:0
 msgid "Print Date"
-msgstr ""
+msgstr "Датум на печатење"
 
 #. module: point_of_sale
 #: field:pos.order,amount_total:0
@@ -1151,14 +1154,14 @@ msgstr ""
 #: field:report.sales.by.user.pos,amount:0
 #: field:report.sales.by.user.pos.month,amount:0
 msgid "Total"
-msgstr ""
+msgstr "Вкупно"
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:88
+#: code:addons/point_of_sale/static/src/xml/pos.xml:94
 #: report:pos.details:0
 #: report:pos.invoice:0
 #: report:pos.lines:0
 #, python-format
 msgid "Price"
-msgstr ""
+msgstr "Цена"

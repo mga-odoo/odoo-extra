@@ -14,8 +14,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-11-24 07:11+0000\n"
-"X-Generator: Launchpad (build 16293)\n"
+"X-Launchpad-Export-Date: 2013-04-20 05:34+0000\n"
+"X-Generator: Launchpad (build 16567)\n"
 
 #. module: account_asset
 #: model:ir.actions.act_window,name:account_asset.action_account_asset_asset_list_normal
@@ -83,7 +83,7 @@ msgstr "Motivul"
 #: field:account.move.line,entry_ids:0
 #: model:ir.actions.act_window,name:account_asset.act_entries_open
 msgid "Entries"
-msgstr "Înregistrări"
+msgstr "Inregistrari"
 
 #. module: account_asset
 #: wizard_view:account.asset.compute,asset_compute:0
@@ -380,13 +380,13 @@ msgstr "Categorie Active"
 #: view:asset.depreciation.confirmation.wizard:0
 #: view:asset.modify:0
 msgid "Cancel"
-msgstr "Anulare"
+msgstr "Anuleaza"
 
 #. module: account_asset
 #: selection:account.asset.asset,state:0
 #: selection:asset.asset.report,state:0
 msgid "Close"
-msgstr "Închide"
+msgstr "Inchide"
 
 #. module: account_asset
 #: selection:account.asset.property,state:0
@@ -439,7 +439,7 @@ msgstr ""
 #. module: account_asset
 #: field:account.asset.category,journal_id:0
 msgid "Journal"
-msgstr "Jurnal"
+msgstr "Registru"
 
 #. module: account_asset
 #: field:account.asset.history,name:0
@@ -492,7 +492,7 @@ msgstr ""
 #. module: account_asset
 #: field:account.asset.depreciation.line,sequence:0
 msgid "Sequence"
-msgstr ""
+msgstr "Secventa"
 
 #. module: account_asset
 #: field:account.asset.property,value_residual:0

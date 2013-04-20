@@ -13,8 +13,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-11-24 07:18+0000\n"
-"X-Generator: Launchpad (build 16293)\n"
+"X-Launchpad-Export-Date: 2013-04-20 05:42+0000\n"
+"X-Generator: Launchpad (build 16567)\n"
 
 #. module: stock_location
 #: help:stock.location.path,delay:0
@@ -40,13 +40,15 @@ msgstr ""
 #. module: stock_location
 #: selection:stock.location.path,auto:0
 msgid "Automatic No Step Added"
-msgstr ""
+msgstr "Nincs automatikus következő lépcső hozzáadva"
 
 #. module: stock_location
 #: help:product.product,path_ids:0
 msgid ""
 "These rules set the right path of the product in the whole location tree."
 msgstr ""
+"A szabály beállítja a teljes elhelyezkedési fában a termékre vonatkozó "
+"pontos elérési utat."
 
 #. module: stock_location
 #: field:product.pulled.flow,location_src_id:0
@@ -91,6 +93,12 @@ msgid ""
 "move has to be validated by a worker. With 'Automatic No Step Added', the "
 "location is replaced in the original move."
 msgstr ""
+"Ez a termék elérési útját határozza meg a helymeghatározó fában nyomon "
+"követhető.\n"
+"Az 'Automatikus mozgás' értéke létrehoz egy raktári mozgást a meglévő "
+"automatikus érvényesítése után. A 'Kézi vezérlés'-nél, a raktári mozgást "
+"érvényesítenie kell egy munkavállalónak. Az 'Nincs automatikus következő "
+"lépcső hozzáadva', a raktárhely ki lesz cserélve az első mozgásnál."
 
 #. module: stock_location
 #: field:stock.location.path,name:0
@@ -100,7 +108,7 @@ msgstr "Művelet"
 #. module: stock_location
 #: view:stock.location.path:0
 msgid "Location Paths"
-msgstr ""
+msgstr "Elérési útvonal"
 
 #. module: stock_location
 #: field:stock.location.path,delay:0
