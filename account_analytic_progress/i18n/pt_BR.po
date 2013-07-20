@@ -1,0 +1,50 @@
+# Brazilian Portuguese translation for openobject-addons
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the openobject-addons package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openobject-addons\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2009-11-24 12:48+0000\n"
+"PO-Revision-Date: 2013-07-19 15:43+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-07-20 05:54+0000\n"
+"X-Generator: Launchpad (build 16696)\n"
+
+#. module: account_analytic_progress
+#: model:ir.actions.act_window,name:account_analytic_progress.action_account_analytic_progress_graph
+#: model:ir.ui.menu,name:account_analytic_progress.menu_account_analytic_progress_graph
+msgid "Remainging turnover by account"
+msgstr "Remainging volume de negócios por conta"
+
+#. module: account_analytic_progress
+#: constraint:ir.ui.view:0
+msgid "Invalid XML for View Architecture!"
+msgstr "Inválido XML para Ver Arquitetura!"
+
+#. module: account_analytic_progress
+#: model:ir.module.module,shortdesc:account_analytic_progress.module_meta_information
+msgid "account_analytic_progress"
+msgstr "account_analytic_progress"
+
+#. module: account_analytic_progress
+#: model:ir.module.module,description:account_analytic_progress.module_meta_information
+msgid ""
+"Progress bar for analytic accounts.\n"
+"This is the module used for displaying the shared funded\n"
+"development projects on the Tiny ERP website."
+msgstr ""
+"Barra de progresso para as contas analíticas. \n"
+"Este é o módulo usado para exibir os financiados compartilhados \n"
+"projetos de desenvolvimento no site ERP Tiny."
+
+#. module: account_analytic_progress
+#: constraint:ir.actions.act_window:0
+msgid "Invalid model name in the action definition."
+msgstr "Nome do modelo inválido na definição da ação."

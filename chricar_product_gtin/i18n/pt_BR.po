@@ -1,0 +1,41 @@
+# Brazilian Portuguese translation for openobject-addons
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the openobject-addons package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openobject-addons\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2009-11-26 06:36+0000\n"
+"PO-Revision-Date: 2013-07-19 15:54+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-07-20 05:55+0000\n"
+"X-Generator: Launchpad (build 16696)\n"
+
+#. module: chricar_product_gtin
+#: model:ir.module.module,shortdesc:chricar_product_gtin.module_meta_information
+msgid "Product GTIN EAN8 EAN13 UPC JPC Support"
+msgstr "Produto GTIN EAN8 EAN13 UPC Suporte JPC"
+
+#. module: chricar_product_gtin
+#: constraint:ir.ui.view:0
+msgid "Invalid XML for View Architecture!"
+msgstr "Inválido XML para Ver Arquitetura!"
+
+#. module: chricar_product_gtin
+#: model:ir.module.module,description:chricar_product_gtin.module_meta_information
+msgid ""
+"Replaces the EAN13 code completion with a checkroutine for EAN13, EAN8, JPC, "
+"UPC and GTIN\n"
+"    makes EAN visible in simplified view\n"
+"        "
+msgstr ""
+"Substitui a conclusão do código EAN13 com um checkroutine para EAN13, EAN8, "
+"JPC, UPC e GTIN\n"
+"    faz EAN visível na visão simplificada\n"
+"        "

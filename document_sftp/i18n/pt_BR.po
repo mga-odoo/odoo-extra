@@ -1,0 +1,73 @@
+# Brazilian Portuguese translation for openobject-addons
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the openobject-addons package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openobject-addons\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2009-11-25 14:58+0000\n"
+"PO-Revision-Date: 2013-07-19 18:57+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-07-20 05:55+0000\n"
+"X-Generator: Launchpad (build 16696)\n"
+
+#. module: document_sftp
+#: constraint:ir.ui.view:0
+msgid "Invalid XML for View Architecture!"
+msgstr "Inválido XML para Ver Arquitetura!"
+
+#. module: document_sftp
+#: constraint:ir.model:0
+msgid ""
+"The Object name must start with x_ and not contain any special character !"
+msgstr ""
+"O nome do objeto deve iniciar com x_ e não conter qualquer caractere "
+"especial!"
+
+#. module: document_sftp
+#: model:ir.module.module,description:document_sftp.module_meta_information
+msgid ""
+"This is a document management system using paramiko lib:\n"
+"    * SFTP protocoll \n"
+"    \n"
+msgstr ""
+"Este é um sistema de gestão de documentos usando paramiko lib:\n"
+"    * SFTP protocoll \n"
+"    \n"
+
+#. module: document_sftp
+#: view:res.users:0
+msgid "SSH Public Keys"
+msgstr "SSH Chaves Públicas"
+
+#. module: document_sftp
+#: model:ir.model,name:document_sftp.model_sftp_public_keys
+msgid "Public Keys"
+msgstr "Chaves Públicas"
+
+#. module: document_sftp
+#: field:res.users,ssh_key_ids:0
+#: field:sftp.public.keys,ssh_key:0
+msgid "SSH Public key"
+msgstr "SSH chave pública"
+
+#. module: document_sftp
+#: field:sftp.public.keys,user_id:0
+msgid "User"
+msgstr "Usuário"
+
+#. module: document_sftp
+#: view:res.users:0
+msgid "SSH Public Key"
+msgstr "SSH Public Key"
+
+#. module: document_sftp
+#: model:ir.module.module,shortdesc:document_sftp.module_meta_information
+msgid "Integrated Document Management System using paramiko lib"
+msgstr "Sistema de Gestão Integrada de Documentos usando paramiko lib"

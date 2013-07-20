@@ -1,0 +1,114 @@
+# Brazilian Portuguese translation for openobject-addons
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the openobject-addons package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openobject-addons\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2009-11-26 06:18+0000\n"
+"PO-Revision-Date: 2013-07-19 17:41+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-07-20 05:55+0000\n"
+"X-Generator: Launchpad (build 16696)\n"
+
+#. module: board_restaurant
+#: model:ir.ui.menu,name:board_restaurant.menu_board_restaurant
+msgid "Hotel Restaurant Board"
+msgstr "Painel Restaurante do Hotel"
+
+#. module: board_restaurant
+#: model:ir.actions.act_window,name:board_restaurant.action_hotel_restaurant_order_form_tree
+msgid "Current Table Orders"
+msgstr "Ordens Tabela Atual"
+
+#. module: board_restaurant
+#: view:board.board:0
+msgid "Current Table Order"
+msgstr "Atual Ordem Tabela"
+
+#. module: board_restaurant
+#: view:board.board:0
+msgid "KOT list"
+msgstr "Lista KOT"
+
+#. module: board_restaurant
+#: model:ir.actions.act_window,name:board_restaurant.action_hotel_kot_form_tree
+msgid "Kitchen Order Tickets List"
+msgstr "Cozinha Ordem da Lista Tickets"
+
+#. module: board_restaurant
+#: constraint:ir.ui.view:0
+msgid "Invalid XML for View Architecture!"
+msgstr "Inválido XML para Ver Arquitetura!"
+
+#. module: board_restaurant
+#: model:ir.actions.act_window,name:board_restaurant.open_board_restaurant
+msgid "Restaurant Dashboard"
+msgstr "Painel fazer Restaurante"
+
+#. module: board_restaurant
+#: model:ir.module.module,shortdesc:board_restaurant.module_meta_information
+msgid "Board for Hotel Restaurant users"
+msgstr "Quadro Restaurante Usuarios"
+
+#. module: board_restaurant
+#: model:ir.actions.act_window,name:board_restaurant.action_hotel_restaurant_reservation_form_tree
+msgid "Today's Reservation"
+msgstr "Reserva de hoje"
+
+#. module: board_restaurant
+#: model:ir.module.module,description:board_restaurant.module_meta_information
+msgid ""
+"\n"
+"This module implements a dashboard for project member that includes:\n"
+"\t* list of current orders\n"
+"\t* List of Kitchen order tickets \n"
+"\t* List of current table reservation\n"
+"\t\n"
+"\t"
+msgstr ""
+"\n"
+"Este módulo implementa um painel para membro do projeto, que inclui: [Tab] * "
+"lista de pedidos atuais [Tab] * Lista de bilhetes de pedidos de cozinha\n"
+"\n"
+" \n"
+"[Guia] * Lista de reserva de mesa atual [Tab] [Tab]\n"
+"\t\n"
+"\t"
+
+#. module: board_restaurant
+#: constraint:ir.actions.act_window:0
+msgid "Invalid model name in the action definition."
+msgstr "Nome do modelo inválido na definição da ação."
+
+#. module: board_restaurant
+#: view:board.board:0
+msgid "restaurant board"
+msgstr "placa de restaurante"
+
+#. module: board_restaurant
+#: view:board.board:0
+msgid "Reservation"
+msgstr "Reserva"
+
+#. module: board_restaurant
+#: view:board.board:0
+msgid "Current Orders"
+msgstr "Ordens atuais"
+
+#. module: board_restaurant
+#: view:board.board:0
+#: model:ir.actions.act_window,name:board_restaurant.action_hotel_restaurant_reservation_order_form_tree
+msgid "Order Of Reservation"
+msgstr "Ordem da reserva"
+
+#. module: board_restaurant
+#: view:board.board:0
+msgid "Today's Table Reservation"
+msgstr "Reserva de mesa de hoje"

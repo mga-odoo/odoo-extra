@@ -1,0 +1,200 @@
+# Brazilian Portuguese translation for openobject-addons
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the openobject-addons package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openobject-addons\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2009-11-26 06:18+0000\n"
+"PO-Revision-Date: 2013-07-19 18:12+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-07-20 05:55+0000\n"
+"X-Generator: Launchpad (build 16696)\n"
+
+#. module: board_project_portal
+#: model:ir.actions.act_window,name:board_project_portal.wiki_form2
+msgid "wiki"
+msgstr "wiki"
+
+#. module: board_project_portal
+#: view:board.board:0
+msgid "Statistics"
+msgstr "Estatísticas"
+
+#. module: board_project_portal
+#: constraint:ir.model:0
+msgid ""
+"The Object name must start with x_ and not contain any special character !"
+msgstr ""
+"O nome do objeto deve iniciar com x_ e não conter qualquer caractere "
+"especial!"
+
+#. module: board_project_portal
+#: constraint:ir.actions.act_window:0
+msgid "Invalid model name in the action definition."
+msgstr "Nome do modelo inválido na definição da ação."
+
+#. module: board_project_portal
+#: view:board.board:0
+msgid "Financial Data"
+msgstr "Dados Financeiros"
+
+#. module: board_project_portal
+#: field:report.crm.case.state,section_id:0
+msgid "Section"
+msgstr "Seção"
+
+#. module: board_project_portal
+#: field:report.crm.case.state,nbr:0
+msgid "# of Cases"
+msgstr "N º de caixas"
+
+#. module: board_project_portal
+#: field:report.crm.case.state,state:0
+msgid "State"
+msgstr "Situação"
+
+#. module: board_project_portal
+#: selection:report.crm.case.state,state:0
+msgid "Draft"
+msgstr "Rascunho"
+
+#. module: board_project_portal
+#: view:board.board:0
+msgid "Timesheets"
+msgstr "Quadros de horários"
+
+#. module: board_project_portal
+#: model:ir.actions.act_window,name:board_project_portal.open_board_portal_project
+msgid "Portal Dashboard"
+msgstr "Portal do painel de instrumentos"
+
+#. module: board_project_portal
+#: selection:report.crm.case.state,state:0
+msgid "Pending"
+msgstr "Pendente"
+
+#. module: board_project_portal
+#: model:ir.actions.act_window,name:board_project_portal.announces_form
+msgid "Latest Announces"
+msgstr "Últimas anuncia"
+
+#. module: board_project_portal
+#: model:ir.model,name:board_project_portal.model_report_crm_case_state
+msgid "Cases by state"
+msgstr "Casos por estado"
+
+#. module: board_project_portal
+#: model:ir.module.module,description:board_project_portal.module_meta_information
+msgid ""
+"\n"
+"This module implements a dashboard for project member that includes:\n"
+"    * List of my open tasks\n"
+"    * List of my Bugs\n"
+"    * List of Features\n"
+"    * List of Supported Requests\n"
+"    * List of Supported Documents\n"
+"    * Shortcut Buttons\n"
+"    * Graph of my work analysis\n"
+"    * Graph of Bugs status\n"
+"    "
+msgstr ""
+"\n"
+"Este módulo implementa um painel para membro do projeto, que inclui:\n"
+"    * Lista das minhas tarefas abertas\n"
+"    * Lista dos meus erros\n"
+"    * Lista de recursos\n"
+"    * Lista de Pedidos suportados\n"
+"    * Lista de Documentos Suportados\n"
+"    * Botões de Atalho\n"
+"    * Gráfico da minha análise do trabalho\n"
+"    * Gráfico de status de erros\n"
+"    "
+
+#. module: board_project_portal
+#: view:board.board:0
+msgid "Portal Board"
+msgstr "Portal  Conselho"
+
+#. module: board_project_portal
+#: selection:report.crm.case.state,state:0
+msgid "Closed"
+msgstr "Fechado"
+
+#. module: board_project_portal
+#: model:ir.ui.menu,name:board_project_portal.portal_dash0
+#: model:ir.ui.menu,name:board_project_portal.portal_dash1
+msgid "Portal Project"
+msgstr "Portal Projeto"
+
+#. module: board_project_portal
+#: model:ir.module.module,shortdesc:board_project_portal.module_meta_information
+msgid "Board for project users"
+msgstr "Conselho para os utilizadores do projeto"
+
+#. module: board_project_portal
+#: view:board.board:0
+#: model:ir.actions.act_window,name:board_project_portal.members_form
+msgid "Members"
+msgstr "Usuários"
+
+#. module: board_project_portal
+#: view:board.board:0
+msgid "Configuration"
+msgstr "Configuração"
+
+#. module: board_project_portal
+#: constraint:ir.ui.view:0
+msgid "Invalid XML for View Architecture!"
+msgstr "Inválido XML para Ver Arquitetura!"
+
+#. module: board_project_portal
+#: view:report.crm.case.state:0
+msgid "Cases by State"
+msgstr "Casos por Estado"
+
+#. module: board_project_portal
+#: view:board.board:0
+msgid "Working Hours per Day"
+msgstr "Horas de trabalho por dia"
+
+#. module: board_project_portal
+#: selection:report.crm.case.state,state:0
+msgid "Cancelled"
+msgstr "Cancelado"
+
+#. module: board_project_portal
+#: view:board.board:0
+msgid "Project Wiki"
+msgstr "Projeto Wiki"
+
+#. module: board_project_portal
+#: view:board.board:0
+msgid "Shortcuts"
+msgstr "Atalhos"
+
+#. module: board_project_portal
+#: view:board.board:0
+msgid "Gantt Planning"
+msgstr "Gantt Planejamento"
+
+#. module: board_project_portal
+#: view:board.board:0
+msgid "Latests Announces"
+msgstr "Latests anuncia"
+
+#. module: board_project_portal
+#: view:board.board:0
+msgid "Bugs by State"
+msgstr "Erros por Estado"
+
+#. module: board_project_portal
+#: selection:report.crm.case.state,state:0
+msgid "Open"
+msgstr "Aberto"
