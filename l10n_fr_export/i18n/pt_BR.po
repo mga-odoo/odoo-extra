@@ -1,0 +1,69 @@
+# Brazilian Portuguese translation for openobject-addons
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the openobject-addons package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openobject-addons\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2009-01-29 22:55+0000\n"
+"PO-Revision-Date: 2013-07-20 12:36+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-07-22 05:50+0000\n"
+"X-Generator: Launchpad (build 16696)\n"
+
+#. module: l10n_fr_export
+#: wizard_view:l10n.fr.export.export,init:0
+msgid "Select year"
+msgstr "Selecione ano"
+
+#. module: l10n_fr_export
+#: model:ir.ui.menu,name:l10n_fr_export.menu_account_line_export
+msgid "Export Fiscal Year"
+msgstr "Exportar Ano Fiscal"
+
+#. module: l10n_fr_export
+#: help:l10n.fr.export.export,init,directory:0
+msgid "Storage Directory on server"
+msgstr "Diretório de armazenamento no servidor"
+
+#. module: l10n_fr_export
+#: model:ir.module.module,shortdesc:l10n_fr_export.module_meta_information
+msgid "France - Export ecritures"
+msgstr "França - Exportação Ecritures"
+
+#. module: l10n_fr_export
+#: wizard_field:l10n.fr.export.export,init,fiscalyear:0
+msgid "Fiscal year"
+msgstr "Exercício fiscal"
+
+#. module: l10n_fr_export
+#: model:ir.actions.wizard,name:l10n_fr_export.wizard_l10n_fr_export
+#: wizard_button:l10n.fr.export.export,init,export:0
+msgid "Export"
+msgstr "Exportar"
+
+#. module: l10n_fr_export
+#: wizard_button:l10n.fr.export.export,init,end:0
+msgid "Cancel"
+msgstr "Cancel"
+
+#. module: l10n_fr_export
+#: wizard_field:l10n.fr.export.export,init,directory:0
+msgid "Directory "
+msgstr "Diretório "
+
+#. module: l10n_fr_export
+#: model:ir.module.module,description:l10n_fr_export.module_meta_information
+msgid ""
+"This is the module to export entries lines for one fiscal year.\n"
+"\n"
+"Credits: Sistheo Zeekom CrysaLEAD\n"
+msgstr ""
+"Este é o módulo para exportar linhas de entradas durante um ano fiscal. \n"
+"Créditos: Sistheo Zeekom CrysaLEAD\n"

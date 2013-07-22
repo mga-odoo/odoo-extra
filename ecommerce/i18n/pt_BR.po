@@ -1,0 +1,1262 @@
+# Brazilian Portuguese translation for openobject-addons
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the openobject-addons package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openobject-addons\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2010-01-04 10:40+0000\n"
+"PO-Revision-Date: 2013-07-20 13:34+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-07-22 05:50+0000\n"
+"X-Generator: Launchpad (build 16696)\n"
+
+#. module: ecommerce
+#: rml:account.invoice.ecom:0
+msgid "Invoice Date:"
+msgstr "Data da Fatura:"
+
+#. module: ecommerce
+#: field:ecommerce.partner.address,zip:0
+#: field:ecommerce.payment,zip:0
+msgid "Zip"
+msgstr "CEP"
+
+#. module: ecommerce
+#: field:ecommerce.product.reviews,review:0
+msgid "Review"
+msgstr "Comente"
+
+#. module: ecommerce
+#: model:product.template,name:ecommerce.product_product_lap_acer2_product_template
+msgid "ACER 4021 NWLCi"
+msgstr "ACER 4021 NWLCi"
+
+#. module: ecommerce
+#: view:ecommerce.creditcard:0
+msgid "Credit Card Types"
+msgstr "Tipos de Cartão de Crédito"
+
+#. module: ecommerce
+#: field:ecommerce.category,web_id:0
+#: field:ecommerce.saleorder,web_id:0
+#: model:ir.actions.act_window,name:ecommerce.action_shop_basic_form
+#: model:ir.ui.menu,name:ecommerce.menu_shop_basic_form
+msgid "Web Shop"
+msgstr "Web Shop"
+
+#. module: ecommerce
+#: view:ecommerce.payment.method:0
+#: model:ir.actions.act_window,name:ecommerce.action_payment_method_form
+#: model:ir.ui.menu,name:ecommerce.menu_payment_method_form
+msgid "Payment method"
+msgstr "Método de pagamento"
+
+#. module: ecommerce
+#: constraint:ir.actions.act_window:0
+msgid "Invalid model name in the action definition."
+msgstr "Nome do modelo inválida na definição da ação."
+
+#. module: ecommerce
+#: view:ecommerce.search:0
+#: model:ir.actions.act_window,name:ecommerce.action_ecommerce_search_form
+#: model:ir.ui.menu,name:ecommerce.menu_ecommerce_search_form
+msgid "Search Parameters"
+msgstr "Parâmetros de Pesquisa"
+
+#. module: ecommerce
+#: rml:account.invoice.ecom:0
+msgid "Document"
+msgstr "Documento"
+
+#. module: ecommerce
+#: field:ecommerce.payment,biz_account:0
+msgid "Business E-mail Id"
+msgstr "Empresas Id E-mail"
+
+#. module: ecommerce
+#: model:res.partner.category,name:ecommerce.guest
+msgid "Guest"
+msgstr "Convidado"
+
+#. module: ecommerce
+#: model:product.template,name:ecommerce.product_product_lap_acer4_product_template
+msgid "NEW Acer Laptop Aspire 4720Z"
+msgstr "NEW Laptop Acer Aspire 4720Z"
+
+#. module: ecommerce
+#: field:ecommerce.partner.address,fax:0
+msgid "Fax"
+msgstr "Fax"
+
+#. module: ecommerce
+#: field:ecommerce.shop,company_id:0
+msgid "Company"
+msgstr "Empresa"
+
+#. module: ecommerce
+#: model:product.template,name:ecommerce.product_product_lap_hdd2_product_template
+msgid "120gb harddisk"
+msgstr "120GB de disco rígido"
+
+#. module: ecommerce
+#: model:ir.model,name:ecommerce.model_ecommerce_payment
+msgid "ecommerce payment"
+msgstr "pagamento ecommerce"
+
+#. module: ecommerce
+#: help:ecommerce.shop,language_ids:0
+msgid "Add the launguage options for the online customers."
+msgstr "Adicione as opções launguage para os clientes on-line."
+
+#. module: ecommerce
+#: model:ir.model,name:ecommerce.model_ecommerce_order_line
+msgid "ecommerce order line"
+msgstr "linha da ordem de comércio eletrônico"
+
+#. module: ecommerce
+#: rml:account.invoice.ecom:0
+msgid "Base"
+msgstr "Base"
+
+#. module: ecommerce
+#: wizard_view:ecommerce.customer.sendmail,init:0
+msgid "Mail to Customer"
+msgstr "Mail para o Cliente"
+
+#. module: ecommerce
+#: rml:account.invoice.ecom:0
+msgid "Fax :"
+msgstr "Fax :"
+
+#. module: ecommerce
+#: model:product.template,name:ecommerce.product_product_lap_hdd1_product_template
+msgid "80gb harddisk "
+msgstr "80gb disco rígido "
+
+#. module: ecommerce
+#: view:ecommerce.payment:0
+#: view:ecommerce.payment.method:0
+#: view:ecommerce.shop:0
+#: field:ecommerce.shop,payment_method_ids:0
+msgid "Payment Methods"
+msgstr "Formas de pagamento"
+
+#. module: ecommerce
+#: field:ecommerce.partner,last_name:0
+msgid "Last Name"
+msgstr "Sobrenome"
+
+#. module: ecommerce
+#: field:ecommerce.partner,company_name:0
+msgid "Company Name"
+msgstr "Nome da Empresa"
+
+#. module: ecommerce
+#: rml:account.invoice.ecom:0
+msgid "Total (excl. taxes):"
+msgstr "Total (excluindo Impostos):"
+
+#. module: ecommerce
+#: model:product.template,name:ecommerce.product_product_ram1_product_template
+msgid "20gb maxto"
+msgstr "20gb MaxTo"
+
+#. module: ecommerce
+#: field:ecommerce.partner.address,mobile:0
+msgid "Mobile"
+msgstr "Celular"
+
+#. module: ecommerce
+#: field:ecommerce.saleorder,note:0
+msgid "Notes"
+msgstr "Notas"
+
+#. module: ecommerce
+#: field:ecommerce.saleorder,order_id:0
+msgid "Sale Order"
+msgstr "Ordem de Venda"
+
+#. module: ecommerce
+#: rml:account.invoice.ecom:0
+msgid "Taxes"
+msgstr "Impostos"
+
+#. module: ecommerce
+#: view:ecommerce.shop:0
+msgid "Add Image Size"
+msgstr "Adicionar Tamanho da Imagem"
+
+#. module: ecommerce
+#: view:ecommerce.product.reviews:0
+msgid "Reviews"
+msgstr "Comentários"
+
+#. module: ecommerce
+#: rml:account.invoice.ecom:0
+msgid "Amount"
+msgstr "Amount"
+
+#. module: ecommerce
+#: field:ecommerce.payment,transaction_dtl_ids:0
+msgid "Transaction History"
+msgstr "History Transaction"
+
+#. module: ecommerce
+#: model:ir.ui.menu,name:ecommerce.menu_ecommerce_products
+msgid "Products"
+msgstr "Produtos"
+
+#. module: ecommerce
+#: model:ir.model,name:ecommerce.model_ecommerce_category
+msgid "ecommerce category"
+msgstr "ecommerce categoria"
+
+#. module: ecommerce
+#: model:ir.model,name:ecommerce.model_ecommerce_search
+msgid "search parameters"
+msgstr "parâmetros de pesquisa"
+
+#. module: ecommerce
+#: wizard_view:ecommerce.customer.sendmail,finished:0
+msgid "Operation Completed"
+msgstr "Operação Concluída"
+
+#. module: ecommerce
+#: field:ecommerce.product.reviews,rating:0
+msgid "Rating"
+msgstr "Classificação"
+
+#. module: ecommerce
+#: field:ecommerce.saleorder,epartner_invoice_id:0
+msgid "Invoice Address"
+msgstr "Fatura Endereço"
+
+#. module: ecommerce
+#: field:ecommerce.shop,column_configuration:0
+msgid "No. of Columns"
+msgstr "N º de Colunas"
+
+#. module: ecommerce
+#: wizard_button:ecommerce.customer.sendmail,finished,end:0
+msgid "OK"
+msgstr "OK"
+
+#. module: ecommerce
+#: field:ecommerce.payment,acc_number:0
+msgid "Account Number"
+msgstr "Número da Conta"
+
+#. module: ecommerce
+#: view:ecommerce.shop:0
+msgid "Add Product Row,Column"
+msgstr "Adicionar linha de produtos, Coluna"
+
+#. module: ecommerce
+#: model:product.template,name:ecommerce.product_product_ecom1_product_template
+msgid "Compaq-0028"
+msgstr "Compaq-0028"
+
+#. module: ecommerce
+#: view:ecommerce.shop:0
+msgid "Add Currency"
+msgstr "Adicionar Moeda"
+
+#. module: ecommerce
+#: constraint:product.category:0
+#: constraint:res.partner.category:0
+msgid "Error ! You can not create recursive categories."
+msgstr "Erro! Você não pode criar categorias recursivas."
+
+#. module: ecommerce
+#: rml:account.invoice.ecom:0
+msgid "Tax"
+msgstr "Imposto"
+
+#. module: ecommerce
+#: field:ecommerce.search,code:0
+msgid "Product fields"
+msgstr "Campos de produtos"
+
+#. module: ecommerce
+#: model:ir.module.module,shortdesc:ecommerce.module_meta_information
+msgid "E-Commerce"
+msgstr "E-Commerce"
+
+#. module: ecommerce
+#: view:ecommerce.shop:0
+msgid "WebShop Description"
+msgstr "WebShop Descrição"
+
+#. module: ecommerce
+#: view:product.product:0
+msgid "Extra Info"
+msgstr "Informações extra"
+
+#. module: ecommerce
+#: help:ecommerce.shop,search_ids:0
+msgid "Add the search parameters which you are allow from the website."
+msgstr "Adicione os parâmetros de busca que permitem que você está no site."
+
+#. module: ecommerce
+#: field:ecommerce.partner.address,partner_id:0
+#: field:ecommerce.payment.received,partner_id:0
+msgid "Partner"
+msgstr "Partner"
+
+#. module: ecommerce
+#: field:ecommerce.payment.received,transaction_date:0
+msgid "Date Payment"
+msgstr "Data de Pagamento"
+
+#. module: ecommerce
+#: field:ecommerce.payment.received,saleorder_id:0
+msgid "Sales Order"
+msgstr "Ordem de Vendas"
+
+#. module: ecommerce
+#: view:ecommerce.saleorder:0
+msgid "Order Line"
+msgstr "Linha da Ordem"
+
+#. module: ecommerce
+#: help:ecommerce.category,name:0
+msgid "Add the category name which you want to display at the website."
+msgstr "Adicione o nome da categoria que você deseja exibir no site."
+
+#. module: ecommerce
+#: wizard_field:ecommerce.customer.sendmail,init,subject:0
+msgid "Subject"
+msgstr "Assunto"
+
+#. module: ecommerce
+#: model:product.category,name:ecommerce.product_category_peripherals
+msgid "Computer Peripherals"
+msgstr "Periféricos"
+
+#. module: ecommerce
+#: view:ecommerce.partner:0
+#: model:ir.actions.act_window,name:ecommerce.action_partner_ecommerce_form
+#: model:ir.ui.menu,name:ecommerce.menu_ecommerce_partners
+#: model:ir.ui.menu,name:ecommerce.menu_partner_ecommerce_form
+msgid "Partners"
+msgstr "Parceiros"
+
+#. module: ecommerce
+#: view:ecommerce.shop:0
+msgid "Add Carriers"
+msgstr "Adicionar Carriers"
+
+#. module: ecommerce
+#: help:ecommerce.shop,row_configuration:0
+msgid ""
+"Add number of rows for products which you want to configure at website"
+msgstr ""
+"Adicionar número de linhas para os produtos que você deseja configurar no "
+"site"
+
+#. module: ecommerce
+#: field:ecommerce.category,category_id:0
+msgid "Tiny Category"
+msgstr "Minúsculo Categoria"
+
+#. module: ecommerce
+#: rml:account.invoice.ecom:0
+msgid "Disc. (%)"
+msgstr "Disc. (%)"
+
+#. module: ecommerce
+#: constraint:ir.ui.view:0
+msgid "Invalid XML for View Architecture!"
+msgstr "Inválido XML para Ver Arquitetura!"
+
+#. module: ecommerce
+#: field:ecommerce.category,child_ids:0
+msgid "Child Categories"
+msgstr "Categorias filhas"
+
+#. module: ecommerce
+#: rml:account.invoice.ecom:0
+msgid "Supplier Invoice"
+msgstr "Fatura Fornecedor"
+
+#. module: ecommerce
+#: field:ecommerce.partner.address,state_id:0
+#: field:ecommerce.payment,state_id:0
+msgid "State"
+msgstr "Situação"
+
+#. module: ecommerce
+#: help:ecommerce.search,name:0
+msgid "Search parameter name which you want to display at website"
+msgstr "Buscar Nome do Parâmetro Que Você. deseja exibir nenhum site"
+
+#. module: ecommerce
+#: view:ecommerce.product.reviews:0
+#: model:ir.ui.menu,name:ecommerce.menu_action_ecommerce_reviews_view_form
+msgid "Product Reviews"
+msgstr "Analyses AO PRODUTO"
+
+#. module: ecommerce
+#: field:ecommerce.shop,image_height:0
+msgid "Height in Pixel"
+msgstr "Altura los Pixel"
+
+#. module: ecommerce
+#: field:ecommerce.saleorder,orderline_ids:0
+msgid "Order Lines"
+msgstr "Encomendar Lines"
+
+#. module: ecommerce
+#: field:ecommerce.partner.address,type:0
+msgid "Address Type"
+msgstr "Tipo de endereço"
+
+#. module: ecommerce
+#: help:ecommerce.shop,column_configuration:0
+msgid ""
+"Add number of columns for products which you want to configure at website"
+msgstr ""
+"Adicionar número de colunas para os produtos que você deseja configurar no "
+"site"
+
+#. module: ecommerce
+#: model:product.template,name:ecommerce.product_product_lap_ram3_product_template
+msgid "RAM D101GGC "
+msgstr "RAM D101GGC "
+
+#. module: ecommerce
+#: help:ecommerce.payment,return_url:0
+msgid "Return url which is set at the paypal account."
+msgstr "Url, que é definido na conta paypal voltar."
+
+#. module: ecommerce
+#: field:ecommerce.order.line,product_uom_id:0
+msgid "Product UOM"
+msgstr "Produto UOM"
+
+#. module: ecommerce
+#: rml:account.invoice.ecom:0
+#: field:ecommerce.order.line,product_qty:0
+msgid "Quantity"
+msgstr "Quantidade"
+
+#. module: ecommerce
+#: field:ecommerce.payment.received,transaction_id:0
+msgid "Transaction Id"
+msgstr "ID da transação"
+
+#. module: ecommerce
+#: field:ecommerce.saleorder,name:0
+msgid "Order Reference"
+msgstr "Referência à ordem"
+
+#. module: ecommerce
+#: help:ecommerce.shop,image_height:0
+msgid "Add product image height in pixels."
+msgstr "Adicionar altura da imagem do produto em pixels."
+
+#. module: ecommerce
+#: field:ecommerce.saleorder,pricelist_id:0
+msgid "Pricelist"
+msgstr "Lista de Preços"
+
+#. module: ecommerce
+#: model:ir.ui.menu,name:ecommerce.menu_ecommerce_configuration
+msgid "Configuration"
+msgstr "Configuração"
+
+#. module: ecommerce
+#: view:ecommerce.payment:0
+msgid "Credit Cards Accepted"
+msgstr "Aceitamos Cartões de Crédito"
+
+#. module: ecommerce
+#: view:ecommerce.partner:0
+#: field:ecommerce.partner,category_ids:0
+#: view:ecommerce.shop:0
+#: field:ecommerce.shop,category_ids:0
+msgid "Categories"
+msgstr "Categories"
+
+#. module: ecommerce
+#: field:ecommerce.payment,bic:0
+msgid "BIC number or SWIFT"
+msgstr "Número BIC ou SWIFT"
+
+#. module: ecommerce
+#: field:ecommerce.shop,shop_id:0
+msgid "Sale Shop"
+msgstr "Loja de venda"
+
+#. module: ecommerce
+#: constraint:product.template:0
+msgid "Error: UOS must be in a different category than the UOM"
+msgstr "Erro: UOS DEVE Estar los UMA categoria Diferente da UOM"
+
+#. module: ecommerce
+#: field:ecommerce.category,parent_category_id:0
+msgid "Parent Category"
+msgstr "Categoria Pai"
+
+#. module: ecommerce
+#: field:ecommerce.partner.address,username:0
+msgid "Contact Name"
+msgstr "Nome Contato"
+
+#. module: ecommerce
+#: model:product.category,name:ecommerce.product_category_ram
+msgid "RAM Computer Acessories"
+msgstr "RAM Acessórios Computador"
+
+#. module: ecommerce
+#: help:ecommerce.category,category_id:0
+msgid "It display the product which are under the openerp category."
+msgstr "É mostrar o produto que estão sob a categoria OpenERP."
+
+#. module: ecommerce
+#: model:ir.ui.menu,name:ecommerce.menu_ecommerce_payment
+msgid "Payment Configuration"
+msgstr "Configuração de pagamento"
+
+#. module: ecommerce
+#: model:ir.ui.menu,name:ecommerce.menu_sale_order_form
+msgid "Ecommerce Sales Orders"
+msgstr "Ecommerce Pedidos de Vendas"
+
+#. module: ecommerce
+#: selection:ecommerce.partner.address,type:0
+msgid "Contact"
+msgstr "Contato"
+
+#. module: ecommerce
+#: model:product.template,name:ecommerce.product_product_lap_acer1_product_template
+msgid "The Ferrari 1100"
+msgstr "O Ferrari 1100"
+
+#. module: ecommerce
+#: rml:account.invoice.ecom:0
+msgid "Draft Invoice"
+msgstr "Projeto Nota Fiscal"
+
+#. module: ecommerce
+#: view:ecommerce.partner.address:0
+#: model:ir.actions.act_window,name:ecommerce.action_partner_ecommerce_address_form
+#: model:ir.ui.menu,name:ecommerce.menu_action_partner_ecommerce_address_form
+msgid "Partner Contacts"
+msgstr "Parceiros Contatos"
+
+#. module: ecommerce
+#: rml:account.invoice.ecom:0
+msgid "VAT :"
+msgstr "IVA  :"
+
+#. module: ecommerce
+#: model:product.template,name:ecommerce.product_product_ecom2_product_template
+msgid "Compaq Presario C707TU"
+msgstr "Compaq Presario C707TU"
+
+#. module: ecommerce
+#: view:ecommerce.payment:0
+msgid "Bank Wired Transaction"
+msgstr "Banco Wired Transação"
+
+#. module: ecommerce
+#: help:ecommerce.shop,image_width:0
+msgid "Add product image width in pixels."
+msgstr "Adicionar largura da imagem do produto em pixels."
+
+#. module: ecommerce
+#: rml:account.invoice.ecom:0
+msgid "(incl. taxes):"
+msgstr "(impostos inclusos):"
+
+#. module: ecommerce
+#: model:product.category,name:ecommerce.product_category_hdd
+msgid "Hard disks"
+msgstr "Os discos rígidos"
+
+#. module: ecommerce
+#: field:ecommerce.shop,currency_ids:0
+msgid "Currency"
+msgstr "Moeda"
+
+#. module: ecommerce
+#: rml:account.invoice.ecom:0
+msgid "Tel. :"
+msgstr "Tel. :"
+
+#. module: ecommerce
+#: model:ir.actions.act_window,name:ecommerce.action_ecommerce_creditcard_form
+msgid "Credit Card"
+msgstr "Cartão de Crédito"
+
+#. module: ecommerce
+#: model:product.category,name:ecommerce.product_category_acer
+msgid "Acer"
+msgstr "Acer"
+
+#. module: ecommerce
+#: view:ecommerce.shop:0
+msgid "Basic Store"
+msgstr "Loja"
+
+#. module: ecommerce
+#: model:product.template,name:ecommerce.product_product_ecom5_product_template
+msgid "Compaq Presario c700"
+msgstr "Compaq Presario c700"
+
+#. module: ecommerce
+#: field:product.product,product_logo:0
+msgid "Product Logo"
+msgstr "Logo produto"
+
+#. module: ecommerce
+#: help:ecommerce.shop,category_ids:0
+msgid ""
+"Add the product categories which you want to displayed on the website."
+msgstr "Adicione as categorias de produtos que você deseja exibido no site."
+
+#. module: ecommerce
+#: field:ecommerce.partner.address,street:0
+#: field:ecommerce.payment,street:0
+msgid "Street"
+msgstr "Rua"
+
+#. module: ecommerce
+#: field:ecommerce.saleorder,epartner_add_id:0
+msgid "Contact Address"
+msgstr "Endereço do contato"
+
+#. module: ecommerce
+#: rml:account.invoice.ecom:0
+msgid "Partner Code:"
+msgstr "Código Partner:"
+
+#. module: ecommerce
+#: model:product.category,name:ecommerce.product_category_compaq
+msgid "Compaq"
+msgstr "Compaq"
+
+#. module: ecommerce
+#: field:ecommerce.shop,search_ids:0
+msgid "Search On"
+msgstr "Pesquisa no"
+
+#. module: ecommerce
+#: field:ecommerce.partner,address_ids:0
+msgid "Contacts"
+msgstr "Contatos"
+
+#. module: ecommerce
+#: wizard_field:ecommerce.customer.sendmail,finished,mailsent:0
+msgid "Mail Sent to"
+msgstr "E-mails enviados Pará"
+
+#. module: ecommerce
+#: field:ecommerce.payment.received,paypal_acc_id:0
+msgid "Paypal Account"
+msgstr "Conta Paypal"
+
+#. module: ecommerce
+#: code:addons/ecommerce/partner/partner.py:0
+#, python-format
+msgid "No price avaible !"
+msgstr "No avaible preço!"
+
+#. module: ecommerce
+#: constraint:product.template:0
+msgid ""
+"Error: The default UOM and the purchase UOM must be in the same category."
+msgstr ""
+"Erro: A UdM padrão e a UdM de compra precisam estar na mesma categoria."
+
+#. module: ecommerce
+#: field:ecommerce.payment,cancel_url:0
+msgid "Cancel URL"
+msgstr "Cancelar URL"
+
+#. module: ecommerce
+#: view:ecommerce.shop:0
+msgid "Add Languages"
+msgstr "Adicionar Idiomas"
+
+#. module: ecommerce
+#: field:ecommerce.payment,return_url:0
+msgid "Return URL"
+msgstr "URL voltar"
+
+#. module: ecommerce
+#: wizard_field:ecommerce.customer.sendmail,init,attachment:0
+msgid "Attachment"
+msgstr "Acessório"
+
+#. module: ecommerce
+#: model:ir.model,name:ecommerce.model_ecommerce_partner_address
+msgid "ecommerce partner address"
+msgstr "ecommerce endereço parceiro"
+
+#. module: ecommerce
+#: rml:account.invoice.ecom:0
+msgid "PRO-FORMA"
+msgstr "Pro-forma"
+
+#. module: ecommerce
+#: field:ecommerce.partner.address,phone:0
+msgid "Phone"
+msgstr "Telefone"
+
+#. module: ecommerce
+#: help:ecommerce.shop,delivery_ids:0
+msgid "Add the carriers which you use for the shipping."
+msgstr "Adicione as transportadoras que você usa para o transporte."
+
+#. module: ecommerce
+#: field:ecommerce.saleorder,epartner_shipping_id:0
+msgid "Shipping Address"
+msgstr "Endereço para envio"
+
+#. module: ecommerce
+#: view:ecommerce.order.line:0
+#: view:ecommerce.saleorder:0
+#: model:ir.ui.menu,name:ecommerce.menu_ecommerce_saleorder
+msgid "Sales Orders"
+msgstr "Pedidos de Vendas"
+
+#. module: ecommerce
+#: code:addons/ecommerce/sale_order/sale_order.py:0
+#, python-format
+msgid "Your journal must have a default credit and debit account."
+msgstr "Seu diário deve ter um crédito em incumprimento e débito em conta."
+
+#. module: ecommerce
+#: field:ecommerce.partner.address,email:0
+msgid "E-Mail"
+msgstr "E-Mail"
+
+#. module: ecommerce
+#: field:ecommerce.payment,bank_name:0
+msgid "Bank Name"
+msgstr "Nome de Banco"
+
+#. module: ecommerce
+#: view:ecommerce.category:0
+msgid "Product Categories"
+msgstr "Categorias de Produtos"
+
+#. module: ecommerce
+#: field:ecommerce.partner,active:0
+msgid "Active"
+msgstr "Active"
+
+#. module: ecommerce
+#: rml:account.invoice.ecom:0
+msgid ":"
+msgstr ":"
+
+#. module: ecommerce
+#: wizard_view:ecommerce.customer.sendmail,finished:0
+msgid "Mail send"
+msgstr "Enviar enviar"
+
+#. module: ecommerce
+#: model:ir.ui.menu,name:ecommerce.menu_ecommerce_product_category_action
+msgid "Ecommerce Products by Category"
+msgstr "Ecommerce produtos por categoria"
+
+#. module: ecommerce
+#: help:ecommerce.payment,cancel_url:0
+msgid "Cancel url which is set at the paypal account."
+msgstr "Cancelar url que está definido na conta paypal."
+
+#. module: ecommerce
+#: view:ecommerce.shop:0
+msgid "Search"
+msgstr "Pesquisar"
+
+#. module: ecommerce
+#: model:ir.actions.wizard,name:ecommerce.ecommerce_product_view_id
+msgid "View Product"
+msgstr "Ver produto"
+
+#. module: ecommerce
+#: field:ecommerce.partner,lang:0
+#: field:ecommerce.shop,language_ids:0
+msgid "Language"
+msgstr "Linguagem"
+
+#. module: ecommerce
+#: selection:ecommerce.partner.address,type:0
+msgid "Default"
+msgstr "Default"
+
+#. module: ecommerce
+#: help:ecommerce.payment,acc_number:0
+msgid "Bank account number"
+msgstr "Número de conta bancária"
+
+#. module: ecommerce
+#: wizard_button:ecommerce.customer.sendmail,init,connect:0
+#: model:ir.actions.wizard,name:ecommerce.eshop_send_mail
+msgid "Send Mail"
+msgstr "Enviar Email"
+
+#. module: ecommerce
+#: help:ecommerce.partner,name:0
+msgid "Its ecommerce partner name and address"
+msgstr "Seu nome parceiro de comércio eletrônico e endereço"
+
+#. module: ecommerce
+#: field:ecommerce.payment.method,shortcut:0
+msgid "Shortcut"
+msgstr "Atalho"
+
+#. module: ecommerce
+#: field:ecommerce.shop,row_configuration:0
+msgid "No. of Rows"
+msgstr "N º de linhas"
+
+#. module: ecommerce
+#: view:ecommerce.payment:0
+msgid "History"
+msgstr "Historia"
+
+#. module: ecommerce
+#: rml:account.invoice.ecom:0
+msgid "Refund"
+msgstr "Reembolsar"
+
+#. module: ecommerce
+#: help:ecommerce.payment,biz_account:0
+msgid "Paypal business account Id."
+msgstr "Paypal conta Id negócio."
+
+#. module: ecommerce
+#: field:ecommerce.creditcard,code:0
+msgid "Code"
+msgstr "Código"
+
+#. module: ecommerce
+#: help:ecommerce.shop,name:0
+msgid "Name of the shop which you are configure at website."
+msgstr "Nome da loja que você configurar pelo site."
+
+#. module: ecommerce
+#: view:ecommerce.shop:0
+msgid "General Information"
+msgstr "General Information"
+
+#. module: ecommerce
+#: model:product.template,name:ecommerce.product_product_lap_ram2_product_template
+msgid "120gb maxto"
+msgstr "120gb MaxTo"
+
+#. module: ecommerce
+#: field:ecommerce.product.reviews,reviewdate:0
+msgid "Review Date"
+msgstr "Reveja Data"
+
+#. module: ecommerce
+#: model:ir.module.module,description:ecommerce.module_meta_information
+msgid ""
+"\n"
+"ecommerce users can order on the website, orders are automatically imported "
+"in OpenERP.\n"
+"\n"
+"You can export products, product's categories, product images and create "
+"links between\n"
+"categories of products, currency and languages to website.\n"
+"\n"
+"Delivery of products manage by carriers.\n"
+"\n"
+"Different payment methods are available for users to make payment.\n"
+"\n"
+"You can display products in table on website using rows and columns "
+"specified in webshop.\n"
+"                 "
+msgstr ""
+"\n"
+"usuários de comércio eletrônico pode encomendar no site, os pedidos são "
+"importados automaticamente no OpenERP. \n"
+"Você pode exportar produtos, categorias de produtos, imagens de produtos e "
+"criar ligações entre \n"
+"categorias de produtos, moedas e idiomas para o site. \n"
+"Entrega de produtos gerir pelas transportadoras. \n"
+"diferentes métodos de pagamento são disponível para os usuários a fazer o "
+"pagamento. \n"
+"Você pode exibir produtos na tabela no site usando linhas e colunas "
+"especificadas na loja virtual.\n"
+"                 "
+
+#. module: ecommerce
+#: rml:account.invoice.ecom:0
+#: selection:ecommerce.partner.address,type:0
+#: field:ecommerce.payment.received,invoice_id:0
+msgid "Invoice"
+msgstr "Invoice"
+
+#. module: ecommerce
+#: field:ecommerce.shop,image_width:0
+msgid "Width in Pixel"
+msgstr "Largura em Pixel"
+
+#. module: ecommerce
+#: wizard_button:ecommerce.customer.sendmail,init,end:0
+msgid "Cancel"
+msgstr "Cancel"
+
+#. module: ecommerce
+#: field:product.pricelist.version,offer_name:0
+msgid "Offer Name"
+msgstr "Oferecer Nome"
+
+#. module: ecommerce
+#: model:ir.model,name:ecommerce.model_ecommerce_partner
+msgid "ecommerce partner"
+msgstr "ecommerce parceiro"
+
+#. module: ecommerce
+#: view:ecommerce.partner:0
+#: view:ecommerce.partner.address:0
+msgid "Partner contacts"
+msgstr "Contactos Parceiros"
+
+#. module: ecommerce
+#: field:ecommerce.partner.address,city:0
+#: field:ecommerce.payment,city:0
+msgid "City"
+msgstr "Cidade"
+
+#. module: ecommerce
+#: model:product.template,name:ecommerce.product_product_lap_acer3_product_template
+msgid "ACER 4720"
+msgstr "ACER 4720"
+
+#. module: ecommerce
+#: constraint:ir.model:0
+msgid ""
+"The Object name must start with x_ and not contain any special character !"
+msgstr ""
+"O nome do objeto deve iniciar com x_ e não conter qualquer caractere "
+"especial!"
+
+#. module: ecommerce
+#: model:ir.model,name:ecommerce.model_ecommerce_product_reviews
+msgid "Reviews about product"
+msgstr "Comentários sobre o produto"
+
+#. module: ecommerce
+#: model:ir.model,name:ecommerce.model_ecommerce_saleorder
+msgid "ecommerce saleorder"
+msgstr "ecommerce saleorder"
+
+#. module: ecommerce
+#: field:ecommerce.payment,chequepay_to:0
+msgid "Account Owner"
+msgstr "Conta Proprietário"
+
+#. module: ecommerce
+#: model:product.category,name:ecommerce.product_category_accesories
+msgid "Acessories"
+msgstr "Acessórios"
+
+#. module: ecommerce
+#: view:ecommerce.creditcard:0
+msgid "Credit Card List"
+msgstr "Lista de Cartão de Crédito"
+
+#. module: ecommerce
+#: selection:ecommerce.partner.address,type:0
+msgid "Other"
+msgstr "Outro"
+
+#. module: ecommerce
+#: model:ir.actions.act_window,name:ecommerce.action_webshop_form_new
+#: model:ir.ui.menu,name:ecommerce.menu_web_shop_form_new
+msgid "New Web Shop"
+msgstr "New Web Shop"
+
+#. module: ecommerce
+#: field:ecommerce.order.line,order_id:0
+msgid "eOrder Ref"
+msgstr "eOrder Ref"
+
+#. module: ecommerce
+#: rml:account.invoice.ecom:0
+#: field:ecommerce.order.line,price_unit:0
+msgid "Unit Price"
+msgstr "Preço Unitário"
+
+#. module: ecommerce
+#: rml:account.invoice.ecom:0
+msgid "Taxes:"
+msgstr "Impostos:"
+
+#. module: ecommerce
+#: model:ir.actions.report.xml,name:ecommerce.ecommerce_shipping_inv1
+msgid "Shipping Invoice"
+msgstr "Fatura do Transporte"
+
+#. module: ecommerce
+#: help:ecommerce.payment.received,transaction_id:0
+msgid "Its Unique id which is generated from the paypal."
+msgstr "SUA IDENTIFICAÇÃO Única Que E Gerado a Partir fazer paypal."
+
+#. module: ecommerce
+#: field:ecommerce.order.line,product_id:0
+#: field:ecommerce.product.reviews,product_id:0
+msgid "Product"
+msgstr "Produto"
+
+#. module: ecommerce
+#: field:ecommerce.payment,name:0
+msgid "Payment Method"
+msgstr "Forma de Pagamento"
+
+#. module: ecommerce
+#: rml:account.invoice.ecom:0
+#: field:ecommerce.order.line,name:0
+msgid "Description"
+msgstr "Descrição"
+
+#. module: ecommerce
+#: view:ecommerce.saleorder:0
+msgid "Other data"
+msgstr "To Us Link Dados"
+
+#. module: ecommerce
+#: rml:account.invoice.ecom:0
+msgid "Price"
+msgstr "Price"
+
+#. module: ecommerce
+#: field:ecommerce.partner.address,street2:0
+#: field:ecommerce.payment,street2:0
+msgid "Street2"
+msgstr "Complemento"
+
+#. module: ecommerce
+#: rml:account.invoice.ecom:0
+msgid "Canceled Invoice"
+msgstr "Fatura Cancelada"
+
+#. module: ecommerce
+#: model:product.category,name:ecommerce.product_category_laptop0
+msgid "Laptop"
+msgstr "Laptop"
+
+#. module: ecommerce
+#: selection:ecommerce.partner.address,type:0
+#: view:ecommerce.shop:0
+#: field:ecommerce.shop,delivery_ids:0
+msgid "Delivery"
+msgstr "Entrega"
+
+#. module: ecommerce
+#: wizard_field:ecommerce.customer.sendmail,finished,mailnotsent:0
+msgid "Mail Not sent"
+msgstr "E-mail não enviado"
+
+#. module: ecommerce
+#: field:ecommerce.creditcard,name:0
+msgid "Card Name"
+msgstr "Nome do cartão"
+
+#. module: ecommerce
+#: model:product.template,name:ecommerce.product_product_lap_acer5_product_template
+msgid "Acer AS 5315"
+msgstr "Acer AS 5315"
+
+#. module: ecommerce
+#: view:ecommerce.payment:0
+msgid "Payment Address"
+msgstr "Endereço de Pagamento"
+
+#. module: ecommerce
+#: view:ecommerce.shop:0
+msgid "Add Search Parameters"
+msgstr "Adicionar parâmetros de pesquisa"
+
+#. module: ecommerce
+#: code:addons/ecommerce/partner/partner.py:0
+#, python-format
+msgid "No line matched this order in the choosed delivery grids !"
+msgstr "Nenhuma linha acompanhado este fim nas grades de entrega escolhida!"
+
+#. module: ecommerce
+#: view:ecommerce.payment:0
+#: view:ecommerce.shop:0
+#: model:ir.actions.act_window,name:ecommerce.action_payment_ecommerce_form
+#: model:ir.ui.menu,name:ecommerce.menu_payment_ecommerce_form
+msgid "Payment"
+msgstr "Pagamento"
+
+#. module: ecommerce
+#: wizard_field:ecommerce.customer.sendmail,init,partner_id:0
+#: field:ecommerce.product.reviews,customer_id:0
+msgid "Customer"
+msgstr "Cliente"
+
+#. module: ecommerce
+#: model:product.template,name:ecommerce.product_product_ecom7_product_template
+msgid "Compaq Presario C786TU"
+msgstr "Compaq Presario C786Tu"
+
+#. module: ecommerce
+#: view:ecommerce.category:0
+msgid "Products Categories"
+msgstr "Categorias de produtos"
+
+#. module: ecommerce
+#: field:ecommerce.partner,name:0
+#: field:ecommerce.payment.method,name:0
+#: field:ecommerce.search,name:0
+#: field:ecommerce.shop,name:0
+msgid "Name"
+msgstr "nome"
+
+#. module: ecommerce
+#: help:ecommerce.payment,transaction_dtl_ids:0
+msgid "Transaction detail with the uniq transaction id."
+msgstr "Detalhes da transação com o uniq ID da transação."
+
+#. module: ecommerce
+#: model:product.category,name:ecommerce.product_category_mb
+msgid "Mother Board"
+msgstr "Placa mãe"
+
+#. module: ecommerce
+#: model:product.template,name:ecommerce.product_product_ecom3_product_template
+msgid "Compaq - TU"
+msgstr "Compaq - TU"
+
+#. module: ecommerce
+#: field:ecommerce.partner.address,country_id:0
+#: field:ecommerce.payment,country_id:0
+msgid "Country"
+msgstr "País"
+
+#. module: ecommerce
+#: field:ecommerce.saleorder,date_order:0
+msgid "Date Ordered"
+msgstr "Data do Pedido"
+
+#. module: ecommerce
+#: model:product.template,name:ecommerce.product_product_ecom4_product_template
+msgid "Compaq Notebook"
+msgstr "Notebook Compaq"
+
+#. module: ecommerce
+#: help:ecommerce.payment.received,transaction_date:0
+msgid "Transaction finish date."
+msgstr "Transação data de término."
+
+#. module: ecommerce
+#: model:ir.model,name:ecommerce.model_ecommerce_payment_method
+msgid "payment method"
+msgstr "método de pagamento"
+
+#. module: ecommerce
+#: view:ecommerce.shop:0
+msgid "Setting"
+msgstr "Fixação"
+
+#. module: ecommerce
+#: model:ir.model,name:ecommerce.model_ecommerce_shop
+msgid "ecommerce shop"
+msgstr "ecommerce loja"
+
+#. module: ecommerce
+#: view:ecommerce.payment.received:0
+msgid "Payment Received Details"
+msgstr "Pagamento Recebido detalhes"
+
+#. module: ecommerce
+#: code:addons/ecommerce/sale_order/sale_order.py:0
+#, python-format
+msgid "Error !"
+msgstr "Erro!"
+
+#. module: ecommerce
+#: model:product.template,name:ecommerce.product_product_ecom6_product_template
+msgid "Compaq Presario V3749AU"
+msgstr "Compaq Presario V3749AU"
+
+#. module: ecommerce
+#: model:ir.actions.act_window,name:ecommerce.action_payment_received_form
+#: model:ir.ui.menu,name:ecommerce.menu_payment_received_form
+msgid "Payment Received"
+msgstr "Pagamento Recebido"
+
+#. module: ecommerce
+#: rml:account.invoice.ecom:0
+msgid "Shipping Charge:"
+msgstr "A taxa de envio:"
+
+#. module: ecommerce
+#: wizard_field:ecommerce.customer.sendmail,init,message:0
+msgid "Message"
+msgstr "Mensagem"
+
+#. module: ecommerce
+#: rml:account.invoice.ecom:0
+msgid "Total"
+msgstr "Total"
+
+#. module: ecommerce
+#: field:ecommerce.payment,creditcard_ids:0
+#: model:ir.model,name:ecommerce.model_ecommerce_creditcard
+#: model:ir.ui.menu,name:ecommerce.menu_ecommerce_creditcard_form
+msgid "Credit Cards"
+msgstr "Cartões de Crédito"
+
+#. module: ecommerce
+#: model:product.template,name:ecommerce.product_product_ecom8_product_template
+msgid "COMPAQ LENOVO"
+msgstr "COMPAQ LENOVO"
+
+#. module: ecommerce
+#: view:ecommerce.payment:0
+msgid "Paypal Account Detail"
+msgstr "Detalhes da conta Paypal"
+
+#. module: ecommerce
+#: field:ecommerce.category,name:0
+msgid "E-commerce Category"
+msgstr "E-commerce Categoria"
+
+#. module: ecommerce
+#: help:ecommerce.shop,currency_ids:0
+msgid "Add the currency options for the online customers."
+msgstr "Adicione as opções de moeda para os clientes on-line."
+
+#. module: ecommerce
+#: constraint:product.product:0
+msgid "Error: Invalid ean code"
+msgstr "Error: código EAN invalido"
+
+#. module: ecommerce
+#: rml:account.invoice.ecom:0
+msgid "Supplier Refund"
+msgstr "Reembolso supplier"
+
+#. module: ecommerce
+#: field:ecommerce.saleorder,epartner_id:0
+msgid "Ecommerce Partner"
+msgstr "Partner Ecommerce"
+
+#. module: ecommerce
+#: model:ir.ui.menu,name:ecommerce.menu_ecommerce
+msgid "Ecommerce"
+msgstr "Ecommerce"
+
+#. module: ecommerce
+#: model:ir.model,name:ecommerce.model_ecommerce_payment_received
+msgid "ecommerce payment received"
+msgstr "pagamento ecommerce recebido"

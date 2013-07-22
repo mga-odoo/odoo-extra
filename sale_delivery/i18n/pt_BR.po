@@ -1,0 +1,132 @@
+# Brazilian Portuguese translation for openobject-addons
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the openobject-addons package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openobject-addons\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2009-11-25 14:26+0000\n"
+"PO-Revision-Date: 2013-07-20 14:53+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-07-22 05:50+0000\n"
+"X-Generator: Launchpad (build 16696)\n"
+
+#. module: sale_delivery
+#: code:addons/sale_delivery/sale_delivery.py:0
+#, python-format
+msgid ""
+"The quanitties plannified in Deliveries must be equals to the quantities in "
+"the Sale Order lines. \n"
+"\n"
+" [%s] %s : %f delivery qty , %f sale order qty"
+msgstr ""
+"Os quanitties plannified nas entregas devem ser iguais às quantidades nas "
+"linhas de ordem de venda. \n"
+"\n"
+" [%s] %s : %f delivery qty , %f venda ordem qty"
+
+#. module: sale_delivery
+#: field:sale.delivery.line,packaging_id:0
+msgid "Packaging"
+msgstr "Acondicionamento"
+
+#. module: sale_delivery
+#: constraint:ir.ui.view:0
+msgid "Invalid XML for View Architecture!"
+msgstr "Inválido XML para Ver Arquitetura!"
+
+#. module: sale_delivery
+#: code:addons/sale_delivery/sale_delivery.py:0
+#, python-format
+msgid "Error !"
+msgstr "Erro!"
+
+#. module: sale_delivery
+#: model:ir.module.module,shortdesc:sale_delivery.module_meta_information
+msgid "Sale Delivery Planning"
+msgstr "Venda de Planejamento de entrega"
+
+#. module: sale_delivery
+#: model:ir.model,name:sale_delivery.model_sale_delivery_line
+msgid "sale.delivery.line"
+msgstr "sale.delivery.line"
+
+#. module: sale_delivery
+#: view:sale.order:0
+msgid "Notes"
+msgstr "Notas"
+
+#. module: sale_delivery
+#: field:sale.delivery.line,product_id:0
+msgid "Product"
+msgstr "Produto"
+
+#. module: sale_delivery
+#: view:sale.order:0
+msgid "Deliveries"
+msgstr "Entregas"
+
+#. module: sale_delivery
+#: field:sale.delivery.line,note:0
+msgid "Note"
+msgstr "Nota"
+
+#. module: sale_delivery
+#: field:sale.delivery.line,product_qty:0
+msgid "Product Quantity"
+msgstr "Quantidade de Produtos"
+
+#. module: sale_delivery
+#: field:sale.delivery.line,priority:0
+msgid "Priority"
+msgstr "Prioridade"
+
+#. module: sale_delivery
+#: field:sale.delivery.line,product_uom:0
+msgid "Product UoM"
+msgstr "Produto UoM"
+
+#. module: sale_delivery
+#: code:addons/sale_delivery/sale_delivery.py:0
+#, python-format
+msgid ""
+"You have selected a product %s for Delivery but it is not in supposed to be "
+"saled in this Sale Order"
+msgstr ""
+"Você selecionou um produto% s para entrega, mas não é em suposto ser saled "
+"nesta Ordem de Venda"
+
+#. module: sale_delivery
+#: constraint:ir.model:0
+msgid ""
+"The Object name must start with x_ and not contain any special character !"
+msgstr ""
+"O nome do objeto deve iniciar com x_ e não conter qualquer caractere "
+"especial!"
+
+#. module: sale_delivery
+#: field:sale.delivery.line,date_planned:0
+msgid "Date Planned"
+msgstr "Data prevista"
+
+#. module: sale_delivery
+#: field:sale.order.line,deliveries:0
+msgid "Planned Deliveries"
+msgstr "As entregas planejadas"
+
+#. module: sale_delivery
+#: field:sale.delivery.line,order_id:0
+msgid "Order Ref"
+msgstr "Ref. Ordem"
+
+#. module: sale_delivery
+#: view:sale.order:0
+#: field:sale.order,delivery_line:0
+msgid "Delivery Lines"
+msgstr "Linhas de distribuição"

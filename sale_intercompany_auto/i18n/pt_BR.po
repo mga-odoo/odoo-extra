@@ -1,0 +1,57 @@
+# Brazilian Portuguese translation for openobject-addons
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the openobject-addons package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openobject-addons\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2009-11-25 14:27+0000\n"
+"PO-Revision-Date: 2013-07-20 12:54+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-07-22 05:50+0000\n"
+"X-Generator: Launchpad (build 16696)\n"
+
+#. module: sale_intercompany_auto
+#: model:ir.module.module,shortdesc:sale_intercompany_auto.module_meta_information
+msgid "Sale Inter-Company - Fully Automatic"
+msgstr "Venda  inter-empresa- Fully Automatic"
+
+#. module: sale_intercompany_auto
+#: model:ir.module.module,description:sale_intercompany_auto.module_meta_information
+msgid ""
+"\n"
+"    This module automatically generates inter-company documents, without\n"
+"    confirmations or validation steps. When a purchase order is confirmed,\n"
+"    if the partner exist in one of the company <> from the current one, it\n"
+"    generates a SO.\n"
+"\n"
+"    Company C1: Sale order -> Purchase Order (MTO)\n"
+"    Inter-Co : Confirm Purchase Order (C1)\n"
+"    Inter-Co : Purchase Order (C1) -> Sale Order (C2)\n"
+"    Inter-Co : Confirm Sale Order (C2)\n"
+"    Company C2: Continue... picking/porduction/C3\n"
+"\n"
+"    It also works in cascade if you installed the mrp_jit module.\n"
+"    "
+msgstr ""
+"\n"
+"    Este módulo gera automaticamente documentos inter-empresa, sem\n"
+"    confirmações ou etapas de validação. Quando uma ordem de compra for "
+"confirmada,\n"
+"    Se o parceiro de existir em uma empresa de <> da atual, ele\n"
+"    gera um SO.\n"
+"\n"
+"    C1 Empresa: ordem de venda -> Ordem de Compra (OMP)\n"
+"    Inter-Co: Confirmar Ordem de Compra (C1)\n"
+"    Inter-Co: Ordem de Compra (C1) -> Ordem de Venda (C2)\n"
+"    Inter-Co: Confirmar Ordem de Venda (C2)\n"
+"    Empresa C2: Continuar ... picking/porduction/C3\n"
+"\n"
+"    Ele também funciona em cascata, se você instalou o módulo mrp_jit.\n"
+"    "

@@ -1,0 +1,76 @@
+# Brazilian Portuguese translation for openobject-addons
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the openobject-addons package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openobject-addons\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2011-02-01 16:17+0000\n"
+"PO-Revision-Date: 2013-07-20 12:42+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-07-22 05:50+0000\n"
+"X-Generator: Launchpad (build 16696)\n"
+
+#. module: point_of_sale_product_pack
+#: help:pos.order.line,sequence:0
+msgid "Gives the sequence order when displaying a list of sales order lines."
+msgstr ""
+"Dá a ordem de seqüência ao exibir uma lista de linhas de pedidos de vendas."
+
+#. module: point_of_sale_product_pack
+#: field:pos.order.line,sequence:0
+msgid "Sequence"
+msgstr "Seqüência"
+
+#. module: point_of_sale_product_pack
+#: field:pos.order.line,pack_child_line_ids:0
+msgid "Lines in pack"
+msgstr "Linhas los Pacote"
+
+#. module: point_of_sale_product_pack
+#: model:ir.module.module,shortdesc:point_of_sale_product_pack.module_meta_information
+msgid "Point of Sale Product Pack"
+msgstr "Ponto de Venda Pacote de Produtos"
+
+#. module: point_of_sale_product_pack
+#: help:pos.order.line,pack_depth:0
+msgid "Depth of the product if it is part of a pack."
+msgstr "Profundidade do Produto se elementos FAZ Parte de hum Pacote."
+
+#. module: point_of_sale_product_pack
+#: model:ir.module.module,description:point_of_sale_product_pack.module_meta_information
+msgid ""
+"\n"
+"Allows adding product packs (collection of other products) in the point of "
+"sale. If such a product is added in a point of sale order, all the products "
+"of the pack will be added automatically (when storing the order) as children "
+"of the pack product.\n"
+"        "
+msgstr ""
+"\n"
+"Permite adicionar pacotes de produtos (coleção de outros produtos) no ponto "
+"de venda. Se esse produto é adicionado em um ponto de venda de ordem, todos "
+"os produtos do pacote será adicionado automaticamente (ao armazenar a ordem) "
+"como filhos do produto pacote.\n"
+"        "
+
+#. module: point_of_sale_product_pack
+#: field:pos.order.line,pack_depth:0
+msgid "Depth"
+msgstr "Profundidade"
+
+#. module: point_of_sale_product_pack
+#: help:pos.order.line,pack_parent_line_id:0
+msgid "The pack that contains this product."
+msgstr "O pacote que contém este produto."
+
+#. module: point_of_sale_product_pack
+#: field:pos.order.line,pack_parent_line_id:0
+msgid "Pack"
+msgstr "Empacotar"

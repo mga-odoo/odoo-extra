@@ -1,0 +1,102 @@
+# Brazilian Portuguese translation for openobject-addons
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the openobject-addons package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openobject-addons\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2009-11-25 14:51+0000\n"
+"PO-Revision-Date: 2013-07-20 12:15+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-07-22 05:50+0000\n"
+"X-Generator: Launchpad (build 16696)\n"
+
+#. module: event_certificate
+#: rml:event.certificate:0
+msgid "Phone:"
+msgstr "Telefone:"
+
+#. module: event_certificate
+#: rml:event.certificate:0
+#: field:event.event,trainer_id:0
+msgid "Trainer"
+msgstr "Treinador"
+
+#. module: event_certificate
+#: constraint:ir.ui.view:0
+msgid "Invalid XML for View Architecture!"
+msgstr "Inválido XML para Ver Arquitetura!"
+
+#. module: event_certificate
+#: rml:event.certificate:0
+msgid "Certifications"
+msgstr "Certificações"
+
+#. module: event_certificate
+#: model:ir.actions.report.xml,name:event_certificate.report_event_certificate
+msgid "Certificate"
+msgstr "Certidão"
+
+#. module: event_certificate
+#: rml:event.certificate:0
+msgid "Mail:"
+msgstr "Mail:"
+
+#. module: event_certificate
+#: model:ir.module.module,description:event_certificate.module_meta_information
+msgid ""
+"Events Certificate.\n"
+"    This module allow you\n"
+"        * to print certificate related to your events and their "
+"registrations    \n"
+msgstr ""
+"Eventos Certificado.\n"
+"    Este módulo permite que você\n"
+"        * Para imprimir certificado relacionado para seus eventos e as suas "
+"inscrições    \n"
+
+#. module: event_certificate
+#: rml:event.certificate:0
+msgid "-"
+msgstr "-"
+
+#. module: event_certificate
+#: rml:event.certificate:0
+msgid "Page"
+msgstr "Página"
+
+#. module: event_certificate
+#: rml:event.certificate:0
+msgid "To"
+msgstr "A"
+
+#. module: event_certificate
+#: rml:event.certificate:0
+msgid "1.00cm 20.0cm 29.0cm 20.0cm"
+msgstr "1,00 centímetros 20,0 centímetros 29,0 centímetros 20,0 centímetros"
+
+#. module: event_certificate
+#: model:ir.module.module,shortdesc:event_certificate.module_meta_information
+msgid "Event Certificate"
+msgstr "Certificado Evento"
+
+#. module: event_certificate
+#: rml:event.certificate:0
+msgid "COL 2"
+msgstr "COL 2"
+
+#. module: event_certificate
+#: rml:event.certificate:0
+msgid "COL 1"
+msgstr "COL 1"
+
+#. module: event_certificate
+#: rml:event.certificate:0
+msgid "HAS SUCCESSFULLY COMPLETED"
+msgstr "TENHA CONCLUÍDO"

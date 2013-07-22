@@ -1,0 +1,61 @@
+# Brazilian Portuguese translation for openobject-addons
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the openobject-addons package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openobject-addons\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2011-01-20 09:35+0000\n"
+"PO-Revision-Date: 2013-07-20 13:21+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-07-22 05:50+0000\n"
+"X-Generator: Launchpad (build 16696)\n"
+
+#. module: product_variant_multi_advanced
+#: constraint:ir.ui.view:0
+msgid "Invalid XML for View Architecture!"
+msgstr "Inválido XML para Ver Arquitetura!"
+
+#. module: product_variant_multi_advanced
+#: field:product.product,name:0
+msgid "Name"
+msgstr "nome"
+
+#. module: product_variant_multi_advanced
+#: view:product.product:0
+msgid "Sale description"
+msgstr "Denominação de venda"
+
+#. module: product_variant_multi_advanced
+#: field:product.product,description_sale:0
+msgid "Sale Description"
+msgstr "Venda Descrição"
+
+#. module: product_variant_multi_advanced
+#: view:product.template:0
+msgid "Build Sale Description ->"
+msgstr "Construir Venda Descrição ->"
+
+#. module: product_variant_multi_advanced
+#: model:ir.module.module,shortdesc:product_variant_multi_advanced.module_meta_information
+msgid "Product Variant Multi Advanced"
+msgstr "Variant produto multi avançada"
+
+#. module: product_variant_multi_advanced
+#: model:ir.module.module,description:product_variant_multi_advanced.module_meta_information
+msgid ""
+"This module extend the capacity of product_variant_multi giving the "
+"posibility of building automatically the name, the description... of the "
+"product from the product template.\n"
+"Due to some limit of the orm you will need to apply some patch on the server"
+msgstr ""
+"Este módulo ampliar a capacidade de product_variant_multi dando a "
+"posibilidade de construir automaticamente o nome, a descrição ... do produto "
+"a partir do modelo do produto. \n"
+"Devido a algum limite do ORM você precisa aplicar algum patch no servidor"

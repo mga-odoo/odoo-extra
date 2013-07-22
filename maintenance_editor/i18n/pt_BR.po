@@ -1,0 +1,611 @@
+# Brazilian Portuguese translation for openobject-addons
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the openobject-addons package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openobject-addons\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2009-11-26 05:04+0000\n"
+"PO-Revision-Date: 2013-07-20 14:07+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-07-22 05:50+0000\n"
+"X-Generator: Launchpad (build 16696)\n"
+
+#. module: maintenance_editor
+#: rml:maintenance.basic.contract:0
+#: rml:maintenance.corporate.contract:0
+#: rml:maintenance.smb.contract:0
+msgid ""
+"Through Open ERP, enter your contract number into the bug alert window"
+msgstr ""
+"Através Aberto ERP, digite o número do seu contrato para a janela de alerta "
+"de bug"
+
+#. module: maintenance_editor
+#: rml:maintenance.basic.contract:0
+#: rml:maintenance.corporate.contract:0
+#: rml:maintenance.smb.contract:0
+msgid "...@.... for all general announces"
+msgstr "... @ .... para todos em geral anuncia"
+
+#. module: maintenance_editor
+#: rml:maintenance.basic.contract:0
+#: rml:maintenance.corporate.contract:0
+#: rml:maintenance.smb.contract:0
+msgid "Life Cycle Garantees"
+msgstr "Garantias do Ciclo de Vida"
+
+#. module: maintenance_editor
+#: rml:maintenance.basic.contract:0
+#: rml:maintenance.corporate.contract:0
+#: rml:maintenance.smb.contract:0
+msgid "Partner contract"
+msgstr "Contrato de parceira"
+
+#. module: maintenance_editor
+#: model:ir.model,name:maintenance_editor.model_maintenance_maintenance
+msgid "maintenance contract"
+msgstr "contrato de manutenção"
+
+#. module: maintenance_editor
+#: constraint:ir.actions.act_window:0
+msgid "Invalid model name in the action definition."
+msgstr "Nome do modelo inválida na definição da ação."
+
+#. module: maintenance_editor
+#: rml:maintenance.basic.contract:0
+#: rml:maintenance.corporate.contract:0
+#: rml:maintenance.smb.contract:0
+msgid ""
+"iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAIAAABLbSncAAAAFUlEQVR4nGP5//8/AzbAglV00EoA "
+"AF6kAx4uWGZmAAAAAElFTkSuQmCC"
+msgstr ""
+"iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAIAAABLbSncAAAAFUlEQVR4nGP5 / / "
+"8/AzbAglV00EoA AF6kAx4uWGZmAAAAAElFTkSuQmCC"
+
+#. module: maintenance_editor
+#: field:maintenance.maintenance.module,path:0
+msgid "Path"
+msgstr "Caminho"
+
+#. module: maintenance_editor
+#: rml:maintenance.basic.contract:0
+#: rml:maintenance.smb.contract:0
+msgid ""
+"This contract does not include maintenance of your custom modules or self "
+"developped modules. To get maintenance for such modules, they have to pass "
+"the Quality Certification."
+msgstr ""
+"Este contrato não inclui a manutenção de seus módulos personalizados ou "
+"módulos de auto-desenvolvido. Para obter a manutenção de tais módulos, eles "
+"têm que passar a Certificação de Qualidade."
+
+#. module: maintenance_editor
+#: view:maintenance.maintenance:0
+msgid "Notes"
+msgstr "Notas"
+
+#. module: maintenance_editor
+#: code:addons/maintenance_editor/wizard/wizard_refresh_module.py:0
+#, python-format
+msgid "Refresh"
+msgstr "Refrescar"
+
+#. module: maintenance_editor
+#: rml:maintenance.smb.contract:0
+msgid ""
+"The «Life cycle» is a guarantee that we will continue to maintain the "
+"current stable version of Open ERP (at the time you purchased the contract). "
+"So we fully recommend you to migrate each time a new stable version is "
+"published by Open ERP."
+msgstr ""
+"O «ciclo de vida» é uma garantia de que vamos continuar a manter a atual "
+"versão estável do Open ERP (no momento em que você comprou o contrato). "
+"Então, nós recomendamos totalmente a migrar cada vez que uma nova versão "
+"estável é publicado pela Open ERP."
+
+#. module: maintenance_editor
+#: rml:maintenance.corporate.contract:0
+msgid ""
+"Open ERP guarantees you the automatic migration from one stable version to "
+"another stable version of Open ERP (since the version 4.2). This migration "
+"system is provided for all official and quality certified modules of Open "
+"ERP. The process to get automatic migration will be explained in attachment."
+msgstr ""
+"Abrir ERP garante-lhe a migração automática de uma versão estável para outra "
+"versão estável do Open ERP (desde a versão 4.2). Este sistema de migração é "
+"fornecido para todos os módulos oficiais e de qualidade certificada do Open "
+"ERP. O processo para obter a migração automática vai ser explicado em anexo."
+
+#. module: maintenance_editor
+#: rml:maintenance.basic.contract:0
+#: rml:maintenance.corporate.contract:0
+#: rml:maintenance.smb.contract:0
+msgid "Nb Contract:"
+msgstr "Nb contrato:"
+
+#. module: maintenance_editor
+#: rml:maintenance.smb.contract:0
+msgid ""
+"The Open ERP SMB edition guarantee a delay of support of 6 open days after "
+"the bug notification. It is absolutely not a fixing delay guarantee which "
+"depends on the complexity of the bug."
+msgstr ""
+"The Open ERP edição SMB garantir um atraso de apoio de 6 dias em aberto após "
+"a notificação bug. Não é absolutamente uma garantia de fixação que demora "
+"depende da complexidade do bug."
+
+#. module: maintenance_editor
+#: rml:maintenance.basic.contract:0
+#: rml:maintenance.corporate.contract:0
+#: rml:maintenance.smb.contract:0
+msgid "Dear Customer,"
+msgstr "Prezado Cliente,"
+
+#. module: maintenance_editor
+#: view:maintenance.maintenance:0
+#: field:maintenance.maintenance,partner_id:0
+msgid "Partner"
+msgstr "Partner"
+
+#. module: maintenance_editor
+#: rml:maintenance.basic.contract:0
+#: rml:maintenance.corporate.contract:0
+#: rml:maintenance.smb.contract:0
+msgid "Tel :"
+msgstr "Tel :"
+
+#. module: maintenance_editor
+#: rml:maintenance.smb.contract:0
+msgid "SMB maintenance Contract"
+msgstr "SMB contrato de manutenção"
+
+#. module: maintenance_editor
+#: rml:maintenance.basic.contract:0
+#: rml:maintenance.corporate.contract:0
+#: rml:maintenance.smb.contract:0
+msgid "0.0cm 0.1cm 24.0cm 0.1cm"
+msgstr "0,0 centímetros 0,1 centímetros 24,0 centímetros 0,1 centímetros"
+
+#. module: maintenance_editor
+#: view:maintenance.maintenance:0
+msgid "Dates"
+msgstr "Datas"
+
+#. module: maintenance_editor
+#: field:maintenance.maintenance,state:0
+msgid "State"
+msgstr "Unidade da Federação"
+
+#. module: maintenance_editor
+#: field:maintenance.maintenance.module,version:0
+msgid "Version"
+msgstr "Versão"
+
+#. module: maintenance_editor
+#: model:ir.actions.wizard,name:maintenance_editor.wizard_print_maintenance_contract
+msgid "Maintenance Contract"
+msgstr "Contrato de Manutenção"
+
+#. module: maintenance_editor
+#: rml:maintenance.basic.contract:0
+#: rml:maintenance.corporate.contract:0
+#: rml:maintenance.smb.contract:0
+msgid "Fax:"
+msgstr "Fax:"
+
+#. module: maintenance_editor
+#: view:maintenance.contract.type:0
+msgid "CRM"
+msgstr "CRM"
+
+#. module: maintenance_editor
+#: rml:maintenance.smb.contract:0
+msgid "SMB maintenance"
+msgstr "Manutenção SMB"
+
+#. module: maintenance_editor
+#: rml:maintenance.basic.contract:0
+msgid "Basic maintenance Contract"
+msgstr "Contrato de manutenção básica"
+
+#. module: maintenance_editor
+#: constraint:ir.ui.view:0
+msgid "Invalid XML for View Architecture!"
+msgstr "Inválido XML para Ver Arquitetura!"
+
+#. module: maintenance_editor
+#: model:ir.actions.report.xml,name:maintenance_editor.report_smb_contract_maintenance
+msgid "SMB Contract"
+msgstr "SMB Contrato"
+
+#. module: maintenance_editor
+#: code:addons/maintenance_editor/wizard/wizard_refresh_module.py:0
+#, python-format
+msgid "List refreshed successfully"
+msgstr "Lista atualizada com sucesso"
+
+#. module: maintenance_editor
+#: rml:maintenance.basic.contract:0
+msgid ""
+"The Open ERP Basic edition guarantee a delay of support of 3 open days after "
+"the bug notification. It is absolutely not a fixing delay guarantee which "
+"depends on the complexity of the bug."
+msgstr ""
+"The Open edição ERP básico garantir um atraso de apoio de 3 dias em aberto "
+"após a notificação bug. Não é absolutamente uma garantia de fixação que "
+"demora depende da complexidade do bug."
+
+#. module: maintenance_editor
+#: field:maintenance.maintenance,date_to:0
+msgid "Date To"
+msgstr "Data Para"
+
+#. module: maintenance_editor
+#: rml:maintenance.basic.contract:0
+#: rml:maintenance.corporate.contract:0
+#: rml:maintenance.smb.contract:0
+msgid "How to report a bug :"
+msgstr "Como relatar um bug:"
+
+#. module: maintenance_editor
+#: model:ir.actions.report.xml,name:maintenance_editor.report_corporate_contract_maintenance
+msgid "Corporate Contract"
+msgstr "Contrato Corporativo"
+
+#. module: maintenance_editor
+#: model:ir.actions.act_window,name:maintenance_editor.action_maintenance_contract_type_form
+#: model:ir.ui.menu,name:maintenance_editor.menu_maintenance_contract_type
+msgid "Maintenance Contract Types"
+msgstr "Tipos de Contrato de Manutenção"
+
+#. module: maintenance_editor
+#: rml:maintenance.corporate.contract:0
+msgid ""
+"This contract includes maintenance of your custom modules or self developped "
+"modules which have been quality certified by Open ERP."
+msgstr ""
+"Este contrato inclui a manutenção de seus módulos personalizados ou módulos "
+"de auto-desenvolvido, que foram de qualidade certificado pela Open ERP."
+
+#. module: maintenance_editor
+#: rml:maintenance.corporate.contract:0
+msgid "Corporate maintenance Contract"
+msgstr "Contrato de Manutenção Empresarial"
+
+#. module: maintenance_editor
+#: rml:maintenance.basic.contract:0
+#: rml:maintenance.corporate.contract:0
+#: rml:maintenance.smb.contract:0
+msgid ""
+"We will provide the service you may need to guarantee the migration in all "
+"environments. If there is a problem in your migration, it will be fixed by "
+"the editor in a few days."
+msgstr ""
+"Vamos fornecer o serviço que você pode precisar para garantir a migração em "
+"todos os ambientes. Se há um problema na sua migração, que será fixado pelo "
+"editor em poucos dias."
+
+#. module: maintenance_editor
+#: rml:maintenance.basic.contract:0
+msgid ""
+"The «Life cycle» is a guarantee that we will continue to maintain the "
+"current stable version of Open ERP during 3 years (at the time you purchased "
+"the contract). It allows you to not be forced to migrate your solution at "
+"each new version of Open ERP."
+msgstr ""
+"O «ciclo de vida» é uma garantia de que vamos continuar a manter a atual "
+"versão estável do Open ERP durante 3 anos (no momento em que você comprou o "
+"contrato). Ele permite que você para não ser forçado a migrar a sua solução "
+"a cada nova versão do Open ERP."
+
+#. module: maintenance_editor
+#: rml:maintenance.basic.contract:0
+#: rml:maintenance.corporate.contract:0
+#: rml:maintenance.smb.contract:0
+msgid "This contract is providing you following services :"
+msgstr "Este contrato está fornecendo seguintes serviços:"
+
+#. module: maintenance_editor
+#: rml:maintenance.basic.contract:0
+#: rml:maintenance.corporate.contract:0
+#: rml:maintenance.smb.contract:0
+msgid "BugFix Guarantee"
+msgstr "Garantia BugFix"
+
+#. module: maintenance_editor
+#: field:maintenance.maintenance,note:0
+msgid "Note"
+msgstr "Nota"
+
+#. module: maintenance_editor
+#: selection:maintenance.maintenance,state:0
+msgid "Draft"
+msgstr "Rascunho"
+
+#. module: maintenance_editor
+#: field:maintenance.maintenance,date_from:0
+msgid "Date From"
+msgstr "Data a partir da"
+
+#. module: maintenance_editor
+#: model:ir.actions.act_window,name:maintenance_editor.action_maintenance_maintenance_form
+#: view:maintenance.maintenance:0
+msgid "Maintenance"
+msgstr "Manutenção"
+
+#. module: maintenance_editor
+#: rml:maintenance.basic.contract:0
+#: rml:maintenance.corporate.contract:0
+#: rml:maintenance.smb.contract:0
+msgid "Your contract number is"
+msgstr "O seu número de contrato"
+
+#. module: maintenance_editor
+#: model:ir.module.module,shortdesc:maintenance_editor.module_meta_information
+#: model:ir.ui.menu,name:maintenance_editor.menu_maintenance_main
+msgid "Maintenance Editor"
+msgstr "Editor de manutenção"
+
+#. module: maintenance_editor
+#: field:maintenance.maintenance.module,certificate:0
+msgid "Certificate Code"
+msgstr "Código certificado"
+
+#. module: maintenance_editor
+#: rml:maintenance.basic.contract:0
+#: rml:maintenance.corporate.contract:0
+#: rml:maintenance.smb.contract:0
+msgid "Contact Address :"
+msgstr "Endereço de Contato :"
+
+#. module: maintenance_editor
+#: model:ir.module.module,description:maintenance_editor.module_meta_information
+msgid ""
+"\n"
+"    module to manage maintenance contracts:\n"
+"    "
+msgstr ""
+"\n"
+"    módulo para gerenciar os contratos de manutenção:\n"
+"    "
+
+#. module: maintenance_editor
+#: rml:maintenance.corporate.contract:0
+msgid ""
+"The Open ERP Corporate edition guarantee a delay of support of 1 open day "
+"after the bug notification. It is absolutely not a fixing delay guarantee "
+"which depends on the complexity of the bug."
+msgstr ""
+"The Open edição ERP Corporate garantir um atraso de apoio de um dia aberto "
+"após a notificação bug. Não é absolutamente uma garantia de fixação que "
+"demora depende da complexidade do bug."
+
+#. module: maintenance_editor
+#: field:maintenance.contract.type,crm_case_section_id:0
+msgid "CRM Case Section"
+msgstr "CRM Seção de Caso"
+
+#. module: maintenance_editor
+#: rml:maintenance.basic.contract:0
+#: rml:maintenance.corporate.contract:0
+#: rml:maintenance.smb.contract:0
+msgid "Contract"
+msgstr "Contrato"
+
+#. module: maintenance_editor
+#: field:maintenance.maintenance,type_id:0
+msgid "Contract Type"
+msgstr "Tipo de contrato"
+
+#. module: maintenance_editor
+#: rml:maintenance.basic.contract:0
+#: rml:maintenance.corporate.contract:0
+#: rml:maintenance.smb.contract:0
+msgid "Automatic Migration"
+msgstr "Migração automática"
+
+#. module: maintenance_editor
+#: rml:maintenance.corporate.contract:0
+msgid ""
+"The «Life cycle» is a guarantee that we will continue to maintain the "
+"current stable version of Open ERP during 5 years (at the time you purchased "
+"the contract). It allows you to not be forced to migrate your solution at "
+"each new version of Open ERP."
+msgstr ""
+"O «ciclo de vida» é uma garantia de que vamos continuar a manter a atual "
+"versão estável do Open ERP durante 5 anos (no momento em que você comprou o "
+"contrato). Ele permite que você para não ser forçado a migrar a sua solução "
+"a cada nova versão do Open ERP."
+
+#. module: maintenance_editor
+#: model:ir.actions.act_window,name:maintenance_editor.action_maintenance_module_form
+#: model:ir.ui.menu,name:maintenance_editor.menu_maintenance_module
+#: view:maintenance.maintenance.module:0
+msgid "Maintenance Modules"
+msgstr "Módulos de Manutenção"
+
+#. module: maintenance_editor
+#: selection:maintenance.maintenance,state:0
+msgid "Done"
+msgstr "Feito"
+
+#. module: maintenance_editor
+#: rml:maintenance.basic.contract:0
+msgid "Basic maintenance"
+msgstr "Manutenção básica"
+
+#. module: maintenance_editor
+#: selection:maintenance.maintenance,state:0
+msgid "Cancel"
+msgstr "Cancel"
+
+#. module: maintenance_editor
+#: selection:maintenance.maintenance,state:0
+msgid "Open"
+msgstr "Aberto"
+
+#. module: maintenance_editor
+#: rml:maintenance.basic.contract:0
+#: rml:maintenance.corporate.contract:0
+#: rml:maintenance.smb.contract:0
+msgid "please specify it in each communication you will have with us."
+msgstr "especificar em cada comunicação que você vai ter com a gente."
+
+#. module: maintenance_editor
+#: constraint:ir.model:0
+msgid ""
+"The Object name must start with x_ and not contain any special character !"
+msgstr ""
+"O nome do objeto deve iniciar com x_ e não conter qualquer caractere "
+"especial!"
+
+#. module: maintenance_editor
+#: rml:maintenance.basic.contract:0
+#: rml:maintenance.corporate.contract:0
+#: rml:maintenance.smb.contract:0
+msgid "...@.... for invoicing questions"
+msgstr "... @ .... para questões de facturação"
+
+#. module: maintenance_editor
+#: model:ir.model,name:maintenance_editor.model_maintenance_contract_type
+msgid "maintenance.contract.type"
+msgstr "maintenance.contract.type"
+
+#. module: maintenance_editor
+#: rml:maintenance.corporate.contract:0
+msgid "Corporate maintenance"
+msgstr "Manutenção corporativa"
+
+#. module: maintenance_editor
+#: view:maintenance.contract.type:0
+#: field:maintenance.contract.type,product_id:0
+msgid "Product"
+msgstr "Produto"
+
+#. module: maintenance_editor
+#: model:ir.ui.menu,name:maintenance_editor.menu_maintenance_contracts
+msgid "Maintenance Contracts"
+msgstr "Contratos de Manutenção"
+
+#. module: maintenance_editor
+#: model:ir.actions.wizard,name:maintenance_editor.maintenance_maintenance_module_refresh_wizard
+#: model:ir.ui.menu,name:maintenance_editor.menu_maintenace_module_refresh_wizard
+msgid "Refresh Module List"
+msgstr "Lista Módulo de atualização"
+
+#. module: maintenance_editor
+#: field:maintenance.maintenance,partner_invoice_id:0
+msgid "Address"
+msgstr "Endereço"
+
+#. module: maintenance_editor
+#: field:maintenance.maintenance,password:0
+msgid "Password"
+msgstr "Senha"
+
+#. module: maintenance_editor
+#: field:maintenance.contract.type,name:0
+#: field:maintenance.maintenance.module,name:0
+msgid "Name"
+msgstr "nome"
+
+#. module: maintenance_editor
+#: rml:maintenance.basic.contract:0
+#: rml:maintenance.corporate.contract:0
+msgid ""
+"Please, send to cécile (cecile@openerp.com) following contact address in "
+"order to send the right information to the right person directly :"
+msgstr ""
+"Por favor, envie a Cecile (cecile@openerp.com) seguinte endereço de contato "
+"para enviar a informação certa para a pessoa certa, diretamente:"
+
+#. module: maintenance_editor
+#: field:maintenance.contract.type,crm_case_categ_id:0
+msgid "CRM Case Category"
+msgstr "CRM Categoria Case"
+
+#. module: maintenance_editor
+#: view:maintenance.maintenance:0
+#: field:maintenance.maintenance,module_ids:0
+msgid "Modules"
+msgstr "Módulos"
+
+#. module: maintenance_editor
+#: field:maintenance.maintenance,name:0
+msgid "Contract ID"
+msgstr "Contrato ID"
+
+#. module: maintenance_editor
+#: rml:maintenance.basic.contract:0
+#: rml:maintenance.corporate.contract:0
+#: rml:maintenance.smb.contract:0
+msgid "...@.... for security address"
+msgstr "... @ .... para o endereço de segurança"
+
+#. module: maintenance_editor
+#: rml:maintenance.basic.contract:0
+#: rml:maintenance.corporate.contract:0
+#: rml:maintenance.smb.contract:0
+msgid "You've suscribed to a"
+msgstr "Você suscribed a um"
+
+#. module: maintenance_editor
+#: model:ir.actions.report.xml,name:maintenance_editor.report_basic_contract_maintenance
+msgid "Basic Contract"
+msgstr "Contrato Básico"
+
+#. module: maintenance_editor
+#: rml:maintenance.smb.contract:0
+msgid ""
+"We asked you to send several contact address in order to send the right "
+"information to the right person directly. Please, if one of the following "
+"email address is not correct, notify it to cecile@openerp.com."
+msgstr ""
+"Pedimos que você envie vários endereço de contato para enviar a informação "
+"certa para a pessoa certa, diretamente. Por favor, se um dos seguintes "
+"endereços de e-mail não estiver correto, comunicá-la à cecile@openerp.com."
+
+#. module: maintenance_editor
+#: rml:maintenance.basic.contract:0
+#: rml:maintenance.smb.contract:0
+msgid ""
+"Open ERP guarantees you the automatic migration from one stable version to "
+"another stable version of Open ERP (since the version 4.2). This migration "
+"system is provided for all official modules of Open ERP. The process to get "
+"automatic migration will be explained in attachment."
+msgstr ""
+"Abrir ERP garante-lhe a migração automática de uma versão estável para outra "
+"versão estável do Open ERP (desde a versão 4.2). Este sistema de migração é "
+"fornecido para todos os módulos oficiais do Open ERP. O processo para obter "
+"a migração automática vai ser explicado em anexo."
+
+#. module: maintenance_editor
+#: rml:maintenance.basic.contract:0
+#: rml:maintenance.corporate.contract:0
+#: rml:maintenance.smb.contract:0
+msgid "Password:"
+msgstr "Senha:"
+
+#. module: maintenance_editor
+#: rml:maintenance.basic.contract:0
+#: rml:maintenance.corporate.contract:0
+#: rml:maintenance.smb.contract:0
+msgid "Through maintenance@openerp.com"
+msgstr "Através maintenance@openerp.com"
+
+#. module: maintenance_editor
+#: model:ir.model,name:maintenance_editor.model_maintenance_maintenance_module
+msgid "maintenance modules"
+msgstr "módulos de manutenção"
+
+#. module: maintenance_editor
+#: view:maintenance.contract.type:0
+msgid "Maintenance Contract Type"
+msgstr "Manutenção Tipo de contrato"

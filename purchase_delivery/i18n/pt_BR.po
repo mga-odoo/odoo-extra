@@ -1,0 +1,81 @@
+# Brazilian Portuguese translation for openobject-addons
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the openobject-addons package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openobject-addons\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2009-11-25 14:05+0000\n"
+"PO-Revision-Date: 2013-07-20 13:27+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-07-22 05:50+0000\n"
+"X-Generator: Launchpad (build 16696)\n"
+
+#. module: purchase_delivery
+#: model:ir.actions.wizard,name:purchase_delivery.wizard_deliver_line_add
+msgid "Add delivery line"
+msgstr "Adicionar linha entrega"
+
+#. module: purchase_delivery
+#: field:purchase.order,carrier_id:0
+msgid "Delivery method"
+msgstr "Método de Entrega"
+
+#. module: purchase_delivery
+#: model:ir.module.module,description:purchase_delivery.module_meta_information
+msgid ""
+"Allows to add delivery methods in purchase order and packings. You can "
+"define your own carrier and delivery grids for prices. When creating "
+"invoices from pickings, Tiny ERP is able to add and compute the shipping "
+"line."
+msgstr ""
+"Permite adicionar métodos de entrega de ordem de compra e embalagens. Você "
+"pode definir a sua própria transportadora e redes de distribuição para os "
+"preços. Ao criar faturas de presas, Tiny ERP é capaz de somar e calcular a "
+"linha de transporte."
+
+#. module: purchase_delivery
+#: model:ir.module.module,shortdesc:purchase_delivery.module_meta_information
+msgid "Carriers and deliveries For Purchase Order"
+msgstr "Operadoras e as entregas para Purchase Order"
+
+#. module: purchase_delivery
+#: constraint:ir.ui.view:0
+msgid "Invalid XML for View Architecture!"
+msgstr "Inválido XML para Ver Arquitetura!"
+
+#. module: purchase_delivery
+#: wizard_button:delivery.purchase.order,init,delivery:0
+msgid "Create delivery line"
+msgstr "Criar linha de fornecimento"
+
+#. module: purchase_delivery
+#: wizard_button:delivery.purchase.order,init,end:0
+msgid "Cancel"
+msgstr "Cancel"
+
+#. module: purchase_delivery
+#: wizard_view:delivery.purchase.order,init:0
+msgid "Create deliveries"
+msgstr "Criar entregas"
+
+#. module: purchase_delivery
+#: wizard_view:delivery.purchase.order,init:0
+#: wizard_field:delivery.purchase.order,init,carrier_id:0
+msgid "Delivery Method"
+msgstr "Método de Entrega"
+
+#. module: purchase_delivery
+#: help:purchase.order,carrier_id:0
+msgid ""
+"Complete this field if you plan to invoice the shipping based on packings "
+"made."
+msgstr ""
+"Preencher este campo se você pretende faturar o transporte baseado em "
+"embalagens feitas."

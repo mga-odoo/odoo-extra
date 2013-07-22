@@ -1,0 +1,103 @@
+# Brazilian Portuguese translation for openobject-addons
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the openobject-addons package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openobject-addons\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2010-01-01 08:56+0000\n"
+"PO-Revision-Date: 2013-07-20 13:52+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-07-22 05:50+0000\n"
+"X-Generator: Launchpad (build 16696)\n"
+
+#. module: google_translate
+#: model:ir.actions.act_window,name:google_translate.action_translation_need_review
+#: model:ir.ui.menu,name:google_translate.menu_action_translation_review
+msgid "Need review terms"
+msgstr "Precisa termos de revisão"
+
+#. module: google_translate
+#: constraint:ir.ui.view:0
+msgid "Invalid XML for View Architecture!"
+msgstr "Inválido XML para Ver Arquitetura!"
+
+#. module: google_translate
+#: wizard_button:google.translate.wizard,init,translate:0
+msgid "Translate"
+msgstr "Traduzir"
+
+#. module: google_translate
+#: wizard_button:google.translate.wizard,translate,end:0
+msgid "OK"
+msgstr "OK"
+
+#. module: google_translate
+#: wizard_view:google.translate.wizard,translate:0
+msgid "Successfullly Translate"
+msgstr "Successfullly Traduzir"
+
+#. module: google_translate
+#: wizard_view:google.translate.wizard,init:0
+#: wizard_view:google.translate.wizard,translate:0
+msgid "Translation"
+msgstr "Tradução"
+
+#. module: google_translate
+#: model:ir.actions.wizard,name:google_translate.google_translation_wizard
+msgid "Google Translation"
+msgstr "Google Translation"
+
+#. module: google_translate
+#: constraint:ir.actions.act_window:0
+msgid "Invalid model name in the action definition."
+msgstr "Nome do modelo inválida na definição da ação."
+
+#. module: google_translate
+#: model:ir.module.module,description:google_translate.module_meta_information
+msgid ""
+"Module create wizard on ir.translation object for Tranlslation of its terms "
+"using google,\n"
+"you can also find menu at Administration/Translation/Application Terms/All "
+"terms/ Need review terms"
+msgstr ""
+"Módulo criar assistente no objeto ir.translation para Tranlslation de seus "
+"termos usando o Google, \n"
+"você também pode encontrar no menu de Administração / Tradução / Application "
+"Termos / todos os termos / Precisa termos de revisão"
+
+#. module: google_translate
+#: wizard_button:google.translate.wizard,init,end:0
+msgid "Cancel"
+msgstr "Cancel"
+
+#. module: google_translate
+#: help:ir.translation,need_review:0
+msgid "If its ticked then you can use wizard to translate the source term"
+msgstr ""
+"Se a sua assinalada, então você pode usar o assistente para traduzir o termo "
+"fonte"
+
+#. module: google_translate
+#: field:ir.translation,need_review:0
+msgid "Need review"
+msgstr "Precisa de revisão"
+
+#. module: google_translate
+#: wizard_view:google.translate.wizard,init:0
+msgid ""
+"This wizard will translate terms in source using google for given language"
+msgstr ""
+"Este assistente irá traduzir termos em fonte usando google para determinado "
+"idioma"
+
+#. module: google_translate
+#: model:ir.module.module,shortdesc:google_translate.module_meta_information
+msgid "Google translation"
+msgstr "Tradução de Google"

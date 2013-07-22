@@ -1,0 +1,326 @@
+# Brazilian Portuguese translation for openobject-addons
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the openobject-addons package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openobject-addons\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2009-11-26 06:19+0000\n"
+"PO-Revision-Date: 2013-07-20 09:32+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-07-22 05:50+0000\n"
+"X-Generator: Launchpad (build 16696)\n"
+
+#. module: board_service
+#: view:sale.forecast.line:0
+msgid "Forecast Lines"
+msgstr "Linhas de previsão"
+
+#. module: board_service
+#: view:board.board:0
+msgid "Sale Orders Created"
+msgstr "Venda Encomendas Criado"
+
+#. module: board_service
+#: view:board.board:0
+#: model:ir.actions.act_window,name:board_service.action_view_forecast
+msgid "Draft Sales Forecast Lines"
+msgstr "Projeto de Previsão de Vendas Lines"
+
+#. module: board_service
+#: view:board.board:0
+msgid "Sales Pipeline"
+msgstr "Pipeline de vendas"
+
+#. module: board_service
+#: view:sale.forecast.line:0
+msgid "Results"
+msgstr "Resultados"
+
+#. module: board_service
+#: view:project.task:0
+msgid "Delay"
+msgstr "Delay"
+
+#. module: board_service
+#: view:board.board:0
+msgid "My Inbox"
+msgstr "Minha caixa de entrada"
+
+#. module: board_service
+#: constraint:ir.actions.act_window:0
+msgid "Invalid model name in the action definition."
+msgstr "Nome do modelo inválida na definição da ação."
+
+#. module: board_service
+#: view:board.board:0
+msgid "Open Cases"
+msgstr "Casos Abertos"
+
+#. module: board_service
+#: view:sale.forecast.line:0
+msgid "Filter on Cases Sections"
+msgstr "Filtrar por Casos Seções"
+
+#. module: board_service
+#: view:board.board:0
+#: model:ir.actions.act_window,name:board_service.action_service_daily_board
+#: model:ir.ui.menu,name:board_service.menu_daily_board
+msgid "Daily Dashboard"
+msgstr "Painel Diário"
+
+#. module: board_service
+#: view:board.board:0
+msgid "My Planning Statistics"
+msgstr "Minhas Estatísticas Planejamento"
+
+#. module: board_service
+#: view:board.board:0
+msgid "Closed Cases"
+msgstr "Processos encerrados"
+
+#. module: board_service
+#: view:crm.case:0
+msgid "Meetings Tree"
+msgstr "Reuniões Árvore"
+
+#. module: board_service
+#: view:sale.forecast.line:0
+msgid "Draft Sales Forcast Lines"
+msgstr "Projecto de Vendas Forcast Lines"
+
+#. module: board_service
+#: view:board.board:0
+msgid "Timesheet Lines"
+msgstr "Linhas de quadro de horários"
+
+#. module: board_service
+#: view:sale.forecast.line:0
+msgid "Filter on Cases Categories"
+msgstr "Filtrar por Casos Categorias"
+
+#. module: board_service
+#: view:sale.forecast.line:0
+msgid "Forecasts"
+msgstr "Previsões"
+
+#. module: board_service
+#: view:board.board:0
+#: model:ir.actions.act_window,name:board_service.action_view_task_pending_dashboard
+#: view:project.task:0
+msgid "My Pending Tasks"
+msgstr "Minhas Tarefas Pendentes"
+
+#. module: board_service
+#: view:board.board:0
+msgid "Cases By Section"
+msgstr "Casos pela Seção"
+
+#. module: board_service
+#: model:ir.actions.act_window,name:board_service.act_hr_timesheet_sheet_my_dept
+msgid "My Departments' Timesheets To Validate"
+msgstr "Os Quadros de Horários dos MEUS Departamentos parágrafo Validar"
+
+#. module: board_service
+#: model:ir.ui.menu,name:board_service.service_dashboard_menu
+msgid "Service Profile"
+msgstr "Perfil de SERVIÇO"
+
+#. module: board_service
+#: view:sale.forecast.line:0
+msgid "Filter on States"
+msgstr "Filtrar Unidos"
+
+#. module: board_service
+#: constraint:ir.ui.view:0
+msgid "Invalid XML for View Architecture!"
+msgstr "Inválido XML para Ver Arquitetura!"
+
+#. module: board_service
+#: view:board.board:0
+msgid "Turnover Per Month"
+msgstr "Volume de Negócios POR Mês"
+
+#. module: board_service
+#: view:sale.forecast.line:0
+msgid "Notes"
+msgstr "Notas"
+
+#. module: board_service
+#: view:board.board:0
+#: model:ir.actions.act_window,name:board_service.action_service_weekly_board
+#: model:ir.ui.menu,name:board_service.menu_weekly_board
+msgid "Weekly Dashboard"
+msgstr "Painel Weekly"
+
+#. module: board_service
+#: view:board.board:0
+msgid "Invoices Created"
+msgstr "Faturas CRIADO"
+
+#. module: board_service
+#: view:board.board:0
+msgid "Aged Receivables"
+msgstr "Recebíveis Vencidos"
+
+#. module: board_service
+#: view:sale.forecast.line:0
+msgid "Filter on Products"
+msgstr "Filtrar os produtos"
+
+#. module: board_service
+#: view:board.board:0
+msgid "Turnover Per Product"
+msgstr "Volume de Negócios POR PRODUTO"
+
+#. module: board_service
+#: view:board.board:0
+msgid "My Departments' Timesheets to Validate"
+msgstr "Os Quadros de Horários dos MEUS Departamentos parágrafo Validar"
+
+#. module: board_service
+#: view:board.board:0
+msgid "My Open Tasks"
+msgstr "Minhas Tarefas Abertas"
+
+#. module: board_service
+#: model:ir.actions.act_window,name:board_service.action_service_random_activities_board
+#: model:ir.ui.menu,name:board_service.menu_random_activities_board
+msgid "Random Activities(Within Last 15 Days)"
+msgstr "ATIVIDADES aleatórios (Dentro ultimos 15 dias)"
+
+#. module: board_service
+#: view:project.task:0
+msgid "Delegated To"
+msgstr "Delegada"
+
+#. module: board_service
+#: view:crm.case:0
+msgid "Meeting Date"
+msgstr "Dados da reuniao"
+
+#. module: board_service
+#: view:board.board:0
+#: model:ir.actions.act_window,name:board_service.action_my_meetings
+msgid "My Meeting of the Day"
+msgstr "Meu Encontro do Dia"
+
+#. module: board_service
+#: view:sale.forecast.line:0
+msgid "Feedback"
+msgstr "Feedback"
+
+#. module: board_service
+#: view:sale.forecast.line:0
+msgid "Filter on Product Categories"
+msgstr "Filtrar por categorias de produtos"
+
+#. module: board_service
+#: view:board.board:0
+msgid "Random Timesheet Lines"
+msgstr "Aleatórios Lines Quadro de Horários"
+
+#. module: board_service
+#: model:ir.module.module,description:board_service.module_meta_information
+msgid ""
+"\n"
+"        This module displays three dashboards for the logged in user:\n"
+"        \n"
+"        A. Dashboard 1: Weekly Dashboard\n"
+"                   - Draft Forecasts Lines\n"
+"                   - Turnover by Product and Month\n"
+"                   - Aged Receivables\n"
+"                   - Timesheet to Validate\n"
+"                   - Sales pipeline\n"
+"                   - Planning Statistics\n"
+"                    \n"
+"                This dashboard is reachable from Dashboards/Service "
+"Profile/Weekly Dashboard.\n"
+"           \n"
+"        B. Dashboard 2: Daily Dashboard\n"
+"                   - Open Tasks\n"
+"                   - Pending Tasks\n"
+"                   - Inbox\n"
+"                   - Meeting of the Day\n"
+"                   - Departement's Timesheet Lines of last 3 days.\n"
+"        \n"
+"                This dashboard is reachable from Dashboards/Service "
+"Profile/Daily Dashboard.\n"
+"                \n"
+"        C. Dashboard 3 : Random Activities\n"
+"                   - Random Timesheet Lines from the past 15 days\n"
+"                   - Random Tasks Closed within the past 15 days\n"
+"                   - Random Cases Closed within the past 15 days\n"
+"                   - Random Open Cases Created within the past 15 days\n"
+"                   - Random Sales Orders Created within the past 15 days\n"
+"                   - Random Invoices Created within the past 15 days \n"
+"\n"
+"                This dashboard is reachable from Dashboards/Service "
+"Profile/Random Activities(Within Last 15 Days).\n"
+"                \n"
+"                "
+msgstr ""
+"\n"
+"        Este módulo exibe três painéis para o usuário conectado:\n"
+"        \n"
+"        A. Painel 1: Painel da Semana\n"
+"                   - Projecto de previsões Lines\n"
+"                   - Volume de negócios por produto e por mês\n"
+"                   - Contas a receber Aged\n"
+"                   - Quadro de Horários para Validar\n"
+"                   - Pipeline de vendas\n"
+"                   - Estatísticas de Planejamento\n"
+"                    \n"
+"                Este painel é acessível a partir de Dashboards / profile / "
+"Painel Weekly serviço.\n"
+"           \n"
+"        B. Painel 2: Painel Diário\n"
+"                   - Tarefas Abertas\n"
+"                   - Tarefas pendentes\n"
+"                   - Caixa de entrada\n"
+"                   - Reunião do Dia\n"
+"                   Linhas de Quadro de Horários do Departamento do últimos "
+"três dias -.\n"
+"        \n"
+"                Este painel é acessível a partir de Dashboards / profile / "
+"Painel serviço diário.\n"
+"                \n"
+"        C. Painel 3: Atividades aleatórias\n"
+"                   - Linhas de quadro de horários aleatórios da últimos 15 "
+"dias\n"
+"                   - As tarefas aleatórias fechado nos últimos 15 dias\n"
+"                   - Casos aleatórias fechado nos últimos 15 dias\n"
+"                   - Casos Abertos aleatória criada nos últimos 15 dias\n"
+"                   - Pedidos de Vendas aleatória criada nos últimos 15 dias\n"
+"                   - Faturas aleatória criada nos últimos 15 dias \n"
+"\n"
+"                Este painel é acessível a partir de Dashboards / Serviço de "
+"Perfil / Random Atividades (Dentro últimos 15 dias).\n"
+"                \n"
+"                "
+
+#. module: board_service
+#: model:ir.module.module,shortdesc:board_service.module_meta_information
+msgid "Dashboard for Service Profile"
+msgstr "Painel para Perfil de serviço"
+
+#. module: board_service
+#: view:board.board:0
+msgid "Random Activities"
+msgstr "Atividades aleatórias"
+
+#. module: board_service
+#: view:board.board:0
+msgid "Closed Tasks"
+msgstr "Tarefas fechadas"
+
+#. module: board_service
+#: view:sale.forecast.line:0
+msgid "Forecast Details"
+msgstr "Detalhes previsão"

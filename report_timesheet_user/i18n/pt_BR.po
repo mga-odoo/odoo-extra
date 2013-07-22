@@ -1,0 +1,151 @@
+# Brazilian Portuguese translation for openobject-addons
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the openobject-addons package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openobject-addons\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2009-11-26 08:43+0000\n"
+"PO-Revision-Date: 2013-07-20 13:11+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-07-22 05:50+0000\n"
+"X-Generator: Launchpad (build 16696)\n"
+
+#. module: report_timesheet_user
+#: constraint:ir.model:0
+msgid ""
+"The Object name must start with x_ and not contain any special character !"
+msgstr ""
+"O nome do objeto deve iniciar com x_ e não conter qualquer caractere "
+"especial!"
+
+#. module: report_timesheet_user
+#: model:ir.actions.act_window,name:report_timesheet_user.action_timesheet_user_user_allmonth_mytask
+#: model:ir.ui.menu,name:report_timesheet_user.menu_timesheet_project_reporting_all_my_timesheets
+msgid "My task by company"
+msgstr "Minha tarefa por empresa"
+
+#. module: report_timesheet_user
+#: constraint:ir.actions.act_window:0
+msgid "Invalid model name in the action definition."
+msgstr "Nome do modelo inválida na definição da ação."
+
+#. module: report_timesheet_user
+#: model:ir.ui.menu,name:report_timesheet_user.menu_timesheet_project_reporting_all
+msgid "All Months"
+msgstr "Todos os meses"
+
+#. module: report_timesheet_user
+#: model:ir.model,name:report_timesheet_user.model_report_timesheet_user
+msgid "Tasks by company"
+msgstr "Tarefas por empresa"
+
+#. module: report_timesheet_user
+#: model:ir.ui.menu,name:report_timesheet_user.menu_timesheet_project_reporting
+msgid "Reporting"
+msgstr "Relatórios"
+
+#. module: report_timesheet_user
+#: view:report.timesheet.user:0
+#: view:report.timesheet.user.user:0
+msgid "Timesheet Report"
+msgstr "Relatório de Quadro de Horários"
+
+#. module: report_timesheet_user
+#: model:ir.actions.act_window,name:report_timesheet_user.action_timesheet_user_user_thismonth_mytask
+#: model:ir.ui.menu,name:report_timesheet_user.menu_timesheet_project_reporting_my_timesheets
+msgid "My Timesheets by company"
+msgstr "Meus quadros de horários por empresa"
+
+#. module: report_timesheet_user
+#: model:ir.ui.menu,name:report_timesheet_user.menu_timesheet_project_reporting_all_timesheets
+#: model:ir.ui.menu,name:report_timesheet_user.menu_timesheet_project_reporting_by_company
+msgid "Timesheets by company"
+msgstr "Quadros de horários por empresa"
+
+#. module: report_timesheet_user
+#: model:ir.ui.menu,name:report_timesheet_user.menu_timesheet_project_reporting_this
+msgid "This Month"
+msgstr "Este Mês"
+
+#. module: report_timesheet_user
+#: model:ir.model,name:report_timesheet_user.model_report_timesheet_user_user
+msgid "Tasks by user and company"
+msgstr "Tarefas por usuário e empresa"
+
+#. module: report_timesheet_user
+#: field:report.timesheet.user,company_id:0
+#: field:report.timesheet.user.user,company_id:0
+msgid "Company Name"
+msgstr "Nome da Empresa"
+
+#. module: report_timesheet_user
+#: field:report.timesheet.user.user,user_id:0
+msgid "User"
+msgstr "Usuario"
+
+#. module: report_timesheet_user
+#: field:report.timesheet.user,total_hours:0
+#: field:report.timesheet.user.user,total_hours:0
+msgid "Task Hours"
+msgstr "Horas da Tarefa"
+
+#. module: report_timesheet_user
+#: constraint:ir.ui.view:0
+msgid "Invalid XML for View Architecture!"
+msgstr "Inválido XML para Ver Arquitetura!"
+
+#. module: report_timesheet_user
+#: model:ir.actions.act_window,name:report_timesheet_user.action_timesheet_user_user_thismonth
+msgid "Timesheets by user and company (this month)"
+msgstr "Quadros de horários por usuário e empresa (este mês)"
+
+#. module: report_timesheet_user
+#: field:report.timesheet.user,user_company_id:0
+#: field:report.timesheet.user.user,user_company_id:0
+msgid "User's Company"
+msgstr "Empresa do Usuário"
+
+#. module: report_timesheet_user
+#: model:ir.ui.menu,name:report_timesheet_user.menu_timesheet_project
+msgid "Project"
+msgstr "Projeto"
+
+#. module: report_timesheet_user
+#: model:ir.module.module,description:report_timesheet_user.module_meta_information
+msgid "New report for timesheet"
+msgstr "Novo relatório de quadro de horários"
+
+#. module: report_timesheet_user
+#: model:ir.actions.act_window,name:report_timesheet_user.action_timesheet_user_thismonth
+msgid "Timesheets by company (this month)"
+msgstr "Quadros de horários por empresa (este mês)"
+
+#. module: report_timesheet_user
+#: model:ir.ui.menu,name:report_timesheet_user.menu_timesheet_project_reporting_all_user_company
+#: model:ir.ui.menu,name:report_timesheet_user.menu_timesheet_project_reporting_this_user_company
+msgid "Timesheets by user and company"
+msgstr "Quadros de horários por usuário e empresa"
+
+#. module: report_timesheet_user
+#: field:report.timesheet.user,name:0
+#: field:report.timesheet.user.user,name:0
+msgid "Month"
+msgstr "Mês"
+
+#. module: report_timesheet_user
+#: model:ir.module.module,shortdesc:report_timesheet_user.module_meta_information
+msgid "Report for timesheet"
+msgstr "Relatório de Folha tempo"
+
+#. module: report_timesheet_user
+#: field:report.timesheet.user,total_cost:0
+#: field:report.timesheet.user.user,total_cost:0
+msgid "Task Cost"
+msgstr "Custo tarefa"

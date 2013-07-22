@@ -1,0 +1,127 @@
+# Brazilian Portuguese translation for openobject-addons
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the openobject-addons package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openobject-addons\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2009-05-19 11:14+0000\n"
+"PO-Revision-Date: 2013-07-20 09:28+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-07-22 05:50+0000\n"
+"X-Generator: Launchpad (build 16696)\n"
+
+#. module: bookstore
+#: view:res.partner:0
+msgid "Partners"
+msgstr "Parceiros"
+
+#. module: bookstore
+#: constraint:ir.ui.view:0
+msgid "Invalid XML for View Architecture!"
+msgstr "Inválido XML para Ver Arquitetura!"
+
+#. module: bookstore
+#: model:product.category,name:bookstore.product_categ_livre
+msgid "Livre"
+msgstr "Livre"
+
+#. module: bookstore
+#: field:account.invoice,to_update:0
+#: field:res.partner,to_update:0
+msgid "To update"
+msgstr "Para atualizar"
+
+#. module: bookstore
+#: view:sale.order:0
+msgid "Sales order lines"
+msgstr "Linhas de pedidos de vendas"
+
+#. module: bookstore
+#: field:res.partner.category,export_enabled:0
+msgid "Export this category to financial software"
+msgstr "Exportar produtos desta categoria de software financeiro"
+
+#. module: bookstore
+#: field:account.invoice,export_date:0
+msgid "Export time"
+msgstr "Exportar tempo"
+
+#. module: bookstore
+#: constraint:product.category:0
+msgid "Error ! You can not create recursive categories."
+msgstr "Erro! Você não pode criar categorias recursivas."
+
+#. module: bookstore
+#: model:account.journal,name:bookstore.cash_journal
+msgid "Cash"
+msgstr "Cash"
+
+#. module: bookstore
+#: help:res.partner,partner_ref:0
+msgid "The reference of my company for this partner"
+msgstr "A referência da minha empresa para este parceiro"
+
+#. module: bookstore
+#: field:res.partner,number:0
+msgid "Number"
+msgstr "Number"
+
+#. module: bookstore
+#: field:res.partner,partner_ref:0
+msgid "Partner Ref."
+msgstr "Parceiro Ref."
+
+#. module: bookstore
+#: model:account.journal,name:bookstore.bancontact
+msgid "Payment Bancontact"
+msgstr "Bancontact pagamento"
+
+#. module: bookstore
+#: field:account.invoice,to_export:0
+#: field:res.partner,to_export:0
+msgid "To export"
+msgstr "Para exportar"
+
+#. module: bookstore
+#: constraint:res.partner:0
+msgid "The VAT doesn't seem to be correct."
+msgstr "O IVA Localidade: Não parece Estar correto."
+
+#. module: bookstore
+#: model:ir.module.module,description:bookstore.module_meta_information
+msgid ""
+"Module to manage book store.\n"
+"    Add book Information, \n"
+"    Author Information, \n"
+"    Books Category,\n"
+"    Related books,\n"
+"    Available Languages,\n"
+msgstr ""
+"Módulo para gerenciar loja de livros.\n"
+"    Adicionar informações sobre o livro, \n"
+"    Informação sobre o autor, \n"
+"    Livros Categoria,\n"
+"    Livros relacionados,\n"
+"    Os idiomas disponíveis,\n"
+
+#. module: bookstore
+#: view:sale.order:0
+msgid "Qty"
+msgstr "Qtde"
+
+#. module: bookstore
+#: field:res.partner.address,comment:0
+msgid "Notes"
+msgstr "Notas"
+
+#. module: bookstore
+#: model:ir.module.module,shortdesc:bookstore.module_meta_information
+msgid "Bookstore Verticalisation"
+msgstr "Livraria Verticalização"

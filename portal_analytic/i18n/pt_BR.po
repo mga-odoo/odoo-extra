@@ -1,0 +1,107 @@
+# Brazilian Portuguese translation for openobject-addons
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the openobject-addons package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openobject-addons\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2009-11-26 05:50+0000\n"
+"PO-Revision-Date: 2013-07-20 16:10+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-07-22 05:50+0000\n"
+"X-Generator: Launchpad (build 16696)\n"
+
+#. module: portal_analytic
+#: model:ir.module.module,description:portal_analytic.module_meta_information
+msgid ""
+"Potal Management - Service company specific data for analytic accounting."
+msgstr ""
+"Gestão Potal - dados específicos empresa de serviços de contabilidade "
+"analítica."
+
+#. module: portal_analytic
+#: model:ir.actions.act_window,name:portal_analytic.portal_action_analytic_account_closed
+#: model:ir.ui.menu,name:portal_analytic.menu_portal_configuration_contract_close
+msgid "Closed Contracts"
+msgstr "Contratos fechados"
+
+#. module: portal_analytic
+#: constraint:ir.ui.view:0
+msgid "Invalid XML for View Architecture!"
+msgstr "Inválido XML para Ver Arquitetura!"
+
+#. module: portal_analytic
+#: view:account.analytic.account:0
+msgid "Account Data"
+msgstr "Dados da conta"
+
+#. module: portal_analytic
+#: constraint:ir.actions.act_window:0
+msgid "Invalid model name in the action definition."
+msgstr "Nome do modelo inválida na definição da ação."
+
+#. module: portal_analytic
+#: model:ir.actions.act_window,name:portal_analytic.portal_action_analytic_account_opened
+msgid "Opened Contracts"
+msgstr "Contratos abertos"
+
+#. module: portal_analytic
+#: view:account.analytic.account:0
+msgid "Work done stats"
+msgstr "Trabalho realizado estatísticas"
+
+#. module: portal_analytic
+#: model:ir.ui.menu,name:portal_analytic.menu_portal_configuration_contract
+msgid "Contracts"
+msgstr "Contratos"
+
+#. module: portal_analytic
+#: view:account.analytic.account:0
+msgid "Key dates"
+msgstr "Principais datas"
+
+#. module: portal_analytic
+#: view:account.analytic.account:0
+msgid "Status"
+msgstr "Situação"
+
+#. module: portal_analytic
+#: view:account.analytic.account:0
+msgid "Analytic account"
+msgstr "Conta analítica"
+
+#. module: portal_analytic
+#: view:account.analytic.account:0
+msgid "Analysis stats"
+msgstr "Estatísticas de Análise"
+
+#. module: portal_analytic
+#: view:account.analytic.account:0
+msgid "Invoicing Data"
+msgstr "Os Dados de Faturamento"
+
+#. module: portal_analytic
+#: model:ir.module.module,shortdesc:portal_analytic.module_meta_information
+msgid "Portal Management - Analytic Entries"
+msgstr "Gestão Portal - Entradas Analiticas"
+
+#. module: portal_analytic
+#: view:account.analytic.account:0
+msgid "Analysis summary"
+msgstr "Resumo da análise"
+
+#. module: portal_analytic
+#: model:ir.ui.menu,name:portal_analytic.menu_portal_configuration_contract_open
+msgid "Open Contracts"
+msgstr "Contratos em aberto"
+
+#. module: portal_analytic
+#: view:account.analytic.account:0
+msgid "To be invoiced"
+msgstr "Para ser faturado"

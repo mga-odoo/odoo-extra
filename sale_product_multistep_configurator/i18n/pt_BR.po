@@ -1,0 +1,113 @@
+# Brazilian Portuguese translation for openobject-addons
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the openobject-addons package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openobject-addons\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2009-11-25 14:29+0000\n"
+"PO-Revision-Date: 2013-07-20 15:04+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-07-22 05:50+0000\n"
+"X-Generator: Launchpad (build 16696)\n"
+
+#. module: sale_product_multistep_configurator
+#: model:ir.model,name:sale_product_multistep_configurator.model_sale_product_multistep_configurator_configurator_step
+msgid "sale_product_multistep_configurator.configurator.step"
+msgstr "sale_product_multistep_configurator.configurator.step"
+
+#. module: sale_product_multistep_configurator
+#: model:ir.actions.wizard,name:sale_product_multistep_configurator.wizard_multistep_configurator
+#: view:sale.order:0
+msgid "Configure new product"
+msgstr "Configure o novo PRODUTO"
+
+#. module: sale_product_multistep_configurator
+#: model:ir.actions.act_window,name:sale_product_multistep_configurator.product_multistep_configurator_step_list
+msgid "product_multistep_configurator_step_list"
+msgstr "product_multistep_configurator_step_list"
+
+#. module: sale_product_multistep_configurator
+#: constraint:ir.model:0
+msgid ""
+"The Object name must start with x_ and not contain any special character !"
+msgstr ""
+"O nome do objeto deve iniciar com x_ e não conter qualquer caractere "
+"especial!"
+
+#. module: sale_product_multistep_configurator
+#: model:ir.actions.act_window,name:sale_product_multistep_configurator.action_product_configure_from_sale_order
+#: model:ir.actions.act_window,name:sale_product_multistep_configurator.action_product_configure_from_sale_order_line
+msgid "Product Configure Wizard"
+msgstr "Produtos ASSISTENTE parágrafo Configurar"
+
+#. module: sale_product_multistep_configurator
+#: view:sale.order.line:0
+msgid "Reconfigure product"
+msgstr "Produto reconfigurar"
+
+#. module: sale_product_multistep_configurator
+#: model:ir.ui.menu,name:sale_product_multistep_configurator.product_configurator_steps
+msgid "Configurator Steps"
+msgstr "Passos Configurador"
+
+#. module: sale_product_multistep_configurator
+#: model:ir.module.module,description:sale_product_multistep_configurator.module_meta_information
+msgid "Generic Multistep configurator"
+msgstr "Multistep genérico configurador"
+
+#. module: sale_product_multistep_configurator
+#: help:sale_product_multistep_configurator.configurator.step,sequence:0
+msgid "Determine in which order step are executed"
+msgstr "Determinar em qual etapa ordem são executados"
+
+#. module: sale_product_multistep_configurator
+#: field:sale_product_multistep_configurator.configurator.step,sequence:0
+msgid "Sequence"
+msgstr "Seqüência"
+
+#. module: sale_product_multistep_configurator
+#: model:ir.module.module,shortdesc:sale_product_multistep_configurator.module_meta_information
+msgid "MultiStep Product Configurator"
+msgstr "Multistep Configurador de Produtos"
+
+#. module: sale_product_multistep_configurator
+#: view:sale_product_multistep_configurator.configurator.step:0
+msgid "Configurator Step"
+msgstr "Passo Configurator"
+
+#. module: sale_product_multistep_configurator
+#: constraint:ir.actions.act_window:0
+msgid "Invalid model name in the action definition."
+msgstr "Nome do modelo inválida na definição da ação."
+
+#. module: sale_product_multistep_configurator
+#: field:sale_product_multistep_configurator.configurator.step,model_id:0
+msgid "Object ID"
+msgstr "Object ID"
+
+#. module: sale_product_multistep_configurator
+#: view:sale.order.line:0
+msgid "Cancel"
+msgstr "Cancel"
+
+#. module: sale_product_multistep_configurator
+#: constraint:ir.ui.view:0
+msgid "Invalid XML for View Architecture!"
+msgstr "Inválido XML para Ver Arquitetura!"
+
+#. module: sale_product_multistep_configurator
+#: view:sale.order.line:0
+msgid "Validate"
+msgstr "Validar"
+
+#. module: sale_product_multistep_configurator
+#: field:sale_product_multistep_configurator.configurator.step,name:0
+msgid "Value Name"
+msgstr "Valor Nome"

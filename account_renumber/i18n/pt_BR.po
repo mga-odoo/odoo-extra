@@ -1,0 +1,173 @@
+# Brazilian Portuguese translation for openobject-addons
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the openobject-addons package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openobject-addons\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2009-11-22 11:17+0000\n"
+"PO-Revision-Date: 2013-07-20 09:41+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-07-22 05:50+0000\n"
+"X-Generator: Launchpad (build 16696)\n"
+
+#. module: account_renumber
+#: model:ir.module.module,shortdesc:account_renumber.module_meta_information
+msgid "Account renumber wizard"
+msgstr "Assistente renumerar conta"
+
+#. module: account_renumber
+#: help:account_renumber.renumber_wizard,init,period_ids:0
+msgid "Fiscal periods to renumber"
+msgstr "Períodos fiscais para renumerar"
+
+#. module: account_renumber
+#: wizard_field:account_renumber.renumber_wizard,init,number_next:0
+msgid "First Number"
+msgstr "Primeiro Numero"
+
+#. module: account_renumber
+#: help:account_renumber.renumber_wizard,renumber,journal_ids:0
+msgid "Renumbered journals"
+msgstr "Revistas renumeradas"
+
+#. module: account_renumber
+#: wizard_button:account_renumber.renumber_wizard,init,renumber:0
+msgid "Renumber"
+msgstr "Renumerar"
+
+#. module: account_renumber
+#: wizard_view:account_renumber.renumber_wizard,renumber:0
+msgid "You may now review them using the show results button."
+msgstr "Agora você pode revê-las utilizando o botão resultados show."
+
+#. module: account_renumber
+#: wizard_field:account_renumber.renumber_wizard,init,journal_ids:0
+#: wizard_field:account_renumber.renumber_wizard,renumber,journal_ids:0
+msgid "Journals"
+msgstr "Diários"
+
+#. module: account_renumber
+#: wizard_view:account_renumber.renumber_wizard,init:0
+msgid "Journals and periods to consider"
+msgstr "Revistas e períodos a considerar"
+
+#. module: account_renumber
+#: wizard_view:account_renumber.renumber_wizard,init:0
+msgid "Sequence options"
+msgstr "Opções de seqüência de"
+
+#. module: account_renumber
+#: help:account_renumber.renumber_wizard,init,journal_ids:0
+msgid "Journals to renumber"
+msgstr "Revistas para renumerar"
+
+#. module: account_renumber
+#: wizard_view:account_renumber.renumber_wizard,init:0
+#: model:ir.actions.wizard,name:account_renumber.wiz_account_renumber
+#: model:ir.ui.menu,name:account_renumber.menu_account_renumber
+msgid "Renumber Account Moves"
+msgstr "Renumerar Movimentos Conta"
+
+#. module: account_renumber
+#: wizard_view:account_renumber.renumber_wizard,init:0
+msgid ""
+"Posted moves from those journals will be sorted by date and then assigned "
+"sequential numbers using their journal sequence."
+msgstr ""
+"Postado movimentos desses periódicos serão classificados por data e, em "
+"seguida, recebem números sequenciais usando sua seqüência do jornal."
+
+#. module: account_renumber
+#: wizard_button:account_renumber.renumber_wizard,init,end:0
+msgid "Cancel"
+msgstr "Cancel"
+
+#. module: account_renumber
+#: wizard_button:account_renumber.renumber_wizard,renumber,show_results:0
+msgid "Show results"
+msgstr "Mostrar resultados"
+
+#. module: account_renumber
+#: model:ir.module.module,description:account_renumber.module_meta_information
+msgid ""
+"\n"
+"This module adds a wizard to renumber account moves by date.\n"
+"\n"
+"The wizard, that will be added to the \"End of Year Treatments\",\n"
+"let's you select one or more journals and fiscal periods,\n"
+"set a starting number; and then renumber all the posted moves\n"
+"from those journals and periods sorted by date.\n"
+"\n"
+"It will recreate the sequence number of each account move using their "
+"journal sequence so:\n"
+"    - Sequences per journal are supported.\n"
+"    - Sequences with prefixes and sufixes based on the move date are also "
+"supported.\n"
+"            "
+msgstr ""
+"\n"
+"Este módulo adiciona um assistente para renumerar conta movimentos por data. "
+"\n"
+"A assistente, que será adicionado ao \"fim dos tratamentos Ano\", \n"
+"vamos selecionar uma ou mais revistas e períodos fiscais, \n"
+"definir um número inicial, e, em seguida, renumerar todos os postou "
+"movimentos \n"
+". dessas revistas e períodos ordenados por data \n"
+"Ela irá recriar o número de seqüência de cada conta de movimento usando sua "
+"seqüência revista assim:\n"
+"\n"
+"\n"
+"    - Seqüências por revista são suportados.\n"
+"    - Sequências com prefixos e sufixes com base na data movimento também "
+"são suportados.\n"
+"            "
+
+#. module: account_renumber
+#: code:addons/account_renumber/wizard/wizard_renumber.py:0
+#, python-format
+msgid "Renumbered account moves"
+msgstr "Conta Movimentos renumerados"
+
+#. module: account_renumber
+#: wizard_view:account_renumber.renumber_wizard,renumber:0
+msgid "The moves of the selected journals and periods have been renumbered."
+msgstr ""
+"Os movimentos das revistas e períodos selecionados foram renumeradas."
+
+#. module: account_renumber
+#: wizard_view:account_renumber.renumber_wizard,renumber:0
+msgid "Renumber Account Moves - Done"
+msgstr "Renumerar Moves Conta - Concluído"
+
+#. module: account_renumber
+#: wizard_field:account_renumber.renumber_wizard,init,period_ids:0
+#: wizard_field:account_renumber.renumber_wizard,renumber,period_ids:0
+msgid "Periods"
+msgstr "Periods"
+
+#. module: account_renumber
+#: help:account_renumber.renumber_wizard,renumber,period_ids:0
+msgid "Renumbered fiscal periods"
+msgstr "Períodos fiscais renumerados"
+
+#. module: account_renumber
+#: wizard_button:account_renumber.renumber_wizard,renumber,end:0
+msgid "Close"
+msgstr "Fechar"
+
+#. module: account_renumber
+#: wizard_view:account_renumber.renumber_wizard,init:0
+msgid "This wizard will help you renumber one or more journals."
+msgstr "Este assistente irá ajudá-lo a renumerar um ou mais jornais."
+
+#. module: account_renumber
+#: help:account_renumber.renumber_wizard,init,number_next:0
+msgid "Journal sequences will start counting on this number"
+msgstr "Seqüências revista vai começar a contar sobre esse número"

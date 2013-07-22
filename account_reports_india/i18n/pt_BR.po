@@ -1,0 +1,348 @@
+# Brazilian Portuguese translation for openobject-addons
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the openobject-addons package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openobject-addons\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2009-11-24 13:34+0000\n"
+"PO-Revision-Date: 2013-07-20 09:51+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-07-22 05:50+0000\n"
+"X-Generator: Launchpad (build 16696)\n"
+
+#. module: account_reports_india
+#: rml:pl.account:0
+msgid "Incomes"
+msgstr "Rendimentos"
+
+#. module: account_reports_india
+#: model:ir.module.module,shortdesc:account_reports_india.module_meta_information
+msgid "Accounting Reports - Indian Accounting"
+msgstr "Relatórios Contábeis - Contabilidade indiano"
+
+#. module: account_reports_india
+#: rml:pl.account.horizontal:0
+msgid "Dr."
+msgstr "Dr."
+
+#. module: account_reports_india
+#: rml:trial.balance.sheet:0
+msgid "Particulars"
+msgstr "Características"
+
+#. module: account_reports_india
+#: wizard_field:account.pl.report,init,report_type:0
+#: wizard_field:balancesheet.report,init,report_type:0
+msgid "Report Type"
+msgstr "Tipo de Relatório"
+
+#. module: account_reports_india
+#: rml:trial.balance.sheet:0
+msgid "Opening Balance"
+msgstr "Saldo"
+
+#. module: account_reports_india
+#: wizard_field:account.pl.report,init,date1:0
+#: wizard_field:balancesheet.report,init,date1:0
+msgid "Start of Date"
+msgstr "Data de início da"
+
+#. module: account_reports_india
+#: rml:trial.balance.sheet:0
+msgid "Debit"
+msgstr "Débito"
+
+#. module: account_reports_india
+#: wizard_button:account.pl.report,init,checkreport:0
+#: wizard_button:balancesheet.report,init,checkreport:0
+#: wizard_button:trial.balance.sheet.report,init,report:0
+msgid "Print"
+msgstr "Imprimir"
+
+#. module: account_reports_india
+#: wizard_field:trial.balance.sheet.report,init,date_from:0
+msgid "Start date"
+msgstr "Data de início"
+
+#. module: account_reports_india
+#: rml:pl.account:0
+#: rml:pl.account.horizontal:0
+msgid "Total:("
+msgstr "Total: ("
+
+#. module: account_reports_india
+#: rml:pl.account.horizontal:0
+msgid "Cr."
+msgstr "Cr."
+
+#. module: account_reports_india
+#: rml:trial.balance.sheet:0
+msgid "Trial Balance"
+msgstr "Balancete"
+
+#. module: account_reports_india
+#: selection:account.pl.report,init,report_type:0
+#: selection:balancesheet.report,init,report_type:0
+msgid "Vertical"
+msgstr "Vertical"
+
+#. module: account_reports_india
+#: rml:account.balancesheet.horizontal:0
+#: rml:pl.account:0
+#: rml:pl.account.horizontal:0
+msgid ")"
+msgstr ")"
+
+#. module: account_reports_india
+#: model:ir.actions.report.xml,name:account_reports_india.account_pl_account
+#: model:ir.actions.report.xml,name:account_reports_india.account_pl_account_horizontal
+#: model:ir.actions.wizard,name:account_reports_india.wizard_pl_report
+#: model:ir.ui.menu,name:account_reports_india.menu_profit_and_loss_account_report
+msgid "Profit And Loss Account"
+msgstr "Demonstração de resultados"
+
+#. module: account_reports_india
+#: wizard_field:account.pl.report,init,company_id:0
+#: wizard_field:balancesheet.report,init,company_id:0
+#: wizard_field:trial.balance.sheet.report,init,company_id:0
+msgid "Company"
+msgstr "Empresa"
+
+#. module: account_reports_india
+#: rml:account.balancesheet.horizontal:0
+msgid "Balance:("
+msgstr "Balanço: ("
+
+#. module: account_reports_india
+#: model:ir.ui.menu,name:account_reports_india.indian_accounting_reports
+msgid "Accounting Reports"
+msgstr "Relatórios Contábeis"
+
+#. module: account_reports_india
+#: rml:trial.balance.sheet:0
+msgid "Difference of Opening Balance :"
+msgstr "Diferença do Saldo:"
+
+#. module: account_reports_india
+#: rml:trial.balance.sheet:0
+msgid "Closing Balance"
+msgstr "Saldo final"
+
+#. module: account_reports_india
+#: rml:pl.account.horizontal:0
+msgid "Particular"
+msgstr "Particular"
+
+#. module: account_reports_india
+#: selection:account.pl.report,init,report_type:0
+#: selection:balancesheet.report,init,report_type:0
+msgid "Horizontal"
+msgstr "Horizontal"
+
+#. module: account_reports_india
+#: rml:pl.account:0
+#: rml:pl.account.horizontal:0
+msgid ":"
+msgstr ":"
+
+#. module: account_reports_india
+#: rml:account.balancesheet.horizontal:0
+#: rml:pl.account.horizontal:0
+#: rml:trial.balance.sheet:0
+msgid "1.3cm 24.9cm 38.3cm 24.9cm"
+msgstr "1,3 centímetros 24,9 centímetros 38,3 centímetros 24,9 centímetros"
+
+#. module: account_reports_india
+#: rml:account.balancesheet.horizontal:0
+#: rml:pl.account:0
+#: rml:pl.account.horizontal:0
+#: rml:trial.balance.sheet:0
+msgid "To:"
+msgstr "Para:"
+
+#. module: account_reports_india
+#: rml:trial.balance.sheet:0
+msgid "Transaction"
+msgstr "Transação"
+
+#. module: account_reports_india
+#: rml:account.balancesheet.horizontal:0
+msgid "Assets"
+msgstr "Patrimônios"
+
+#. module: account_reports_india
+#: model:ir.module.module,description:account_reports_india.module_meta_information
+msgid ""
+"Accounting Reports - Indian Accounting\n"
+"Modules gives the 3 most Important Reports for the Indian Accounting\n"
+"* Trial Balance\n"
+"* Profit and Loss Account\n"
+"* Balance Sheet\n"
+"    "
+msgstr ""
+"Relatórios Contábeis - Contabilidade indianas \n"
+"Módulos dá os três relatórios mais importantes para a Contabilidade indiano "
+"\n"
+"* Balancete \n"
+"* Demonstração de Resultados \n"
+"* Balanço\n"
+"    "
+
+#. module: account_reports_india
+#: rml:account.balancesheet.horizontal:0
+msgid "Liabilities"
+msgstr "Passivos"
+
+#. module: account_reports_india
+#: help:account.pl.report,init,fiscalyear:0
+#: help:balancesheet.report,init,fiscalyear:0
+#: help:trial.balance.sheet.report,init,fiscalyear:0
+msgid "Keep empty for all open fiscal year"
+msgstr "Mantenha vazia para todos os anos fiscais abertos"
+
+#. module: account_reports_india
+#: rml:trial.balance.sheet:0
+msgid "Credit"
+msgstr "Crédito"
+
+#. module: account_reports_india
+#: rml:account.balancesheet.horizontal:0
+#: rml:pl.account:0
+#: rml:pl.account.horizontal:0
+msgid "Amount("
+msgstr "Montante ("
+
+#. module: account_reports_india
+#: rml:account.balancesheet.horizontal:0
+#: rml:pl.account:0
+#: rml:pl.account.horizontal:0
+msgid "Total Amount("
+msgstr "Valor Total ("
+
+#. module: account_reports_india
+#: rml:account.balancesheet.horizontal:0
+#: rml:pl.account.horizontal:0
+#: rml:trial.balance.sheet:0
+msgid "COL 2"
+msgstr "COL 2"
+
+#. module: account_reports_india
+#: rml:account.balancesheet.horizontal:0
+#: rml:pl.account.horizontal:0
+#: rml:trial.balance.sheet:0
+msgid "COL 1"
+msgstr "COL 1"
+
+#. module: account_reports_india
+#: model:ir.actions.report.xml,name:account_reports_india.account_tb_account
+msgid "Trial Balancesheet"
+msgstr "Balancete julgamento"
+
+#. module: account_reports_india
+#: rml:account.balancesheet.horizontal:0
+#: rml:pl.account:0
+#: rml:pl.account.horizontal:0
+#: rml:trial.balance.sheet:0
+msgid "From :"
+msgstr "De :"
+
+#. module: account_reports_india
+#: rml:account.balancesheet.horizontal:0
+#: rml:pl.account.horizontal:0
+#: rml:trial.balance.sheet:0
+msgid "Page"
+msgstr "Página"
+
+#. module: account_reports_india
+#: wizard_view:account.pl.report,init:0
+#: wizard_view:balancesheet.report,init:0
+#: wizard_view:trial.balance.sheet.report,init:0
+msgid "Select period"
+msgstr "Selecione o período"
+
+#. module: account_reports_india
+#: selection:account.pl.report,init,display_type:0
+#: selection:balancesheet.report,init,display_type:0
+msgid "Detailed"
+msgstr "Detalhado"
+
+#. module: account_reports_india
+#: wizard_field:trial.balance.sheet.report,init,date_to:0
+msgid "End date"
+msgstr "A data de término"
+
+#. module: account_reports_india
+#: wizard_field:account.pl.report,init,display_type:0
+#: wizard_field:balancesheet.report,init,display_type:0
+msgid "Display Type"
+msgstr "Tipo de display"
+
+#. module: account_reports_india
+#: rml:pl.account:0
+#: rml:pl.account.horizontal:0
+msgid "Profit & Loss Account"
+msgstr "Demonstração de Resultados"
+
+#. module: account_reports_india
+#: selection:account.pl.report,init,display_type:0
+#: selection:balancesheet.report,init,display_type:0
+msgid "Consolidated"
+msgstr "Consolidado"
+
+#. module: account_reports_india
+#: wizard_field:account.pl.report,init,date2:0
+#: wizard_field:balancesheet.report,init,date2:0
+msgid "End of Date"
+msgstr "Fim da Data"
+
+#. module: account_reports_india
+#: wizard_field:account.pl.report,init,empty_account:0
+#: wizard_field:balancesheet.report,init,empty_account:0
+#: wizard_field:trial.balance.sheet.report,init,empty_account:0
+msgid "Include Empty Account:"
+msgstr "Incluir Conta vazio:"
+
+#. module: account_reports_india
+#: rml:pl.account:0
+msgid "Expenses"
+msgstr "Despesas"
+
+#. module: account_reports_india
+#: rml:account.balancesheet.horizontal:0
+#: model:ir.actions.report.xml,name:account_reports_india.account_balancesheet
+#: model:ir.actions.wizard,name:account_reports_india.wizard_balancesheet_report
+#: model:ir.ui.menu,name:account_reports_india.menu_balance_sheet_report
+msgid "Balance Sheet"
+msgstr "Balanço"
+
+#. module: account_reports_india
+#: wizard_field:account.pl.report,init,fiscalyear:0
+#: wizard_field:balancesheet.report,init,fiscalyear:0
+#: wizard_field:trial.balance.sheet.report,init,fiscalyear:0
+msgid "Fiscal year"
+msgstr "Exercício fiscal"
+
+#. module: account_reports_india
+#: rml:pl.account.horizontal:0
+msgid "Perticular"
+msgstr "Perticular"
+
+#. module: account_reports_india
+#: wizard_button:account.pl.report,init,end:0
+#: wizard_button:balancesheet.report,init,end:0
+#: wizard_button:trial.balance.sheet.report,init,end:0
+msgid "Cancel"
+msgstr "Cancel"
+
+#. module: account_reports_india
+#: model:ir.actions.wizard,name:account_reports_india.wizard_trial_balance_sheet
+#: model:ir.ui.menu,name:account_reports_india.menu_wizard_trial_balance_sheet
+msgid "Trial Balance Sheet"
+msgstr "Balancete"

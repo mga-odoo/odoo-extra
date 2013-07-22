@@ -1,0 +1,197 @@
+# Brazilian Portuguese translation for openobject-addons
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the openobject-addons package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openobject-addons\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2009-11-24 13:29+0000\n"
+"PO-Revision-Date: 2013-07-20 09:11+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-07-22 05:50+0000\n"
+"X-Generator: Launchpad (build 16696)\n"
+
+#. module: account_payment_export
+#: constraint:ir.model:0
+msgid ""
+"The Object name must start with x_ and not contain any special character !"
+msgstr ""
+"O nome do objeto deve iniciar com x_ e não conter qualquer caractere "
+"especial!"
+
+#. module: account_payment_export
+#: wizard_field:account.payment_create,export,note:0
+msgid "Log"
+msgstr "Log"
+
+#. module: account_payment_export
+#: wizard_view:account.payment_create,export:0
+#: wizard_view:account.payment_create,init:0
+#: model:ir.ui.menu,name:account_payment_export.menu_action_action_account_pay
+msgid "Payment Export"
+msgstr "Pagamento de Exportação"
+
+#. module: account_payment_export
+#: field:account.pay,file:0
+msgid "Saved File"
+msgstr "Salvo Arquivo"
+
+#. module: account_payment_export
+#: selection:account.pay,state:0
+msgid "Failed"
+msgstr "Fracassado"
+
+#. module: account_payment_export
+#: model:ir.model,name:account_payment_export.model_charges_code
+msgid "Charges Codes For Export"
+msgstr "Encargos códigos para exportação"
+
+#. module: account_payment_export
+#: field:account.pay,note:0
+msgid "Creation Log"
+msgstr "Criação Log"
+
+#. module: account_payment_export
+#: constraint:ir.actions.act_window:0
+msgid "Invalid model name in the action definition."
+msgstr "Nome do modelo inválida na definição da ação."
+
+#. module: account_payment_export
+#: model:ir.model,name:account_payment_export.model_payment_method
+msgid "Payment Method For Export"
+msgstr "Forma de pagamento Para Exportação"
+
+#. module: account_payment_export
+#: field:account.pay,state:0
+msgid "Status"
+msgstr "Situação"
+
+#. module: account_payment_export
+#: wizard_field:account.payment_create,init,payment_method:0
+#: model:ir.actions.act_window,name:account_payment_export.action_payment_method_tree
+#: model:ir.ui.menu,name:account_payment_export.menu_action_payment_method_tree
+#: view:payment.method:0
+msgid "Payment Method"
+msgstr "Forma de Pagamento"
+
+#. module: account_payment_export
+#: field:charges.code,description:0
+#: field:payment.method,description:0
+msgid "Description"
+msgstr "Descrição"
+
+#. module: account_payment_export
+#: field:account.pay,payment_order_id:0
+msgid "Payment Order Reference"
+msgstr "Referência Ordem de Pagamento"
+
+#. module: account_payment_export
+#: field:account.pay,create_date:0
+msgid "Creation Date"
+msgstr "Dados de Criação"
+
+#. module: account_payment_export
+#: view:account.pay:0
+#: model:ir.actions.act_window,name:account_payment_export.action_account_pay_tree
+#: model:ir.ui.menu,name:account_payment_export.menu_action_action_account_pay_tree
+msgid "Payment Export Logs"
+msgstr "Logs de Exportação de Pagamento"
+
+#. module: account_payment_export
+#: wizard_field:account.payment_create,init,charges_code:0
+#: view:charges.code:0
+#: model:ir.actions.act_window,name:account_payment_export.action_charges_code_tree
+#: model:ir.ui.menu,name:account_payment_export.menu_action_charges_code_tree
+msgid "Charges Code"
+msgstr "Código acusações"
+
+#. module: account_payment_export
+#: model:ir.actions.wizard,name:account_payment_export.wizard_account_payment_create
+msgid "Create Payment Export"
+msgstr "CRIAR Pagamento de Exportação"
+
+#. module: account_payment_export
+#: field:account.pay,create_uid:0
+msgid "Creation User"
+msgstr "Criação de Usuário"
+
+#. module: account_payment_export
+#: model:ir.module.module,description:account_payment_export.module_meta_information
+msgid ""
+"\n"
+"     This module allows to export payment orders.\n"
+"     "
+msgstr ""
+"\n"
+"     Este módulo permite exportar as ordens de pagamento.\n"
+"     "
+
+#. module: account_payment_export
+#: constraint:ir.ui.view:0
+msgid "Invalid XML for View Architecture!"
+msgstr "Inválido XML para Ver Arquitetura!"
+
+#. module: account_payment_export
+#: wizard_button:account.payment_create,export,close:0
+msgid "Ok"
+msgstr "Ok"
+
+#. module: account_payment_export
+#: selection:account.pay,state:0
+msgid "Succeeded"
+msgstr "Sucedido"
+
+#. module: account_payment_export
+#: wizard_field:account.payment_create,export,pay:0
+msgid "Export File"
+msgstr "Exportar arquivo"
+
+#. module: account_payment_export
+#: field:res.bank,bilateral:0
+msgid "Bilateral Relationship"
+msgstr "Relacionamento Bilateral"
+
+#. module: account_payment_export
+#: model:ir.model,name:account_payment_export.model_account_pay
+msgid "Payment Export History"
+msgstr "Histórico de Pagamentos de Exportação"
+
+#. module: account_payment_export
+#: model:ir.module.module,shortdesc:account_payment_export.module_meta_information
+msgid "Payment Order Export"
+msgstr "Ordem de Pagamento de Exportação"
+
+#. module: account_payment_export
+#: field:charges.code,name:0
+#: field:payment.method,name:0
+msgid "Code"
+msgstr "Código"
+
+#. module: account_payment_export
+#: help:res.bank,bilateral:0
+msgid ""
+"This field may contain indications on the processing to be applied, e.g. an "
+"indication concerning the globalisation of these payments.The content of "
+"this field must be laid down on a bilateral basis between the bank and its "
+"client."
+msgstr ""
+"Este campo pode conter indicações sobre o tratamento a ser aplicado, por "
+"exemplo, uma indicação sobre a globalização destas payments.The conteúdo "
+"deste campo devem ser fixados em uma base bilateral entre o banco e seu "
+"cliente."
+
+#. module: account_payment_export
+#: wizard_button:account.payment_create,init,export:0
+msgid "Export"
+msgstr "Exportar"
+
+#. module: account_payment_export
+#: wizard_button:account.payment_create,init,end:0
+msgid "Cancel"
+msgstr "Cancel"

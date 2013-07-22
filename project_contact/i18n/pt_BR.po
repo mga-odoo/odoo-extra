@@ -1,0 +1,43 @@
+# Brazilian Portuguese translation for openobject-addons
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the openobject-addons package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openobject-addons\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2009-11-25 13:54+0000\n"
+"PO-Revision-Date: 2013-07-20 13:00+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-07-22 05:50+0000\n"
+"X-Generator: Launchpad (build 16696)\n"
+
+#. module: project_contact
+#: constraint:ir.ui.view:0
+msgid "Invalid XML for View Architecture!"
+msgstr "Inválido XML para Ver Arquitetura!"
+
+#. module: project_contact
+#: field:project.project,contact_id2:0
+msgid "Contact"
+msgstr "Contato"
+
+#. module: project_contact
+#: model:ir.module.module,description:project_contact.module_meta_information
+msgid ""
+"Module to managed contact on project when base_contact module is installed.\n"
+"    "
+msgstr ""
+"Módulo para contato gerido projeto quando base_contact módulo está "
+"instalado.\n"
+"    "
+
+#. module: project_contact
+#: model:ir.module.module,shortdesc:project_contact.module_meta_information
+msgid "Project Contact Management"
+msgstr "Projeto Gestão de Contatos"
