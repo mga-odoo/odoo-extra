@@ -1,0 +1,78 @@
+# Brazilian Portuguese translation for openobject-addons
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the openobject-addons package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openobject-addons\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2011-03-14 12:23+0000\n"
+"PO-Revision-Date: 2013-07-28 09:21+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-07-29 05:42+0000\n"
+"X-Generator: Launchpad (build 16700)\n"
+
+#. module: nan_account_invoice_sequence
+#: constraint:account.invoice:0
+msgid "Invoice date is previous to an existing invoice."
+msgstr "Data da fatura é anterior a uma fatura existente."
+
+#. module: nan_account_invoice_sequence
+#: code:addons/nan_account_invoice_sequence/invoice.py:61
+#, python-format
+msgid "Journal %s has no sequence defined for invoices."
+msgstr "Jornal% s não tem seqüência definida de facturas."
+
+#. module: nan_account_invoice_sequence
+#: model:ir.model,name:nan_account_invoice_sequence.model_account_journal
+msgid "Journal"
+msgstr "Diário"
+
+#. module: nan_account_invoice_sequence
+#: sql_constraint:account.journal:0
+msgid "The name of the journal must be unique per company !"
+msgstr "O nome do periódico deve ser único por empresa!"
+
+#. module: nan_account_invoice_sequence
+#: code:addons/nan_account_invoice_sequence/invoice.py:61
+#, python-format
+msgid "Error!"
+msgstr "Erro!"
+
+#. module: nan_account_invoice_sequence
+#: field:account.invoice,invoice_number:0
+msgid "Invoice Number"
+msgstr "Numero da fatura"
+
+#. module: nan_account_invoice_sequence
+#: sql_constraint:account.journal:0
+msgid "The code of the journal must be unique per company !"
+msgstr "O código da revista deve ser exclusivo para cada empresa!"
+
+#. module: nan_account_invoice_sequence
+#: model:ir.model,name:nan_account_invoice_sequence.model_account_invoice
+msgid "Invoice"
+msgstr "Invoice"
+
+#. module: nan_account_invoice_sequence
+#: help:account.invoice,invoice_number:0
+msgid ""
+"Unique number of the invoice, computed automatically when the invoice is "
+"created."
+msgstr ""
+"Número único da fatura, calculado automaticamente quando a fatura é criada."
+
+#. module: nan_account_invoice_sequence
+#: field:account.journal,invoice_sequence_id:0
+msgid "Invoice Sequence"
+msgstr "Sequência de fatura"
+
+#. module: nan_account_invoice_sequence
+#: help:account.journal,invoice_sequence_id:0
+msgid "The sequence used for invoice numbers in this journal."
+msgstr "A sequência utilizada para numeração das faturas neste diário."
