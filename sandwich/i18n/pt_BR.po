@@ -1,0 +1,380 @@
+# Brazilian Portuguese translation for openobject-addons
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the openobject-addons package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openobject-addons\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2009-11-26 05:59+0000\n"
+"PO-Revision-Date: 2013-07-29 08:41+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-07-30 04:48+0000\n"
+"X-Generator: Launchpad (build 16700)\n"
+
+#. module: sandwich
+#: rml:sandwich.order.print:0
+msgid "Date :"
+msgstr "Data:"
+
+#. module: sandwich
+#: model:ir.actions.act_window,name:sandwich.action_sandwich_order
+msgid "Today's orders"
+msgstr "Ordens de hoje"
+
+#. module: sandwich
+#: wizard_view:sandwich.order.wizard,init:0
+#: wizard_button:sandwich.order.wizard,init,complete:0
+msgid "Complete order"
+msgstr "Ordem completa"
+
+#. module: sandwich
+#: model:ir.ui.menu,name:sandwich.menu_tools_sandwich_my_orderlines_day
+msgid "My Order Lines of the Day"
+msgstr "Minha ordem Lines do Dia"
+
+#. module: sandwich
+#: field:sandwich.product,name:0
+msgid "Product name"
+msgstr "Nome do produto"
+
+#. module: sandwich
+#: model:ir.ui.menu,name:sandwich.menu_tools_sandwich_today_order
+msgid "Today's Orders"
+msgstr "Ordens de hoje"
+
+#. module: sandwich
+#: rml:sandwich.order.print:0
+msgid "Phone :"
+msgstr "Telefone:"
+
+#. module: sandwich
+#: model:ir.ui.menu,name:sandwich.menu_tools_sandwich_my_orderlines
+msgid "My Order Lines"
+msgstr "Minha ordem Lines"
+
+#. module: sandwich
+#: wizard_button:sandwich.order.recall.wizard,init,send:0
+msgid "Send"
+msgstr "Enviar"
+
+#. module: sandwich
+#: view:sandwich.order.line:0
+msgid "Product order lines"
+msgstr "Linhas de pedidos de produtos"
+
+#. module: sandwich
+#: field:sandwich.order.line,user_id:0
+msgid "User id"
+msgstr "ID de usuário"
+
+#. module: sandwich
+#: model:ir.actions.wizard,name:sandwich.sandwich_order_wizard
+msgid "Reload / Complete  order"
+msgstr "Atualizar / Concluir ordem"
+
+#. module: sandwich
+#: constraint:ir.actions.act_window:0
+msgid "Invalid model name in the action definition."
+msgstr "Nome do modelo inválida na definição da ação."
+
+#. module: sandwich
+#: model:ir.ui.menu,name:sandwich.menu_tools_sandwich_type_product
+msgid "Type of Product"
+msgstr "Tipo de produto"
+
+#. module: sandwich
+#: constraint:ir.model:0
+msgid ""
+"The Object name must start with x_ and not contain any special character !"
+msgstr ""
+"O nome do objeto deve iniciar com x_ e não conter qualquer caractere "
+"especial!"
+
+#. module: sandwich
+#: model:ir.ui.menu,name:sandwich.menu_tools_sandwich_orderlines
+msgid "Order Lines"
+msgstr "Encomendar Lines"
+
+#. module: sandwich
+#: field:sandwich.order.line,product_type_id:0
+msgid "Product type"
+msgstr "Tipo de produto"
+
+#. module: sandwich
+#: model:ir.model,name:sandwich.model_sandwich_product
+msgid "sandwich.product"
+msgstr "sandwich.product"
+
+#. module: sandwich
+#: model:ir.module.module,shortdesc:sandwich.module_meta_information
+msgid "Sandwich Module"
+msgstr "Módulo Sandwich"
+
+#. module: sandwich
+#: rml:sandwich.order.print:0
+msgid "Total Price"
+msgstr "Preço Total"
+
+#. module: sandwich
+#: model:ir.model,name:sandwich.model_sandwich_product_type
+msgid "sandwich.product.type"
+msgstr "sandwich.product.type"
+
+#. module: sandwich
+#: model:ir.ui.menu,name:sandwich.menu_tools_sandwich_product
+#: field:sandwich.order.line,product_id:0
+#: wizard_field:sandwich.order.wizard,init,product_type_id:0
+msgid "Product"
+msgstr "Produto"
+
+#. module: sandwich
+#: wizard_field:sandwich.order_create,init,name:0
+msgid "Order name"
+msgstr "Nome da ordem"
+
+#. module: sandwich
+#: model:ir.actions.act_window,name:sandwich.action_sandwich_my_order_line_of_the_day
+msgid "My order lines of the day"
+msgstr "Minhas linhas ordem do dia"
+
+#. module: sandwich
+#: field:sandwich.order.line,name:0
+msgid "Description"
+msgstr "Description"
+
+#. module: sandwich
+#: wizard_view:sandwich.order.recall.wizard,init:0
+msgid "List of user to remind the order"
+msgstr "Lista de usuário para lembrar o fim"
+
+#. module: sandwich
+#: rml:sandwich.order.print:0
+msgid ","
+msgstr ","
+
+#. module: sandwich
+#: field:sandwich.order,date:0
+msgid "Order date"
+msgstr "Data do Pedido"
+
+#. module: sandwich
+#: wizard_view:sandwich.order.wizard,init:0
+msgid "Set orders for the day"
+msgstr "Definir encomendas para o dia"
+
+#. module: sandwich
+#: wizard_field:sandwich.order.recall.wizard,init,user_id:0
+msgid "Baaaad users !"
+msgstr "Usuários baaaad!"
+
+#. module: sandwich
+#: field:sandwich.order.line,date:0
+msgid "Date"
+msgstr "Date"
+
+#. module: sandwich
+#: model:ir.actions.act_window,name:sandwich.action_sandwich_order_line_of_the_day
+msgid "Order lines of the day"
+msgstr "Linhas da ordem do dia"
+
+#. module: sandwich
+#: model:ir.ui.menu,name:sandwich.menu_tools_sandwich_configuration
+msgid "Configuration"
+msgstr "Configuração"
+
+#. module: sandwich
+#: model:ir.actions.wizard,name:sandwich.sandwich_order_recall_wizard
+msgid "Send remind request"
+msgstr "Enviar lembrar pedido"
+
+#. module: sandwich
+#: field:sandwich.product.type,name:0
+msgid "Name of the type"
+msgstr "Nome do tipo"
+
+#. module: sandwich
+#: model:ir.model,name:sandwich.model_sandwich_order_line
+msgid "sandwich.order.line"
+msgstr "sandwich.order.line"
+
+#. module: sandwich
+#: constraint:ir.ui.view:0
+msgid "Invalid XML for View Architecture!"
+msgstr "Inválido XML para Ver Arquitetura!"
+
+#. module: sandwich
+#: view:sandwich.order:0
+msgid "Ordering of this day sandwich"
+msgstr "Encomenda de hoje sanduíche"
+
+#. module: sandwich
+#: field:sandwich.order,name:0
+msgid "Name"
+msgstr "Nome"
+
+#. module: sandwich
+#: view:sandwich.product.type:0
+msgid "Product type definition"
+msgstr "Definição do tipo de produto"
+
+#. module: sandwich
+#: field:sandwich.order,note:0
+msgid "Notes"
+msgstr "Notas"
+
+#. module: sandwich
+#: model:ir.actions.wizard,name:sandwich.wiz_sandwich_create
+msgid "Create Order of the day"
+msgstr "Criar ordem do dia"
+
+#. module: sandwich
+#: field:sandwich.product.type,description:0
+msgid "Type's description"
+msgstr "Descrição do tipo"
+
+#. module: sandwich
+#: model:ir.actions.act_window,name:sandwich.action_sandwich_my_order_line
+msgid "My order lines"
+msgstr "Minhas linhas de ordem"
+
+#. module: sandwich
+#: rml:sandwich.order.print:0
+msgid "Item"
+msgstr "Item"
+
+#. module: sandwich
+#: model:ir.ui.menu,name:sandwich.menu_tools_sandwich
+msgid "Sandwich"
+msgstr "Sandwich"
+
+#. module: sandwich
+#: field:sandwich.order,partner:0
+msgid "Partner"
+msgstr "Parceiro"
+
+#. module: sandwich
+#: view:sandwich.order:0
+msgid "Sandwich Order"
+msgstr "Sanduíche de Ordem"
+
+#. module: sandwich
+#: wizard_view:sandwich.order.recall.wizard,init:0
+msgid "Recall orders to users"
+msgstr "Lembre-se de ordens para os usuários"
+
+#. module: sandwich
+#: field:sandwich.order.line,order_id:0
+msgid "Order"
+msgstr "Ordem"
+
+#. module: sandwich
+#: field:sandwich.order.line,quantity:0
+#: rml:sandwich.order.print:0
+msgid "Quantity"
+msgstr "Quantidade"
+
+#. module: sandwich
+#: rml:sandwich.order.print:0
+msgid "Printing date :"
+msgstr "Dados da IMPRESSÃO:"
+
+#. module: sandwich
+#: view:sandwich.order:0
+msgid "Informations"
+msgstr "Informations"
+
+#. module: sandwich
+#: wizard_view:sandwich.order_create,init:0
+#: wizard_button:sandwich.order_create,init,order:0
+msgid "Make an order"
+msgstr "O Faça UMA Ordem"
+
+#. module: sandwich
+#: field:sandwich.product,price:0
+msgid "Product price"
+msgstr "Preço do PRODUTO"
+
+#. module: sandwich
+#: model:ir.actions.report.xml,name:sandwich.sandwich_order_print
+msgid "Sandwichs order"
+msgstr "Ordem Sandwichs"
+
+#. module: sandwich
+#: wizard_field:sandwich.order_create,init,partner_id:0
+msgid "Suplier"
+msgstr "Fornecedor"
+
+#. module: sandwich
+#: view:sandwich.product:0
+msgid "Product definition"
+msgstr "Definição do produto"
+
+#. module: sandwich
+#: field:sandwich.product,product_type_id:0
+msgid "Type of product"
+msgstr "Tipo de Produto"
+
+#. module: sandwich
+#: model:ir.ui.menu,name:sandwich.menu_tools_sandwich_createorder
+msgid "Create Order"
+msgstr "Cria Pedido"
+
+#. module: sandwich
+#: rml:sandwich.order.print:0
+msgid "Unit price"
+msgstr "Preço unitário"
+
+#. module: sandwich
+#: rml:sandwich.order.print:0
+#: wizard_field:sandwich.order.wizard,init,user_id:0
+msgid "User"
+msgstr "Usuario"
+
+#. module: sandwich
+#: rml:sandwich.order.print:0
+msgid "FAX :"
+msgstr "FAX:"
+
+#. module: sandwich
+#: wizard_button:sandwich.order.recall.wizard,init,end:0
+#: wizard_button:sandwich.order.wizard,init,end:0
+#: wizard_button:sandwich.order_create,init,end:0
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: sandwich
+#: model:ir.ui.menu,name:sandwich.menu_tools_sandwich_orderlines_day
+msgid "Order Lines of the Day"
+msgstr "Linhas de Ordem do Dia"
+
+#. module: sandwich
+#: view:sandwich.order:0
+#: field:sandwich.order,order_lines:0
+msgid "Order lines"
+msgstr "Ordem de Linhas"
+
+#. module: sandwich
+#: rml:sandwich.order.print:0
+msgid "Document :"
+msgstr "Documento:"
+
+#. module: sandwich
+#: model:ir.ui.menu,name:sandwich.menu_tools
+msgid "Tools"
+msgstr "Ferramentas"
+
+#. module: sandwich
+#: view:sandwich.order:0
+msgid "notes"
+msgstr "notas"
+
+#. module: sandwich
+#: model:ir.model,name:sandwich.model_sandwich_order
+msgid "sandwich.order"
+msgstr "sandwich.order"

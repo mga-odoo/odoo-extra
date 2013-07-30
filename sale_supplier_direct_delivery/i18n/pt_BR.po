@@ -1,0 +1,170 @@
+# Brazilian Portuguese translation for openobject-addons
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the openobject-addons package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openobject-addons\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2009-11-25 14:31+0000\n"
+"PO-Revision-Date: 2013-07-29 08:11+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-07-30 04:48+0000\n"
+"X-Generator: Launchpad (build 16700)\n"
+
+#. module: sale_supplier_direct_delivery
+#: field:mrp.procurement,related_direct_delivery_purchase_order:0
+msgid "Related Direct Delivery Purchase Order"
+msgstr "Relacionados Entrega Direta Ordem de Compra"
+
+#. module: sale_supplier_direct_delivery
+#: field:product.product,is_direct_delivery_from_product:0
+msgid "Is Supplier Direct Delivery Automatic?"
+msgstr "É Fornecedor de Entrega Direto Automático?"
+
+#. module: sale_supplier_direct_delivery
+#: constraint:ir.ui.view:0
+msgid "Invalid XML for View Architecture!"
+msgstr "Inválido XML para Ver Arquitetura!"
+
+#. module: sale_supplier_direct_delivery
+#: model:ir.module.module,description:sale_supplier_direct_delivery.module_meta_information
+msgid ""
+"\n"
+"Enable to send goods directly form supplier to customer taking special care "
+"of:\n"
+"- making only one picking from supplier location to customer location and "
+"using that picking in the sale_order workflow\n"
+"- copying the sale order shipping address to the generate purchase order "
+"line (so merging purchase orders later on will still work)\n"
+"\n"
+"Also take note of the following points:\n"
+"1) We set automatically a Sale Order line to direct delivery if there isn't "
+"enough product in the stock.\n"
+"2) We don't try to split such a line, but we set it entirely to direct "
+"delivery even if some products are available\n"
+"3) In a sale order, some lines can be set to direct while some others are on "
+"stock at the same time\n"
+"4) When we look if there is enough product on virtual stock for a line, we "
+"look at the time the sale order is confirmed,\n"
+"we don't try to anticipate if there will be enough virtual stock is the "
+"future if the sale order is planned for later.\n"
+"    "
+msgstr ""
+"\n"
+"Habilitar para enviar mercadorias formar diretamente fornecedor para o "
+"cliente tomar um cuidado especial com: \n"
+"- fazendo apenas uma colheita de local do fornecedor até o local do cliente "
+"e usar essa colheita no fluxo de trabalho sale_order \n"
+"- copiando a venda morada para envio para a linha de ordem de compra "
+"generate (compra para fusão ordens mais tarde ainda vai funcionar) \n"
+"Também tomamos nota dos seguintes pontos: \n"
+"1.) vamos definir automaticamente uma linha de ordem de venda para entrega "
+"direta se não há produto suficiente no estoque \n"
+"2) Não tente dividir essa linha , mas defini-lo inteiramente a entrega "
+"direta, mesmo que alguns produtos estão disponíveis \n"
+"3) uma ordem de venda, algumas linhas podem ser definidas para dirigir, "
+"enquanto outros estão no estoque, ao mesmo tempo \n"
+"4) Quando eu olhar se há produto suficiente no estoque virtual para uma "
+"linha, nós olhamos para o tempo da ordem de venda for confirmada, \n"
+"nós não tentar antecipar se haverá estoque suficiente virtual é o futuro, se "
+"a ordem de venda está prevista para mais tarde.\n"
+"    "
+
+#. module: sale_supplier_direct_delivery
+#: field:purchase.order.line,is_supplier_direct_delivery:0
+#: field:sale.order.line,is_supplier_direct_delivery:0
+#: field:stock.picking,is_supplier_direct_delivery:0
+msgid "Is Direct Delivery?"
+msgstr "É a entrega direta?"
+
+#. module: sale_supplier_direct_delivery
+#: model:ir.actions.act_window,name:sale_supplier_direct_delivery.action_picking_supplier_direct_delivery
+#: model:ir.ui.menu,name:sale_supplier_direct_delivery.menu_action_picking_supplier_direct_delivery
+#: view:purchase.order.line:0
+#: view:sale.order:0
+#: view:sale.order.line:0
+msgid "Supplier Direct Delivery"
+msgstr "Fornecedor de Entrega Direta"
+
+#. module: sale_supplier_direct_delivery
+#: field:sale.order.line,purchase_order:0
+msgid "Related Purchase Order"
+msgstr "Compra relacionados Ordem"
+
+#. module: sale_supplier_direct_delivery
+#: field:purchase.order.line,partner_address_id:0
+msgid "Shipping address"
+msgstr "Endereço de entrega"
+
+#. module: sale_supplier_direct_delivery
+#: model:ir.module.module,shortdesc:sale_supplier_direct_delivery.module_meta_information
+msgid "Automates direct delivery between a supplier and a customer"
+msgstr "Automatiza a entrega direta entre um fornecedor e um cliente"
+
+#. module: sale_supplier_direct_delivery
+#: field:purchase.order,has_supplier_direct_delivery:0
+#: field:sale.order,has_supplier_direct_delivery:0
+msgid "Has Supplier Direct Delivery"
+msgstr "Tem Fornecedor de Entrega Direta"
+
+#. module: sale_supplier_direct_delivery
+#: field:sale.order.line,purchase_order_line:0
+msgid "Related Purchase Order Line"
+msgstr "Compra relacionados Linha de ordem"
+
+#. module: sale_supplier_direct_delivery
+#: field:product.supplierinfo,direct_delivery_flag:0
+msgid "Direct delivery possible ?"
+msgstr "Entrega direta possível?"
+
+#. module: sale_supplier_direct_delivery
+#: field:sale.order.line,is_supplier_direct_delivery_advised:0
+msgid "Is Supplier Direct Delivery Advised?"
+msgstr "É fornecedor entrega direta Aconselhado?"
+
+#. module: sale_supplier_direct_delivery
+#: view:purchase.order.line:0
+msgid "Supplier Delivery Moves"
+msgstr "Fornecedor Moves Entrega"
+
+#. module: sale_supplier_direct_delivery
+#: field:purchase.order.line,sale_order:0
+msgid "Related Sale Order"
+msgstr "Venda relacionada Ordem"
+
+#. module: sale_supplier_direct_delivery
+#: constraint:ir.actions.act_window:0
+msgid "Invalid model name in the action definition."
+msgstr "Nome de modelo inválido na definição da ação"
+
+#. module: sale_supplier_direct_delivery
+#: field:purchase.order.line,sale_order_line:0
+msgid "Related Sale Order Line"
+msgstr "Venda relacionada Linha de ordem"
+
+#. module: sale_supplier_direct_delivery
+#: field:sale.order.line,purchase_order_state:0
+msgid "Purchase Order State"
+msgstr "Compre Estado Ordem"
+
+#. module: sale_supplier_direct_delivery
+#: field:res.partner.address,complete_address:0
+msgid "Complete Name"
+msgstr "Nome Completo"
+
+#. module: sale_supplier_direct_delivery
+#: view:sale.order:0
+#: view:sale.order.line:0
+msgid "Invoice Lines"
+msgstr "Linhas da Fatura"
+
+#. module: sale_supplier_direct_delivery
+#: view:sale.order.line:0
+msgid "History"
+msgstr "Histórico"

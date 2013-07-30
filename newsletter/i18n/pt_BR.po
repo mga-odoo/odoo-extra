@@ -1,0 +1,180 @@
+# Brazilian Portuguese translation for openobject-addons
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the openobject-addons package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openobject-addons\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2010-09-29 11:08+0000\n"
+"PO-Revision-Date: 2013-07-29 08:05+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-07-30 04:48+0000\n"
+"X-Generator: Launchpad (build 16700)\n"
+
+#. module: newsletter_base_contact
+#: constraint:ir.model:0
+msgid ""
+"The Object name must start with x_ and not contain any special character !"
+msgstr ""
+"O nome do objeto deve iniciar com x_ e não conter qualquer caractere "
+"especial!"
+
+#. module: newsletter_base_contact
+#: model:ir.ui.menu,name:newsletter_base_contact.menu_newsletter_newsletter
+#: view:newsletter.newsletter:0
+msgid "Newsletter Category"
+msgstr "Categoria boletim"
+
+#. module: newsletter_base_contact
+#: constraint:ir.actions.act_window:0
+msgid "Invalid model name in the action definition."
+msgstr "Nome de modelo inválido na definição da ação"
+
+#. module: newsletter_base_contact
+#: field:newsletter.newsletter,parent_id:0
+msgid "Partner Newsletter"
+msgstr "Boletim informativo"
+
+#. module: newsletter_base_contact
+#: field:newsletter.newsletter,child_ids:0
+msgid "Child Newsletter"
+msgstr "Criança Boletim"
+
+#. module: newsletter_base_contact
+#: model:ir.actions.act_window,name:newsletter_base_contact.action_newsletter_unsubscribe_reason
+#: field:newsletter.subscription,newsletter_unsubscribe:0
+#: view:res.partner.contact:0
+msgid "Unsubscribe"
+msgstr "Cancelar inscrição"
+
+#. module: newsletter_base_contact
+#: help:newsletter.unsubscribe.reason,active:0
+msgid ""
+"The active field allows you to hide the unsubscribe without removing it."
+msgstr "O campo ativo permite que você esconda o cancelamento sem removê-lo."
+
+#. module: newsletter_base_contact
+#: field:newsletter.newsletter,active:0
+#: field:newsletter.unsubscribe.reason,active:0
+msgid "Active"
+msgstr "Active"
+
+#. module: newsletter_base_contact
+#: field:newsletter.subscription,newsletter_unsubscribe_reason_id:0
+msgid "Newsletter Unsubscribe Reason"
+msgstr "Newsletter Unsubscribe Reason"
+
+#. module: newsletter_base_contact
+#: model:ir.actions.act_window,name:newsletter_base_contact.action_newsletter_newsletter_by_category
+msgid "Subscriptions by Newsletter"
+msgstr "Assinados por Boletim"
+
+#. module: newsletter_base_contact
+#: constraint:ir.ui.view:0
+msgid "Invalid XML for View Architecture!"
+msgstr "Inválido XML para Ver Arquitetura!"
+
+#. module: newsletter_base_contact
+#: field:newsletter.newsletter,name:0
+#: field:newsletter.unsubscribe.reason,name:0
+msgid "Name"
+msgstr "Nome"
+
+#. module: newsletter_base_contact
+#: view:newsletter.newsletter:0
+msgid "Newsletter Categories"
+msgstr "Boletim Categorias"
+
+#. module: newsletter_base_contact
+#: help:newsletter.newsletter,active:0
+msgid ""
+"The active field allows you to hide the newsletter without removing it."
+msgstr "O campo ativo permite que você esconda o boletim sem removê-lo."
+
+#. module: newsletter_base_contact
+#: field:newsletter.subscription,partner_contact_id:0
+msgid "Contact"
+msgstr ""
+
+#. module: newsletter_base_contact
+#: view:newsletter.unsubscribe.reason:0
+msgid "unsubscribe"
+msgstr "descadastrar"
+
+#. module: newsletter_base_contact
+#: model:ir.model,name:newsletter_base_contact.model_newsletter_unsubscribe_reason
+msgid "Newsletter Unsubscribe reason"
+msgstr "Boletim razão Anular"
+
+#. module: newsletter_base_contact
+#: field:newsletter.newsletter,complete_name:0
+msgid "Full Name"
+msgstr "Nome Completo"
+
+#. module: newsletter_base_contact
+#: view:newsletter.subscription:0
+msgid "subscription"
+msgstr "assinatura"
+
+#. module: newsletter_base_contact
+#: model:ir.ui.menu,name:newsletter_base_contact.menu_newsletter_unsubscribe_reason
+msgid "Unsubscribe Category"
+msgstr "Anular Categoria"
+
+#. module: newsletter_base_contact
+#: model:ir.module.module,shortdesc:newsletter_base_contact.module_meta_information
+msgid "Newsletter for contacts (base_contact)"
+msgstr ""
+
+#. module: newsletter_base_contact
+#: model:ir.module.module,description:newsletter_base_contact.module_meta_information
+msgid ""
+"Creates the categorization of their contacts and then send newsletter with..."
+msgstr ""
+
+#. module: newsletter_base_contact
+#: model:ir.actions.act_window,name:newsletter_base_contact.action_newsletter_newsletter
+#: model:ir.actions.act_window,name:newsletter_base_contact.action_newsletter_newsletter_category
+#: model:ir.model,name:newsletter_base_contact.model_newsletter_newsletter
+#: model:ir.ui.menu,name:newsletter_base_contact.menu_newsletter
+#: model:ir.ui.menu,name:newsletter_base_contact.menu_newsletter_newsletter_main
+#: field:newsletter.subscription,newsletter_id:0
+#: view:res.partner.contact:0
+#: field:res.partner.contact,newsletter:0
+msgid "Newsletter"
+msgstr "Newsletter"
+
+#. module: newsletter_base_contact
+#: model:ir.model,name:newsletter_base_contact.model_newsletter_subscription
+msgid "Newsletter subscription"
+msgstr "Subscrição da newsletter"
+
+#~ msgid "Address"
+#~ msgstr "Endereço"
+
+#~ msgid "Error ! You can not create recursive Menu."
+#~ msgstr "Erro! Você não pode criar menus recursiva."
+
+#~ msgid "Partner Contacts with Newsletter"
+#~ msgstr "Partner Contacts with Newsletter"
+
+#~ msgid "Partner Address"
+#~ msgstr "Endereço de Parceiro"
+
+#~ msgid "Communication"
+#~ msgstr "Comunicação"
+
+#~ msgid "Postal Address"
+#~ msgstr "Endereço postal"
+
+#~ msgid "Size of the field can never be less than 1 !"
+#~ msgstr "Tamanho do campo nunca pode ser inferior a 1!"
+
+#~ msgid "Partner Addresses"
+#~ msgstr "Endereços parceiros"

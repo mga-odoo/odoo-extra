@@ -1,0 +1,184 @@
+# Brazilian Portuguese translation for openobject-addons
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the openobject-addons package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openobject-addons\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2009-11-26 06:05+0000\n"
+"PO-Revision-Date: 2013-07-29 08:54+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-07-30 04:48+0000\n"
+"X-Generator: Launchpad (build 16700)\n"
+
+#. module: tiny_purchase
+#: model:ir.model,name:tiny_purchase.model_tiny_purchase_order
+msgid "tiny_purchase.order"
+msgstr "tiny_purchase.order"
+
+#. module: tiny_purchase
+#: selection:tiny_purchase.order,state:0
+msgid "Confirmed"
+msgstr "Confirmado"
+
+#. module: tiny_purchase
+#: constraint:ir.model:0
+msgid ""
+"The Object name must start with x_ and not contain any special character !"
+msgstr ""
+"O nome do objeto deve iniciar com x_ e não conter qualquer caractere "
+"especial!"
+
+#. module: tiny_purchase
+#: model:ir.module.module,shortdesc:tiny_purchase.module_meta_information
+msgid "Tiny purchase"
+msgstr "Compra minúsculo"
+
+#. module: tiny_purchase
+#: view:tiny_purchase.order:0
+msgid "Confirm"
+msgstr "Confirmar"
+
+#. module: tiny_purchase
+#: field:tiny_purchase.line,comments:0
+msgid "Comments"
+msgstr "Comentários:"
+
+#. module: tiny_purchase
+#: field:tiny_purchase.order,state:0
+msgid "State"
+msgstr "Situação"
+
+#. module: tiny_purchase
+#: selection:tiny_purchase.order,state:0
+msgid "Draft"
+msgstr "Rascunho"
+
+#. module: tiny_purchase
+#: constraint:ir.actions.act_window:0
+msgid "Invalid model name in the action definition."
+msgstr "Nome do modelo inválida na definição da ação."
+
+#. module: tiny_purchase
+#: view:tiny_purchase.line:0
+msgid "Tiny Purchase line"
+msgstr "Linha de Compra minúsculo"
+
+#. module: tiny_purchase
+#: field:tiny_purchase.line,product_id:0
+msgid "Product"
+msgstr "Produto"
+
+#. module: tiny_purchase
+#: field:tiny_purchase.line,price:0
+#: field:tiny_purchase.product,price:0
+msgid "Price"
+msgstr "Price"
+
+#. module: tiny_purchase
+#: field:tiny_purchase.order,user_id:0
+msgid "User"
+msgstr "Usuario"
+
+#. module: tiny_purchase
+#: model:ir.ui.menu,name:tiny_purchase.menu_tiny_purchase_root
+msgid "Tiny Purchase"
+msgstr "Compra minúsculo"
+
+#. module: tiny_purchase
+#: field:tiny_purchase.order,name:0
+msgid "Date"
+msgstr "Date"
+
+#. module: tiny_purchase
+#: model:ir.ui.menu,name:tiny_purchase.menu_tiny_purchase_configuration_line
+msgid "Configuration"
+msgstr "Configuração"
+
+#. module: tiny_purchase
+#: model:ir.module.module,description:tiny_purchase.module_meta_information
+msgid "Very simple purchase module."
+msgstr "Módulo de compra muito simples."
+
+#. module: tiny_purchase
+#: model:ir.model,name:tiny_purchase.model_tiny_purchase_line
+msgid "tiny_purchase.line"
+msgstr "tiny_purchase.line"
+
+#. module: tiny_purchase
+#: constraint:ir.ui.view:0
+msgid "Invalid XML for View Architecture!"
+msgstr "Inválido XML para Ver Arquitetura!"
+
+#. module: tiny_purchase
+#: field:tiny_purchase.product,name:0
+msgid "Name"
+msgstr "Nome"
+
+#. module: tiny_purchase
+#: view:tiny_purchase.product:0
+msgid "Tiny Purchase product"
+msgstr "PRODUTO Compra minúsculo"
+
+#. module: tiny_purchase
+#: view:tiny_purchase.order:0
+#: field:tiny_purchase.order,line_ids:0
+msgid "Lines"
+msgstr "Linhas"
+
+#. module: tiny_purchase
+#: model:ir.ui.menu,name:tiny_purchase.menu_tiny_purchase_order_line
+msgid "Purchase Order"
+msgstr "Ordem de Compra"
+
+#. module: tiny_purchase
+#: model:ir.ui.menu,name:tiny_purchase.menu_tiny_purchase_line
+msgid "Purchase line"
+msgstr "Linha Comprar"
+
+#. module: tiny_purchase
+#: model:ir.actions.report.xml,name:tiny_purchase.report_tiny_purchase_order
+msgid "Print Order"
+msgstr "Imprimir Pedido"
+
+#. module: tiny_purchase
+#: field:tiny_purchase.line,order_id:0
+msgid "Order"
+msgstr "Ordem"
+
+#. module: tiny_purchase
+#: field:tiny_purchase.line,quantity:0
+msgid "Quantity"
+msgstr "Quantidade"
+
+#. module: tiny_purchase
+#: model:ir.ui.menu,name:tiny_purchase.menu_tiny_purchase_product_line
+msgid "Purchase product"
+msgstr "Comprar o produto"
+
+#. module: tiny_purchase
+#: model:ir.model,name:tiny_purchase.model_tiny_purchase_product
+msgid "tiny_purchase.product"
+msgstr "tiny_purchase.product"
+
+#. module: tiny_purchase
+#: view:tiny_purchase.order:0
+#: selection:tiny_purchase.order,state:0
+msgid "Done"
+msgstr "Feito"
+
+#. module: tiny_purchase
+#: view:tiny_purchase.order:0
+msgid "Tiny Purchase order"
+msgstr "Ordem de compra minúsculo"
+
+#. module: tiny_purchase
+#: model:ir.ui.menu,name:tiny_purchase.menu_tiny_purchase_tool
+msgid "Tools"
+msgstr "Ferramentas"

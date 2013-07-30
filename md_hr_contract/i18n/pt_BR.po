@@ -1,0 +1,224 @@
+# Brazilian Portuguese translation for openobject-addons
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the openobject-addons package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openobject-addons\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2009-11-26 05:05+0000\n"
+"PO-Revision-Date: 2013-07-29 07:52+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-07-30 04:48+0000\n"
+"X-Generator: Launchpad (build 16700)\n"
+
+#. module: md_hr_contract
+#: field:hr.contract,salary_level:0
+msgid "Salary level"
+msgstr "No Nível salarial"
+
+#. module: md_hr_contract
+#: selection:md.hr.contract.availability,day:0
+msgid "Thursday"
+msgstr "Quinta-Feira"
+
+#. module: md_hr_contract
+#: field:hr.contract,code:0
+msgid "code"
+msgstr "código"
+
+#. module: md_hr_contract
+#: field:md.hr.contract.availability,from_hour:0
+msgid "From"
+msgstr "De"
+
+#. module: md_hr_contract
+#: view:hr.employee:0
+msgid "Generalities"
+msgstr "Generalidades"
+
+#. module: md_hr_contract
+#: field:hr.contract,extend_appointment_date:0
+msgid "Extend appointment from"
+msgstr "Estender a nomeação de"
+
+#. module: md_hr_contract
+#: field:hr.contract,salary_grade:0
+msgid "Salary grade"
+msgstr "Faixa salarial"
+
+#. module: md_hr_contract
+#: field:md.hr.contract.availability,to_hour:0
+msgid "To"
+msgstr "A"
+
+#. module: md_hr_contract
+#: selection:md.hr.contract.availability,day:0
+msgid "Sunday"
+msgstr "Domingo"
+
+#. module: md_hr_contract
+#: selection:hr.contract,form_of_employment:0
+msgid "Permanent"
+msgstr "Permanente"
+
+#. module: md_hr_contract
+#: constraint:ir.actions.act_window:0
+msgid "Invalid model name in the action definition."
+msgstr "Nome de modelo inválido na definição da ação"
+
+#. module: md_hr_contract
+#: field:hr.contract,department_id:0
+msgid "Department"
+msgstr "Departamento"
+
+#. module: md_hr_contract
+#: constraint:ir.model:0
+msgid ""
+"The Object name must start with x_ and not contain any special character !"
+msgstr ""
+"O nome do objeto deve iniciar com x_ e não conter qualquer caractere "
+"especial!"
+
+#. module: md_hr_contract
+#: selection:hr.contract,form_of_employment:0
+msgid "Temporary"
+msgstr "Temporário"
+
+#. module: md_hr_contract
+#: selection:md.hr.contract.availability,day:0
+msgid "Monday"
+msgstr "Segunda-Feira"
+
+#. module: md_hr_contract
+#: view:hr.employee:0
+msgid "Contracts"
+msgstr "Contratos"
+
+#. module: md_hr_contract
+#: model:ir.module.module,description:md_hr_contract.module_meta_information
+msgid ""
+"\n"
+"    Contract Module for human resource management. You can manage:\n"
+"    * Contract of the employee\n"
+"    * Availability of the employee\n"
+"    and many more.................\n"
+"    "
+msgstr ""
+"\n"
+"    Módulo contrato para gestão de recursos humanos. Você pode gerenciar:\n"
+"    * Contrato do empregado\n"
+"    * A disponibilidade do funcionário\n"
+"    e muitos mais .................\n"
+"    "
+
+#. module: md_hr_contract
+#: selection:md.hr.contract.availability,day:0
+msgid "Friday"
+msgstr "Sexta-Feira"
+
+#. module: md_hr_contract
+#: view:md.hr.contract.availability:0
+msgid "Employee Availability"
+msgstr "Empregado disponibilidade"
+
+#. module: md_hr_contract
+#: field:hr.contract,trial_period_review:0
+msgid "Trial period review"
+msgstr "Julgamento revisão período"
+
+#. module: md_hr_contract
+#: field:hr.contract,availability_per_week:0
+msgid "Availability per week"
+msgstr "Disponibilidade por semana"
+
+#. module: md_hr_contract
+#: field:hr.contract,fulltime_salary:0
+msgid "Full-time Salary"
+msgstr "Salário de tempo integral"
+
+#. module: md_hr_contract
+#: field:md.hr.contract.availability,day:0
+msgid "Day"
+msgstr "Dia"
+
+#. module: md_hr_contract
+#: field:hr.contract,form_of_employment:0
+msgid "Form of employment"
+msgstr "Forma de emprego"
+
+#. module: md_hr_contract
+#: view:hr.employee:0
+msgid "Salary"
+msgstr "Salário"
+
+#. module: md_hr_contract
+#: constraint:ir.ui.view:0
+msgid "Invalid XML for View Architecture!"
+msgstr "Inválido XML para Ver Arquitetura!"
+
+#. module: md_hr_contract
+#: model:ir.module.module,shortdesc:md_hr_contract.module_meta_information
+msgid "Pilot Human Resource Management"
+msgstr "Piloto de Gestão de Recursos Humanos"
+
+#. module: md_hr_contract
+#: field:hr.contract,bank_account_nbr:0
+msgid "Bank account number"
+msgstr "Número de conta bancária"
+
+#. module: md_hr_contract
+#: view:hr.employee:0
+msgid "Notes"
+msgstr "Notas"
+
+#. module: md_hr_contract
+#: selection:md.hr.contract.availability,day:0
+msgid "Wednesday"
+msgstr "Quarta-Feira"
+
+#. module: md_hr_contract
+#: view:hr.employee:0
+#: field:md.hr.contract.availability,contract_id:0
+msgid "Contract"
+msgstr "Contrato"
+
+#. module: md_hr_contract
+#: field:hr.contract,fte:0
+msgid "FTE"
+msgstr "FTE"
+
+#. module: md_hr_contract
+#: field:hr.department,max_temp_contract:0
+msgid "Maximum temporary contracts"
+msgstr "Máximo de contratos temporários"
+
+#. module: md_hr_contract
+#: field:hr.contract,fte_hrs:0
+msgid "FTE in Hours"
+msgstr "FTE em Horas"
+
+#. module: md_hr_contract
+#: model:ir.model,name:md_hr_contract.model_md_hr_contract_availability
+msgid "HR Contract Availability"
+msgstr "HR Contrato disponibilidade"
+
+#. module: md_hr_contract
+#: selection:md.hr.contract.availability,day:0
+msgid "Tuesday"
+msgstr "Terça-feira"
+
+#. module: md_hr_contract
+#: selection:md.hr.contract.availability,day:0
+msgid "Saturday"
+msgstr "Sábado"
+
+#. module: md_hr_contract
+#: view:hr.employee:0
+msgid "Contract Duration"
+msgstr "Duração do contrato"

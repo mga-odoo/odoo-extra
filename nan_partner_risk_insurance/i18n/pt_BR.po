@@ -1,0 +1,127 @@
+# Brazilian Portuguese translation for openobject-addons
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the openobject-addons package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openobject-addons\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2009-09-23 18:14+0000\n"
+"PO-Revision-Date: 2013-07-29 07:57+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-07-30 04:48+0000\n"
+"X-Generator: Launchpad (build 16700)\n"
+
+#. module: nan_partner_risk_insurance
+#: field:res.partner,risk_insurance_code_2:0
+msgid "Insurance Code 2"
+msgstr "Código 2 Seguros"
+
+#. module: nan_partner_risk_insurance
+#: constraint:ir.ui.view:0
+msgid "Invalid XML for View Architecture!"
+msgstr "Inválido XML para Ver Arquitetura!"
+
+#. module: nan_partner_risk_insurance
+#: help:res.partner,company_credit_limit:0
+msgid "Credit limit granted by the company."
+msgstr "Limite de crédito concedido pela empresa."
+
+#. module: nan_partner_risk_insurance
+#: field:res.partner,risk_insurance_code:0
+msgid "Insurance Code"
+msgstr "Código dos Seguros"
+
+#. module: nan_partner_risk_insurance
+#: field:res.partner,company_credit_limit:0
+msgid "Company's Credit Limit"
+msgstr "Limite de Crédito da empresa"
+
+#. module: nan_partner_risk_insurance
+#: help:res.partner,risk_insurance_requested:0
+msgid ""
+"Mark this field if an insurance was requested for the credit of this partner."
+msgstr ""
+"Marque este campo se foi solicitado um seguro para o crédito deste parceiro."
+
+#. module: nan_partner_risk_insurance
+#: help:res.partner,risk_insurance_coverage_percent:0
+msgid "Percentage of the credit covered by the insurance."
+msgstr "Percentagem do crédito coberto pelo seguro."
+
+#. module: nan_partner_risk_insurance
+#: field:res.partner,risk_insurance_grant_date:0
+msgid "Insurance Grant Date"
+msgstr "Seguro Grant Data"
+
+#. module: nan_partner_risk_insurance
+#: field:res.partner,insurance_credit_limit:0
+msgid "Insurance's Credit Limit"
+msgstr "Limite de crédito de Seguros"
+
+#. module: nan_partner_risk_insurance
+#: field:res.partner,risk_insurance_requested:0
+msgid "Insurance Requested"
+msgstr "Pedido de seguro"
+
+#. module: nan_partner_risk_insurance
+#: help:res.partner,risk_insurance_grant_date:0
+msgid "Date when the insurance was granted by the insurance company."
+msgstr "Data em que o seguro foi concedido pela companhia de seguros."
+
+#. module: nan_partner_risk_insurance
+#: help:res.partner,risk_insurance_code_2:0
+msgid ""
+"This fields is needed because some risk insurance companies require a "
+"supplementary code for each partner."
+msgstr ""
+"Este campo é necessário porque algumas companhias de seguros de risco "
+"necessitam de um código complementar para cada parceiro."
+
+#. module: nan_partner_risk_insurance
+#: view:res.partner:0
+msgid "Credit Insurance"
+msgstr "Seguro de Crédito"
+
+#. module: nan_partner_risk_insurance
+#: help:res.partner,risk_insurance_code:0
+msgid ""
+"This fields is used to store the code the risk insurance company assigns to "
+"this partner."
+msgstr ""
+"Este campo é usado para armazenar o código da companhia de seguros risco "
+"atribui a este parceiro."
+
+#. module: nan_partner_risk_insurance
+#: view:res.partner:0
+msgid "Accounting"
+msgstr "Contabilidade"
+
+#. module: nan_partner_risk_insurance
+#: help:res.partner,insurance_credit_limit:0
+msgid "Credit limit granted by the insurance company."
+msgstr "Limite de crédito concedido pela companhia de seguros."
+
+#. module: nan_partner_risk_insurance
+#: field:res.partner,risk_insurance_coverage_percent:0
+msgid "Insurance's Credit Coverage"
+msgstr "Cobertura de seguro de crédito"
+
+#. module: nan_partner_risk_insurance
+#: model:ir.module.module,description:nan_partner_risk_insurance.module_meta_information
+msgid ""
+"This module adds a new tab in the partner form to introduce risk insurance "
+"information."
+msgstr ""
+"Este módulo adiciona uma nova aba na forma parceiro para apresentar "
+"informações sobre o seguro de risco."
+
+#. module: nan_partner_risk_insurance
+#: model:ir.module.module,shortdesc:nan_partner_risk_insurance.module_meta_information
+msgid "Partner Risk Insurance"
+msgstr "Parceiro de Seguro de Risco"

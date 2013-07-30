@@ -1,0 +1,235 @@
+# Brazilian Portuguese translation for openobject-addons
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the openobject-addons package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openobject-addons\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2009-11-26 11:07+0000\n"
+"PO-Revision-Date: 2013-07-29 08:49+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-07-30 04:48+0000\n"
+"X-Generator: Launchpad (build 16700)\n"
+
+#. module: proforma_followup
+#: view:account.invoice:0
+msgid "Followups"
+msgstr "Acompanhamentos"
+
+#. module: proforma_followup
+#: constraint:ir.model:0
+msgid ""
+"The Object name must start with x_ and not contain any special character !"
+msgstr ""
+"O nome do objeto deve iniciar com x_ e não conter qualquer caractere "
+"especial!"
+
+#. module: proforma_followup
+#: model:ir.actions.act_window,name:proforma_followup.action_actions_list
+#: model:ir.ui.menu,name:proforma_followup.menu_actions_list
+#: view:proforma.followup.action:0
+msgid "Proforma Followup Actions"
+msgstr "Proforma Dar seguimento Ações"
+
+#. module: proforma_followup
+#: model:ir.actions.server,name:proforma_followup.demo_action_server_send_email
+msgid "Invoice: Send Proforma Followup Email"
+msgstr "Fatura: Enviar Proforma seguimento Email"
+
+#. module: proforma_followup
+#: constraint:ir.actions.act_window:0
+msgid "Invalid model name in the action definition."
+msgstr "Nome do modelo inválida na definição da ação."
+
+#. module: proforma_followup
+#: field:proforma.followup.history,create_date:0
+msgid "Followup Date"
+msgstr "Acompanhamento Data"
+
+#. module: proforma_followup
+#: field:proforma.followup.action,action_id:0
+msgid "Action Server"
+msgstr "Ação Servidor"
+
+#. module: proforma_followup
+#: help:proforma.followup.action,days:0
+msgid "delay by previous action or invoice date"
+msgstr "atrasar por ação anterior ou a data da factura"
+
+#. module: proforma_followup
+#: field:account.invoice,proforma_next_followup_scheduled_at:0
+msgid "Scheduled at"
+msgstr "Programado em"
+
+#. module: proforma_followup
+#: field:proforma.followup.scheduler,followup_action_id:0
+msgid "Followup Action"
+msgstr "Ação acompanhamento"
+
+#. module: proforma_followup
+#: field:account.invoice,proforma_followup_history_ids:0
+msgid "Executed Followups"
+msgstr "Followups executados"
+
+#. module: proforma_followup
+#: field:proforma.followup.action,sequence:0
+#: field:proforma.followup.history,step:0
+msgid "Step"
+msgstr "Passo"
+
+#. module: proforma_followup
+#: model:ir.module.module,shortdesc:proforma_followup.module_meta_information
+msgid "Pro-forma invoices and their payments Management"
+msgstr "Pro-forma faturas e pagamentos de sua gestão"
+
+#. module: proforma_followup
+#: view:account.invoice:0
+msgid "Folowup history"
+msgstr "História Folowup"
+
+#. module: proforma_followup
+#: constraint:proforma.followup.action:0
+msgid "Invalid Context"
+msgstr "Contexto inválido"
+
+#. module: proforma_followup
+#: field:proforma.followup.action,active:0
+msgid "Active"
+msgstr "Active"
+
+#. module: proforma_followup
+#: field:proforma.followup.scheduler,date:0
+msgid "Next action planned at"
+msgstr "Próxima ação planejada em"
+
+#. module: proforma_followup
+#: constraint:ir.cron:0
+msgid "Invalid arguments"
+msgstr "Argumentos inválidos"
+
+#. module: proforma_followup
+#: constraint:ir.ui.view:0
+msgid "Invalid XML for View Architecture!"
+msgstr "Inválido XML para Ver Arquitetura!"
+
+#. module: proforma_followup
+#: model:ir.actions.act_window,name:proforma_followup.action_scheduler_list
+#: model:ir.ui.menu,name:proforma_followup.menu_scheduler_list
+#: view:proforma.followup.scheduler:0
+msgid "Proforma Followup Scheduler"
+msgstr "Proforma seguimento Scheduler"
+
+#. module: proforma_followup
+#: field:proforma.followup.action,name:0
+#: field:proforma.followup.history,name:0
+msgid "Name"
+msgstr "Nome"
+
+#. module: proforma_followup
+#: model:ir.model,name:proforma_followup.model_proforma_followup_scheduler
+msgid "proforma.followup.scheduler"
+msgstr "proforma.followup.scheduler"
+
+#. module: proforma_followup
+#: model:ir.actions.server,name:proforma_followup.action_server_cancel_invoice
+msgid "Cancel Invoice"
+msgstr "Cancelar fatura"
+
+#. module: proforma_followup
+#: field:proforma.followup.action,days:0
+msgid "Days"
+msgstr "Dias"
+
+#. module: proforma_followup
+#: model:ir.model,name:proforma_followup.model_proforma_followup_history
+msgid "proforma.followup.history"
+msgstr "proforma.followup.history"
+
+#. module: proforma_followup
+#: field:proforma.followup.action,context:0
+msgid "Context"
+msgstr "Contexto"
+
+#. module: proforma_followup
+#: code:addons/proforma_followup/proforma.py:0
+#, python-format
+msgid "Error"
+msgstr "Error"
+
+#. module: proforma_followup
+#: model:ir.actions.server,message:proforma_followup.demo_action_server_send_email
+msgid ""
+"\n"
+"    Dear [[ object.partner_id.name ]],\n"
+"\n"
+"Your invoice of [[ object.residual ]] [[ object.currency_id.name ]] is in "
+"PROFORMA state.\n"
+"Please confirm it within [[ context.get('days', 3) ]] days.\n"
+"\n"
+"Kind Regards.\n"
+"            "
+msgstr ""
+"\n"
+"    Caro [[object.partner_id.name]], \n"
+"sua factura de [[object.residual]] [[object.currency_id.name]] está em "
+"estado PROFORMA. \n"
+"Favor confirmar dentro de [[context.get ('dias', 3 )]] dias. \n"
+"Atenciosamente.\n"
+"            "
+
+#. module: proforma_followup
+#: model:ir.module.module,description:proforma_followup.module_meta_information
+msgid ""
+"\n"
+"Once a pro-forma invoice is created, the module sends automatically mail \n"
+"and call actions after X days.\n"
+"It's the same principle than account_followup but for proforma invoice only. "
+"\n"
+"Only followups by email, no need to do reports. \n"
+"Also, at each steps, we should be able to call several functions. \n"
+"(for example, if a pro-forma is canceled, it will close a delivery order)\n"
+"    "
+msgstr ""
+"\n"
+"Uma vez que uma factura pró-forma é criada, o módulo envia automaticamente o "
+"correio \n"
+"e chamar ações após x dias. \n"
+"É o mesmo princípio que account_followup mas apenas fatura proforma. \n"
+"Somente followups por e-mail, sem necessidade de fazer relatórios. \n"
+"Além disso, a cada passos, devemos ser capazes de chamar várias funções. \n"
+"(Por exemplo, se um pro-forma é cancelado, ele vai fechar a ordem de "
+"entrega)\n"
+"    "
+
+#. module: proforma_followup
+#: model:ir.model,name:proforma_followup.model_proforma_followup_action
+msgid "PRO-Forma Followup Action"
+msgstr "PRO-Forma seguimento Ação"
+
+#. module: proforma_followup
+#: field:account.invoice,proforma_next_followup_action_id:0
+msgid "Next Action"
+msgstr "Próxima ação"
+
+#. module: proforma_followup
+#: code:addons/proforma_followup/proforma.py:0
+#, python-format
+msgid "You can not create this kind of document"
+msgstr "Você não pode criar esse tipo de documento"
+
+#. module: proforma_followup
+#: field:proforma.followup.history,invoice_id:0
+#: field:proforma.followup.scheduler,invoice_id:0
+msgid "Invoice"
+msgstr "Invoice"
+
+#. module: proforma_followup
+#: model:ir.actions.server,subject:proforma_followup.demo_action_server_send_email
+msgid "Open ERP: Reminder for Proforma Invoice"
+msgstr "Abrir ERP: Lembrete para Proforma Invoice"
