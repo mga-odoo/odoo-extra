@@ -4,172 +4,195 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: OpenERP Server 5.0.5-bzr\n"
+"Project-Id-Version: OpenERP Server 6.0.4\n"
 "Report-Msgid-Bugs-To: support@openerp.com\n"
-"POT-Creation-Date: 2009-09-27 08:18:06+0000\n"
-"PO-Revision-Date: 2009-09-22 16:49+0100\n"
-"Last-Translator: Borja López Soilán (Pexego) <borjals@pexego.es>\n"
+"POT-Creation-Date: 2013-07-31 07:52+0000\n"
+"PO-Revision-Date: 2013-07-31 07:52+0000\n"
+"Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
 #. module: account_balance_reporting
-#: field:account.balance.reporting,current_period_ids:0
-msgid "Fiscal year 1 periods"
-msgstr ""
+#: field:account.balance.reporting.line.account,report_line_id:0
+msgid "Report Line"
+msgstr "Report Line"
 
 #. module: account_balance_reporting
 #: help:account.balance.reporting.template.line,css_class:0
 msgid "Style-sheet class"
-msgstr ""
+msgstr "Style-sheet class"
 
 #. module: account_balance_reporting
-#: constraint:ir.actions.act_window:0
-msgid "Invalid model name in the action definition."
-msgstr ""
+#: field:account.balance.reporting,template_id:0
+#: field:account.balance.reporting.template.line,report_id:0
+msgid "Template"
+msgstr "Template"
+
+#. module: account_balance_reporting
+#: view:account.balance.reporting:0
+#: view:account.balance.reporting.line:0
+msgid "Fiscal year 1 Details"
+msgstr "Fiscal year 1 Details"
 
 #. module: account_balance_reporting
 #: selection:account.balance.reporting.template,balance_mode:0
 msgid "Debit-Credit"
-msgstr ""
+msgstr "Debit-Credit"
 
 #. module: account_balance_reporting
 #: field:account.balance.reporting.line,parent_id:0
 #: field:account.balance.reporting.template.line,parent_id:0
 msgid "Parent"
-msgstr ""
+msgstr "Parent"
 
 #. module: account_balance_reporting
 #: field:account.balance.reporting,company_id:0
 msgid "Company"
-msgstr ""
+msgstr "Company"
 
 #. module: account_balance_reporting
 #: model:ir.actions.act_window,name:account_balance_reporting.action_view_account_balance_reporting_template
 msgid "Account balance templates"
-msgstr ""
+msgstr "Account balance templates"
 
 #. module: account_balance_reporting
 #: selection:account.balance.reporting.template,balance_mode:0
 msgid "Credit-Debit"
-msgstr ""
+msgstr "Credit-Debit"
 
 #. module: account_balance_reporting
 #: model:ir.actions.wizard,name:account_balance_reporting.wiz_account_balance_reporting_calculate
 msgid "Calculate report"
-msgstr ""
+msgstr "Calculate report"
+
+#. module: account_balance_reporting
+#: selection:account.balance.reporting.template,balance_mode:0
+msgid "Debit-Credit, reversed with brakets"
+msgstr "Debit-Credit, reversed with brakets"
+
+#. module: account_balance_reporting
+#: report:report_account_balance_reporting.generic_detailed:0
+#: report:report_account_balance_reporting.generic_non_zero_detailed:0
+msgid "D"
+msgstr "D"
 
 #. module: account_balance_reporting
 #: field:account.balance.reporting.line,notes:0
 msgid "Notes"
-msgstr ""
+msgstr "Notes"
 
 #. module: account_balance_reporting
 #: view:account.balance.reporting:0
 #: model:ir.actions.act_window,name:account_balance_reporting.action_view_account_balance_reporting
 #: model:ir.ui.menu,name:account_balance_reporting.menu_account_balance_reporting
 msgid "Account balance reports"
-msgstr ""
+msgstr "Account balance reports"
 
 #. module: account_balance_reporting
 #: view:account.balance.reporting.template:0
 msgid "Template lines"
-msgstr ""
+msgstr "Template lines"
 
 #. module: account_balance_reporting
 #: view:account.balance.reporting:0
 #: field:account.balance.reporting,current_fiscalyear_id:0
 #: field:account.balance.reporting.line,current_value:0
 msgid "Fiscal year 1"
-msgstr ""
+msgstr "Fiscal year 1"
 
 #. module: account_balance_reporting
 #: view:account.balance.reporting:0
 #: field:account.balance.reporting,previous_fiscalyear_id:0
 #: field:account.balance.reporting.line,previous_value:0
 msgid "Fiscal year 2"
-msgstr ""
+msgstr "Fiscal year 2"
 
 #. module: account_balance_reporting
-#: selection:account.balance.reporting.template,balance_mode:0
-msgid "Debit-Credit, reversed with brakets"
-msgstr ""
+#: field:account.balance.reporting.line,current_line_account_ids:0
+#: field:account.balance.reporting.line,previous_line_account_ids:0
+msgid "Line Accounts"
+msgstr "Line Accounts"
 
 #. module: account_balance_reporting
 #: help:account.balance.reporting.template.line,code:0
 msgid "Concept code, may be used on formulas to reference this line"
-msgstr ""
+msgstr "Concept code, may be used on formulas to reference this line"
 
 #. module: account_balance_reporting
 #: help:account.balance.reporting.template.line,sequence:0
 msgid "Lines will be sorted/grouped by this field"
-msgstr ""
+msgstr "Lines will be sorted/grouped by this field"
 
 #. module: account_balance_reporting
 #: field:account.balance.reporting.template.line,negate:0
 msgid "Negate"
-msgstr ""
+msgstr "Negate"
 
 #. module: account_balance_reporting
-#: model:ir.model,name:account_balance_reporting.model_account_balance_reporting_template_line
-msgid "account.balance.reporting.template.line"
-msgstr ""
+#: selection:account.balance.reporting.line.account,fiscal_year:0
+msgid "Previous"
+msgstr "Previous"
 
 #. module: account_balance_reporting
-#: rml:report_account_balance_reporting.generic:0
-#: rml:report_account_balance_reporting.generic_non_zero:0
+#: report:report_account_balance_reporting.generic:0
+#: report:report_account_balance_reporting.generic_detailed:0
+#: report:report_account_balance_reporting.generic_non_zero:0
+#: report:report_account_balance_reporting.generic_non_zero_detailed:0
 msgid "CODE"
-msgstr ""
-
-#. module: account_balance_reporting
-#: field:account.balance.reporting,template_id:0
-#: field:account.balance.reporting.template.line,report_id:0
-msgid "Template"
-msgstr ""
+msgstr "CODE"
 
 #. module: account_balance_reporting
 #: view:account.balance.reporting:0
 msgid "Parameters"
-msgstr ""
+msgstr "Parameters"
 
 #. module: account_balance_reporting
 #: view:account.balance.reporting:0
 msgid "Confirm"
-msgstr ""
+msgstr "Confirm"
 
 #. module: account_balance_reporting
-#: rml:report_account_balance_reporting.generic:0
-#: rml:report_account_balance_reporting.generic_non_zero:0
+#: report:report_account_balance_reporting.generic:0
+#: report:report_account_balance_reporting.generic_detailed:0
+#: report:report_account_balance_reporting.generic_non_zero:0
+#: report:report_account_balance_reporting.generic_non_zero_detailed:0
 msgid "NOTES"
-msgstr ""
+msgstr "NOTES"
 
 #. module: account_balance_reporting
 #: view:account.balance.reporting.template.line:0
 msgid "Account balance report template lines"
-msgstr ""
+msgstr "Account balance report template lines"
 
 #. module: account_balance_reporting
 #: wizard_view:account_balance_reporting.print_wizard,init:0
 msgid "Report data"
-msgstr ""
+msgstr "Report data"
 
 #. module: account_balance_reporting
 #: view:account.balance.reporting:0
 #: field:account.balance.reporting,state:0
 msgid "State"
-msgstr ""
+msgstr "State"
+
+#. module: account_balance_reporting
+#: field:account.balance.reporting.line.account,debit:0
+msgid "Debit"
+msgstr "Debit"
 
 #. module: account_balance_reporting
 #: wizard_button:account_balance_reporting.print_wizard,init,print:0
 msgid "Print"
-msgstr ""
+msgstr "Print"
 
 #. module: account_balance_reporting
-#: field:account.balance.reporting.template,type:0
-msgid "Type"
-msgstr ""
+#: view:account.balance.reporting:0
+#: view:account.balance.reporting.line:0
+msgid "Fiscal year 2 Details"
+msgstr "Fiscal year 2 Details"
 
 #. module: account_balance_reporting
 #: help:account.balance.reporting.template,balance_mode:0
@@ -178,17 +201,21 @@ msgid "Formula calculation mode: Depending on it, the balance is calculated as f
 "  Mode 1: debit-credit, credit-debit for accounts in brackets;\n"
 "  Mode 2: credit-debit;\n"
 "  Mode 3: credit-debit, debit-credit for accounts in brackets."
-msgstr ""
+msgstr "Formula calculation mode: Depending on it, the balance is calculated as follows:\n"
+"  Mode 0: debit-credit (default);\n"
+"  Mode 1: debit-credit, credit-debit for accounts in brackets;\n"
+"  Mode 2: credit-debit;\n"
+"  Mode 3: credit-debit, debit-credit for accounts in brackets."
 
 #. module: account_balance_reporting
 #: help:account.balance.reporting.template.line,negate:0
 msgid "Negate the value (change the sign of the balance)"
-msgstr ""
+msgstr "Negate the value (change the sign of the balance)"
 
 #. module: account_balance_reporting
 #: view:account.balance.reporting:0
 msgid "Report line"
-msgstr ""
+msgstr "Report line"
 
 #. module: account_balance_reporting
 #: model:ir.module.module,description:account_balance_reporting.module_meta_information
@@ -214,60 +241,106 @@ msgid "\n"
 "Note: It has been designed to meet Spanish/Spain localization needs,\n"
 "but it might be used as a generic accounting report engine.\n"
 "            "
-msgstr ""
+msgstr "\n"
+"The module allows the user to create account balance reports and templates,\n"
+"comparing the values of 'accounting concepts' between two fiscal years\n"
+"or a set of fiscal periods.\n"
+"\n"
+"Accounting concepts values can be calculated as the sum of some account balances,\n"
+"the sum of its children, other account concepts or constant values.\n"
+"\n"
+"Generated reports are stored as objects on the server,\n"
+"so you can check them anytime later or edit them\n"
+"(to add notes for example) before printing.\n"
+"\n"
+"The module lets the user add new templates of the reports concepts,\n"
+"and associate them a specific \"XML reports\" (OpenERP RML files for example)\n"
+"with the design used when printing.\n"
+"So it is very easy to add predefined country-specific official reports.\n"
+"\n"
+"The user interface has been designed to be as much user-friendly as it can be.\n"
+"\n"
+"Note: It has been designed to meet Spanish/Spain localization needs,\n"
+"but it might be used as a generic accounting report engine.\n"
+"            "
+
+#. module: account_balance_reporting
+#: model:ir.model,name:account_balance_reporting.model_account_balance_reporting_template_line
+msgid "account.balance.reporting.template.line"
+msgstr "account.balance.reporting.template.line"
+
+#. module: account_balance_reporting
+#: model:ir.model,name:account_balance_reporting.model_account_balance_reporting
+msgid "account.balance.reporting"
+msgstr "account.balance.reporting"
 
 #. module: account_balance_reporting
 #: field:account.balance.reporting.line,report_id:0
 msgid "Report"
-msgstr ""
+msgstr "Report"
 
 #. module: account_balance_reporting
 #: view:account.balance.reporting:0
 msgid "Configuration"
-msgstr ""
+msgstr "Configuration"
 
 #. module: account_balance_reporting
 #: field:account.balance.reporting.line,css_class:0
 #: field:account.balance.reporting.template.line,css_class:0
 msgid "CSS Class"
-msgstr ""
+msgstr "CSS Class"
 
 #. module: account_balance_reporting
 #: field:account.balance.reporting.template,report_xml_id:0
 #: wizard_view:account_balance_reporting.print_wizard,init:0
 msgid "Report design"
-msgstr ""
+msgstr "Report design"
 
 #. module: account_balance_reporting
-#: constraint:ir.ui.view:0
-msgid "Invalid XML for View Architecture!"
-msgstr ""
+#: report:report_account_balance_reporting.generic_detailed:0
+#: report:report_account_balance_reporting.generic_non_zero_detailed:0
+msgid "C"
+msgstr "C"
 
 #. module: account_balance_reporting
 #: view:account.balance.reporting.template:0
 msgid "Account balance report template"
-msgstr ""
+msgstr "Account balance report template"
 
 #. module: account_balance_reporting
 #: model:ir.actions.report.xml,name:account_balance_reporting.report_account_balance_reporting_default_non_zero
 msgid "Generic balance report (non zero lines)"
-msgstr ""
+msgstr "Generic balance report (non zero lines)"
 
 #. module: account_balance_reporting
 #: field:account.balance.reporting,calc_date:0
 #: field:account.balance.reporting.line,calc_date:0
 msgid "Calculation date"
-msgstr ""
+msgstr "Calculation date"
 
 #. module: account_balance_reporting
 #: field:account.balance.reporting,previous_period_ids:0
 msgid "Fiscal year 2 periods"
-msgstr ""
+msgstr "Fiscal year 2 periods"
+
+#. module: account_balance_reporting
+#: selection:account.balance.reporting,state:0
+msgid "Canceled"
+msgstr "Canceled"
+
+#. module: account_balance_reporting
+#: sql_constraint:account.balance.reporting.line:0
+#: sql_constraint:account.balance.reporting.template.line:0
+#: code:addons/account_balance_reporting/account_balance_reporting.py:288
+#: code:addons/account_balance_reporting/account_balance_reporting_template.py:211
+#, python-format
+msgid "The code must be unique for this report!"
+msgstr "The code must be unique for this report!"
 
 #. module: account_balance_reporting
 #: view:account.balance.reporting.template:0
 msgid "Template line"
-msgstr ""
+msgstr "Template line"
 
 #. module: account_balance_reporting
 #: view:account.balance.reporting:0
@@ -275,182 +348,207 @@ msgstr ""
 #: view:account.balance.reporting.template:0
 #: view:account.balance.reporting.template.line:0
 msgid "Style"
-msgstr ""
+msgstr "Style"
 
 #. module: account_balance_reporting
 #: view:account.balance.reporting:0
 msgid "Calculate"
-msgstr ""
+msgstr "Calculate"
 
 #. module: account_balance_reporting
 #: selection:account.balance.reporting.line,css_class:0
 #: selection:account.balance.reporting.template.line,css_class:0
 msgid "Level 4"
-msgstr ""
+msgstr "Level 4"
 
 #. module: account_balance_reporting
 #: view:account.balance.reporting:0
 #: selection:account.balance.reporting,state:0
 msgid "Draft"
-msgstr ""
-
-#. module: account_balance_reporting
-#: constraint:ir.model:0
-msgid "The Object name must start with x_ and not contain any special character !"
-msgstr ""
+msgstr "Draft"
 
 #. module: account_balance_reporting
 #: help:account.balance.reporting.template.line,name:0
 msgid "Concept name/description"
-msgstr ""
+msgstr "Concept name/description"
 
 #. module: account_balance_reporting
 #: selection:account.balance.reporting,state:0
 msgid "Processing"
-msgstr ""
+msgstr "Processing"
 
 #. module: account_balance_reporting
 #: selection:account.balance.reporting.template,type:0
 msgid "User"
-msgstr ""
+msgstr "User"
 
 #. module: account_balance_reporting
 #: field:account.balance.reporting.template.line,current_value:0
 msgid "Fiscal year 1 formula"
-msgstr ""
+msgstr "Fiscal year 1 formula"
 
 #. module: account_balance_reporting
 #: field:account.balance.reporting.line,template_line_id:0
 msgid "Line template"
-msgstr ""
+msgstr "Line template"
 
 #. module: account_balance_reporting
 #: selection:account.balance.reporting.template,balance_mode:0
 msgid "Credit-Debit, reversed with brakets"
-msgstr ""
+msgstr "Credit-Debit, reversed with brakets"
 
 #. module: account_balance_reporting
 #: selection:account.balance.reporting.line,css_class:0
 #: selection:account.balance.reporting.template.line,css_class:0
 msgid "Default"
-msgstr ""
+msgstr "Default"
 
 #. module: account_balance_reporting
 #: field:account.balance.reporting.template.line,previous_value:0
 msgid "Fiscal year 2 formula"
-msgstr ""
+msgstr "Fiscal year 2 formula"
 
 #. module: account_balance_reporting
 #: selection:account.balance.reporting.template,type:0
 msgid "System"
-msgstr ""
+msgstr "System"
+
+#. module: account_balance_reporting
+#: field:account.balance.reporting.line.account,credit:0
+msgid "Credit"
+msgstr "Credit"
 
 #. module: account_balance_reporting
 #: selection:account.balance.reporting,state:0
 msgid "Processed"
-msgstr ""
+msgstr "Processed"
 
 #. module: account_balance_reporting
 #: view:account.balance.reporting.line:0
 msgid "Account balance report lines"
-msgstr ""
+msgstr "Account balance report lines"
 
 #. module: account_balance_reporting
 #: field:account.balance.reporting.template,balance_mode:0
 msgid "Balance mode"
-msgstr ""
+msgstr "Balance mode"
 
 #. module: account_balance_reporting
-#: model:ir.model,name:account_balance_reporting.model_account_balance_reporting_line
-msgid "account.balance.reporting.line"
-msgstr ""
+#: field:account.balance.reporting.line.account,account_id:0
+msgid "account"
+msgstr "account"
 
 #. module: account_balance_reporting
 #: field:account.balance.reporting.line,code:0
 #: field:account.balance.reporting.template.line,code:0
 msgid "Code"
-msgstr ""
+msgstr "Code"
+
+#. module: account_balance_reporting
+#: field:account.balance.reporting.line.account,fiscal_year:0
+msgid "Fiscal year"
+msgstr "Fiscal year"
 
 #. module: account_balance_reporting
 #: selection:account.balance.reporting,state:0
 msgid "Done"
-msgstr ""
+msgstr "Done"
 
 #. module: account_balance_reporting
-#: model:ir.model,name:account_balance_reporting.model_account_balance_reporting
-msgid "account.balance.reporting"
-msgstr ""
+#: field:account.balance.reporting,current_period_ids:0
+msgid "Fiscal year 1 periods"
+msgstr "Fiscal year 1 periods"
 
 #. module: account_balance_reporting
 #: view:account.balance.reporting:0
 #: wizard_button:account_balance_reporting.print_wizard,init,end:0
 msgid "Cancel"
-msgstr ""
+msgstr "Cancel"
 
 #. module: account_balance_reporting
 #: view:account.balance.reporting:0
 msgid "Report lines"
-msgstr ""
+msgstr "Report lines"
 
 #. module: account_balance_reporting
 #: field:account.balance.reporting.line,child_ids:0
 #: field:account.balance.reporting.template.line,child_ids:0
 msgid "Children"
-msgstr ""
+msgstr "Children"
 
 #. module: account_balance_reporting
 #: selection:account.balance.reporting.line,css_class:0
 #: selection:account.balance.reporting.template.line,css_class:0
 msgid "Level 5"
-msgstr ""
+msgstr "Level 5"
 
 #. module: account_balance_reporting
 #: view:account.balance.reporting.template:0
 msgid "Information"
-msgstr ""
+msgstr "Information"
 
 #. module: account_balance_reporting
 #: selection:account.balance.reporting.line,css_class:0
 #: selection:account.balance.reporting.template.line,css_class:0
 msgid "Level 1"
-msgstr ""
+msgstr "Level 1"
 
 #. module: account_balance_reporting
 #: selection:account.balance.reporting.line,css_class:0
 #: selection:account.balance.reporting.template.line,css_class:0
 msgid "Level 3"
-msgstr ""
+msgstr "Level 3"
 
 #. module: account_balance_reporting
 #: selection:account.balance.reporting.line,css_class:0
 #: selection:account.balance.reporting.template.line,css_class:0
 msgid "Level 2"
-msgstr ""
+msgstr "Level 2"
 
 #. module: account_balance_reporting
 #: model:ir.actions.report.xml,name:account_balance_reporting.report_account_balance_reporting_generic
 msgid "Generic balance report"
-msgstr ""
+msgstr "Generic balance report"
+
+#. module: account_balance_reporting
+#: selection:account.balance.reporting.line.account,fiscal_year:0
+msgid "Current"
+msgstr "Current"
 
 #. module: account_balance_reporting
 #: view:account.balance.reporting.template:0
 msgid "Account balance report templates"
-msgstr ""
+msgstr "Account balance report templates"
+
+#. module: account_balance_reporting
+#: model:ir.model,name:account_balance_reporting.model_account_balance_reporting_template
+msgid "account.balance.reporting.template"
+msgstr "account.balance.reporting.template"
 
 #. module: account_balance_reporting
 #: model:ir.ui.menu,name:account_balance_reporting.menu_account_balance_reporting_templates
 msgid "Templates"
-msgstr ""
+msgstr "Templates"
 
 #. module: account_balance_reporting
 #: field:account.balance.reporting.template,description:0
 msgid "Description"
-msgstr ""
+msgstr "Description"
+
+#. module: account_balance_reporting
+#: field:account.balance.reporting.template,type:0
+msgid "Type"
+msgstr "Type"
 
 #. module: account_balance_reporting
 #: view:account.balance.reporting.template.line:0
 msgid "Account balance report template line"
-msgstr ""
+msgstr "Account balance report template line"
+
+#. module: account_balance_reporting
+#: model:ir.model,name:account_balance_reporting.model_account_balance_reporting_line_account
+msgid "account.balance.reporting.line.account"
+msgstr "account.balance.reporting.line.account"
 
 #. module: account_balance_reporting
 #: field:account.balance.reporting,name:0
@@ -458,7 +556,7 @@ msgstr ""
 #: field:account.balance.reporting.template,name:0
 #: field:account.balance.reporting.template.line,name:0
 msgid "Name"
-msgstr ""
+msgstr "Name"
 
 #. module: account_balance_reporting
 #: view:account.balance.reporting:0
@@ -466,12 +564,12 @@ msgstr ""
 #: view:account.balance.reporting.template:0
 #: field:account.balance.reporting.template,line_ids:0
 msgid "Lines"
-msgstr ""
+msgstr "Lines"
 
 #. module: account_balance_reporting
 #: model:ir.ui.menu,name:account_balance_reporting.menu_account_balance_reporting_reports
 msgid "Reports"
-msgstr ""
+msgstr "Reports"
 
 #. module: account_balance_reporting
 #: view:account.balance.reporting:0
@@ -479,12 +577,18 @@ msgstr ""
 #: view:account.balance.reporting.template:0
 #: view:account.balance.reporting.template.line:0
 msgid "Values"
-msgstr ""
+msgstr "Values"
 
 #. module: account_balance_reporting
-#: model:ir.model,name:account_balance_reporting.model_account_balance_reporting_template
-msgid "account.balance.reporting.template"
-msgstr ""
+#: model:ir.actions.report.xml,name:account_balance_reporting.report_account_balance_reporting_detailed_default_non_zero
+msgid "Generic detailed balance report (non zero lines)"
+msgstr "Generic detailed balance report (non zero lines)"
+
+#. module: account_balance_reporting
+#: report:report_account_balance_reporting.generic_detailed:0
+#: report:report_account_balance_reporting.generic_non_zero_detailed:0
+msgid "]"
+msgstr "]"
 
 #. module: account_balance_reporting
 #: help:account.balance.reporting.template.line,current_value:0
@@ -496,43 +600,56 @@ msgid "Value calculation formula: Depending on this formula the final value is c
 "    (the sign of the balance depends on the balance mode).\n"
 "  Concept codes separated by \"+\" (\"11000+12000\"): Sum of those concepts values.\n"
 ""
-msgstr ""
+msgstr "Value calculation formula: Depending on this formula the final value is calculated as follows:\n"
+"  Empy template value: sum of (this concept) children values.\n"
+"  Number with decimal point (\"10.2\"): that value (constant).\n"
+"  Account numbers separated by commas (\"430,431,(437)\"): Sum of the account balances\n"
+"    (the sign of the balance depends on the balance mode).\n"
+"  Concept codes separated by \"+\" (\"11000+12000\"): Sum of those concepts values.\n"
+""
 
 #. module: account_balance_reporting
-#: rml:report_account_balance_reporting.generic:0
-#: rml:report_account_balance_reporting.generic_non_zero:0
+#: report:report_account_balance_reporting.generic:0
+#: report:report_account_balance_reporting.generic_detailed:0
+#: report:report_account_balance_reporting.generic_non_zero:0
+#: report:report_account_balance_reporting.generic_non_zero_detailed:0
 msgid "CONCEPT"
-msgstr ""
+msgstr "CONCEPT"
+
+#. module: account_balance_reporting
+#: model:ir.model,name:account_balance_reporting.model_account_balance_reporting_line
+msgid "account.balance.reporting.line"
+msgstr "account.balance.reporting.line"
 
 #. module: account_balance_reporting
 #: view:account.balance.reporting.line:0
 msgid "Account balance report line"
-msgstr ""
+msgstr "Account balance report line"
 
 #. module: account_balance_reporting
 #: field:account.balance.reporting.line,sequence:0
 #: field:account.balance.reporting.template.line,sequence:0
 msgid "Sequence"
-msgstr ""
+msgstr "Sequence"
+
+#. module: account_balance_reporting
+#: model:ir.actions.report.xml,name:account_balance_reporting.report_account_balance_reporting_detailed_generic
+msgid "Generic detailed balance report"
+msgstr "Generic detailed balance report"
 
 #. module: account_balance_reporting
 #: wizard_view:account_balance_reporting.print_wizard,init:0
 #: model:ir.actions.wizard,name:account_balance_reporting.wiz_account_balance_reporting_print
 msgid "Print report"
-msgstr ""
+msgstr "Print report"
 
 #. module: account_balance_reporting
 #: view:account.balance.reporting:0
 msgid "Account balance report"
-msgstr ""
+msgstr "Account balance report"
 
 #. module: account_balance_reporting
 #: model:ir.module.module,shortdesc:account_balance_reporting.module_meta_information
 msgid "Account balance reporting engine"
-msgstr ""
-
-#. module: account_balance_reporting
-#: selection:account.balance.reporting,state:0
-msgid "Canceled"
-msgstr ""
+msgstr "Account balance reporting engine"
 

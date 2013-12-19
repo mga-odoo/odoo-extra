@@ -27,25 +27,45 @@ Author: Borja López Soilán (Pexego) - borjals@pexego.es
 <openerp>
 	<data>
 
-		<!-- Generic report -->
-		<report id="report_account_balance_reporting_generic"
-			string="Generic balance report"
-			model="account.balance.reporting"
-			name="report_account_balance_reporting.generic"
-			rml="addons/account_balance_reporting/report/generic_report.rml"
-			auto="True"
-			menu="False"
-			header="True" />
+        <!-- Generic report -->
+        <report id="report_account_balance_reporting_generic"
+            string="Generic balance report"
+            model="account.balance.reporting"
+            name="report_account_balance_reporting.generic"
+            rml="addons/account_balance_reporting/report/generic_report.rml"
+            auto="True"
+            menu="False"
+            header="True" />
 
-		<!-- Generic report without zero lines -->
-		<report id="report_account_balance_reporting_default_non_zero"
-			string="Generic balance report (non zero lines)"
-			model="account.balance.reporting"
-			name="report_account_balance_reporting.generic_non_zero"
-			rml="addons/account_balance_reporting/report/generic_non_zero_report.rml"
-			auto="True"
-			menu="False"
-			header="True" />
+        <!-- Generic report without zero lines -->
+        <report id="report_account_balance_reporting_default_non_zero"
+            string="Generic balance report (non zero lines)"
+            model="account.balance.reporting"
+            name="report_account_balance_reporting.generic_non_zero"
+            rml="addons/account_balance_reporting/report/generic_non_zero_report.rml"
+            auto="True"
+            menu="False"
+            header="True" />
+
+<!--         Generic detailed report -->
+        <report id="report_account_balance_reporting_detailed_generic"
+            string="Generic detailed balance report"
+            model="account.balance.reporting"
+            name="report_account_balance_reporting.generic_detailed"
+            rml="addons/account_balance_reporting/report/generic_detailed_report.rml"
+            auto="True"
+            menu="False"
+            header="True" />
+
+<!--         Generic detailed report without zero lines -->
+        <report id="report_account_balance_reporting_detailed_default_non_zero"
+            string="Generic detailed balance report (non zero lines)"
+            model="account.balance.reporting"
+            name="report_account_balance_reporting.generic_non_zero_detailed"
+            rml="addons/account_balance_reporting/report/generic_non_zero_detailed_report.rml"
+            auto="True"
+            menu="False"
+            header="True" />
 
 	</data>
 </openerp>

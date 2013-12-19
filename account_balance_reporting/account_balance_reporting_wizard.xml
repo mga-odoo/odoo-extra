@@ -39,5 +39,6 @@ Author: Borja López Soilán (Pexego) - borjals@pexego.es
                 string="Calculate report"
                 name="account_balance_reporting.calculate_wizard"
                 menu="False"/>
+
     </data>
 </openerp>

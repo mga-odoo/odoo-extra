@@ -3,3 +3,4 @@
 "access_account_balance_reporting_report_line","Report line manager","account_balance_reporting.model_account_balance_reporting_line","account.group_account_manager",1,1,1,1
 "access_account_balance_reporting_report_template","Report template manager","account_balance_reporting.model_account_balance_reporting_template","account.group_account_manager",1,1,1,1
 "access_account_balance_reporting_report_template_line","Report template line manager","account_balance_reporting.model_account_balance_reporting_template_line","account.group_account_manager",1,1,1,1
+"access_account_balance_reporting_report_line_account","Report line account manager","account_balance_reporting.model_account_balance_reporting_line_account","account.group_account_manager",1,1,1,1

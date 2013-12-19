@@ -1,0 +1,224 @@
+<?xml version="1.0"?>
+<document filename="test.pdf">
+  <template pageSize="(595.0,842.0)" title="Test" author="Martin Simon" allowSplitting="20">
+    <pageTemplate id="first">
+      <frame id="first" x1="42.0" y1="42.0" width="511" height="758"/>
+    </pageTemplate>
+  </template>
+  <stylesheet>
+    <blockTableStyle id="Standard_Outline">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+    </blockTableStyle>
+    <blockTableStyle id="Table3">
+        <blockAlignment value="LEFT"/>
+        <blockValign value="TOP"/>
+        <blockBottomPadding length="1.0"/>
+        <lineStyle kind="LINEABOVE" colorName="#AAAAAA"/>
+        <blockBackground colorName="white" start="0,0" stop="-1,0"/>
+    </blockTableStyle>
+    <blockTableStyle id="Table3a">
+        <blockAlignment value="LEFT"/>
+        <blockValign value="MIDDLE"/>
+        <lineStyle kind="LINEABOVE" colorName="#888888"/>
+        <blockBottomPadding length="1.0"/>
+        <blockBackground colorName="white" start="0,0" stop="-1,0"/>
+    </blockTableStyle>
+    <blockTableStyle id="Table3b">
+        <blockAlignment value="LEFT"/>
+        <blockValign value="TOP"/>
+        <blockTopPadding length="0.5"/>
+        <blockBottomPadding length="1.0"/>
+        <blockBackground colorName="white" start="0,0" stop="-1,0"/>
+    </blockTableStyle>
+    <blockTableStyle id="Tabla11">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+      <lineStyle kind="LINEBEFORE" colorName="#000000" start="0,0" stop="0,-1"/>
+      <lineStyle kind="LINEAFTER" colorName="#000000" start="0,0" stop="0,-1"/>
+      <lineStyle kind="LINEABOVE" colorName="#000000" start="0,0" stop="0,0"/>
+      <blockBackground colorName="#e6e6ff" start="0,0" stop="0,-1"/>
+    </blockTableStyle>
+    <blockTableStyle id="Tabla10">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+      <lineStyle kind="LINEBEFORE" colorName="#000000" start="0,0" stop="0,-1"/>
+      <lineStyle kind="LINEABOVE" colorName="#000000" start="0,0" stop="0,0"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="0,-1" stop="0,-1"/>
+      <lineStyle kind="LINEBEFORE" colorName="#000000" start="1,0" stop="1,-1"/>
+      <lineStyle kind="LINEABOVE" colorName="#000000" start="1,0" stop="1,0"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="1,-1" stop="1,-1"/>
+      <lineStyle kind="LINEBEFORE" colorName="#000000" start="2,0" stop="2,-1"/>
+      <lineStyle kind="LINEABOVE" colorName="#000000" start="2,0" stop="2,0"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="2,-1" stop="2,-1"/>
+      <lineStyle kind="LINEBEFORE" colorName="#000000" start="3,0" stop="3,-1"/>
+      <lineStyle kind="LINEABOVE" colorName="#000000" start="3,0" stop="3,0"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="3,-1" stop="3,-1"/>
+      <lineStyle kind="LINEBEFORE" colorName="#000000" start="4,0" stop="4,-1"/>
+      <lineStyle kind="LINEAFTER" colorName="#000000" start="4,0" stop="4,-1"/>
+      <lineStyle kind="LINEABOVE" colorName="#000000" start="4,0" stop="4,0"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="4,-1" stop="4,-1"/>
+      <blockBackground colorName="#e6e6ff" start="0,0" stop="0,-1"/>
+      <blockBackground colorName="#e6e6ff" start="1,0" stop="1,-1"/>
+      <blockBackground colorName="#e6e6ff" start="2,0" stop="2,-1"/>
+      <blockBackground colorName="#e6e6ff" start="3,0" stop="3,-1"/>
+      <blockBackground colorName="#e6e6ff" start="4,0" stop="4,-1"/>
+    </blockTableStyle>
+    <blockTableStyle id="Tabla9">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+      <lineStyle kind="LINEBEFORE" colorName="#000000" start="0,0" stop="0,-1"/>
+      <lineStyle kind="LINEABOVE" colorName="#000000" start="0,0" stop="0,0"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="0,-1" stop="0,-1"/>
+      <lineStyle kind="LINEBEFORE" colorName="#000000" start="1,0" stop="1,-1"/>
+      <lineStyle kind="LINEABOVE" colorName="#000000" start="1,0" stop="1,0"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="1,-1" stop="1,-1"/>
+      <lineStyle kind="LINEBEFORE" colorName="#000000" start="2,0" stop="2,-1"/>
+      <lineStyle kind="LINEABOVE" colorName="#000000" start="2,0" stop="2,0"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="2,-1" stop="2,-1"/>
+      <lineStyle kind="LINEBEFORE" colorName="#000000" start="3,0" stop="3,-1"/>
+      <lineStyle kind="LINEABOVE" colorName="#000000" start="3,0" stop="3,0"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="3,-1" stop="3,-1"/>
+      <lineStyle kind="LINEBEFORE" colorName="#000000" start="4,0" stop="4,-1"/>
+      <lineStyle kind="LINEAFTER" colorName="#000000" start="4,0" stop="4,-1"/>
+      <lineStyle kind="LINEABOVE" colorName="#000000" start="4,0" stop="4,0"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="4,-1" stop="4,-1"/>
+    </blockTableStyle>
+    <initialize>
+      <paraStyle name="all" alignment="justify"/>
+    </initialize>
+    <paraStyle name="P1" fontName="Helvetica-Bold" fontSize="8.0" leading="10" alignment="CENTER"/>
+    <paraStyle name="P2" fontName="Helvetica" fontSize="8.0" leading="10" alignment="RIGHT"/>
+    <paraStyle name="P3" fontName="Helvetica-Bold" fontSize="8.0" leading="10" alignment="CENTER"/>
+    <paraStyle name="P4" fontName="Times-Roman"/>
+    <paraStyle name="P5" fontName="Helvetica-Bold" fontSize="12.0" leading="15" alignment="CENTER" spaceBefore="12.0" spaceAfter="6.0"/>
+    <paraStyle name="P6" fontName="Helvetica" fontSize="8.0" leading="10" alignment="CENTER"/>
+    <paraStyle name="P7" fontName="Helvetica" fontSize="8.0" leading="10" alignment="LEFT"/>
+    <paraStyle name="Standard" fontName="Helvetica" fontSize="8.0" leading="10" alignment="LEFT"/>
+    <paraStyle name="Heading" fontName="Helvetica" fontSize="14.0" leading="17" spaceBefore="12.0" spaceAfter="6.0"/>
+    <paraStyle name="Text_20_body" fontName="Times-Roman" spaceBefore="0.0" spaceAfter="6.0"/>
+    <paraStyle name="List" fontName="Times-Roman" spaceBefore="0.0" spaceAfter="6.0"/>
+    <paraStyle name="Caption" fontName="Times-Roman" fontSize="12.0" leading="15" spaceBefore="6.0" spaceAfter="6.0"/>
+    <paraStyle name="Index" fontName="Times-Roman"/>
+    <paraStyle name="Heading_20_1" fontName="Helvetica-Bold" fontSize="115%" leading="NaN" spaceBefore="12.0" spaceAfter="6.0"/>
+    <paraStyle name="Heading_20_2" fontName="Helvetica-BoldOblique" fontSize="14.0" leading="17" spaceBefore="12.0" spaceAfter="6.0"/>
+    <paraStyle name="Table_20_Contents" fontName="Times-Roman"/>
+    <paraStyle name="Table_20_Heading" fontName="Times-Roman" alignment="CENTER"/>
+    <paraStyle name="Bal1" fontName="Helvetica-Bold" fontSize="9.0" leading="11" alignment="LEFT"/>
+    <paraStyle name="Bal2" fontName="Helvetica-Bold" fontSize="8.0" leading="10" alignment="LEFT"/>
+    <paraStyle name="BalCabecera" fontName="Helvetica-Bold" fontSize="8.0" leading="10" alignment="CENTER"/>
+    <paraStyle name="BalCodigos" fontName="Helvetica-Bold" fontSize="8.0" leading="10" alignment="CENTER"/>
+    <paraStyle name="Bal3" fontName="Helvetica" fontSize="8.0" leading="10" alignment="LEFT"/>
+    <paraStyle name="Bal4" fontName="Helvetica" fontSize="8.0" leading="10" alignment="LEFT"/>
+    <paraStyle name="Bal5" fontName="Helvetica-Oblique" fontSize="8.0" leading="10" alignment="LEFT"/>
+  </stylesheet>
+  <images/>
+  <story>
+    <para style="Standard">[[setLang(user.context_lang)]]</para>
+    <section>
+        <section>[[repeatIn(objects,'report')]]]
+            <para style="Standard">
+              <font color="white"> </font>
+            </para>
+            <para style="Standard">
+              <font color="white"> </font>
+            </para>
+            <blockTable colWidths="511.0" style="Tabla11">
+              <tr>
+                <td>
+                  <para style="P5">[[report.name]]</para>
+                </td>
+              </tr>
+            </blockTable>
+            <blockTable colWidths="229.0,59.0,57.0,86.0,80.0" style="Table3a">
+              <tr>
+                <td>
+                  <para style="BalCabecera">CONCEPT</para>
+                </td>
+                <td>
+                  <para style="BalCabecera">CODE</para>
+                </td>
+                <td>
+                  <para style="P1">NOTES</para>
+                </td>
+                <td>
+                  <para style="P1">[[report.current_fiscalyear_id.name]]</para>
+                </td>
+                <td>
+                  <para style="P1">[[report.previous_fiscalyear_id.name]]</para>
+                </td>
+              </tr>
+            </blockTable>
+            <section>[[repeatIn(report.line_ids,'line')]]
+					[[ line.current_value==0.0 and line.previous_value==0.0 and removeParentNode('section')]]
+                <blockTable colWidths="229.0,59.0,57.0,86.0,80.0" style="Table3a">
+                  <tr>
+                    <td>
+                      <para style="Bal1">
+                        <font face="Times-Bold" size="10.0">[[(line.css_class=='l1') and line.name or removeParentNode('font')]]</font>
+                      </para>
+                      <para style="Bal2">
+                        <font face="Times-Bold" size="9.0">[[(line.css_class=='l2') and line.name or removeParentNode('font')]]</font>
+                      </para>
+                      <para style="Bal3">
+                        <font face="Times-Bold" size="8.0">[[(line.css_class=='l3') and line.name or removeParentNode('font')]]</font>
+                      </para>
+                      <para style="Bal4">
+                        <font face="Times-Roman">[[(line.css_class=='l4') and line.name or removeParentNode('font')]]</font>
+                      </para>
+                      <para style="Bal5">
+                        <font face="Times-Roman">[[(line.css_class=='l5') and line.name or removeParentNode('font')]]</font>
+                      </para>
+                      <para style="Bal4">
+                        <font face="Times-Roman">[[(line.css_class=='default') and line.name or removeParentNode('font')]]</font>
+                      </para>
+                    </td>
+                    <td>
+                      <para style="P3">[[line.code]]</para>
+                    </td>
+                    <td>
+                      <para style="P6">[[line.notes]]</para>
+                    </td>
+                    <td>
+                      <para style="P2">[[formatLang(line.current_value)]]</para>
+                    </td>
+                    <td>
+                      <para style="P2">[[report.previous_fiscalyear_id and formatLang(line.previous_value)]]</para>
+                    </td>
+                  </tr>
+                </blockTable>
+                <section>[[ repeatIn(line.current_line_account_ids, 'current_account') ]]
+                    <blockTable colWidths="240,110" style="Table3b">
+                        <tr>
+                            <td>
+                                <para alignment="RIGHT" style="Standard">[[current_account.account_id.code or '']]</para>
+                            </td>
+                            <td>
+                                <para alignment="RIGHT" style="Standard">C [[ current_account.credit and current_account.credit or removeParentNode('para')]]</para>
+                                <para alignment="RIGHT" style="Standard">D [[ current_account.debit and current_account.debit or removeParentNode('para')]]</para>
+                            </td>
+                        </tr>
+                    </blockTable>
+                </section>
+                <section>[[ repeatIn(line.previous_line_account_ids, 'previous_account') ]]
+                    <blockTable colWidths="320,190" style="Table3b">
+                        <tr>
+                            <td>
+                                <para alignment="RIGHT" style="Bal4">[[ previous_account.account_id.code or '']]</para>
+                            </td>
+                            <td>
+                                <para alignment="RIGHT" style="Bal4">C [[ previous_account.credit and previous_account.credit or removeParentNode('para')]]</para>
+                                <para alignment="RIGHT" style="Bal4">D [[ previous_account.debit and previous_account.debit or removeParentNode('para')]]</para>
+                            </td>
+                        </tr>
+                    </blockTable>
+                </section>
+            </section>
+        </section>
+    </section>
+    <para style="P4">
+      <font color="white"> </font>
+    </para>
+  </story>
+</document>
+

@@ -36,12 +36,13 @@ import re
 import time
 from tools.translate import _
 import netsvc
+import decimal_precision as dp
 
 ################################################################################
 # CSS classes for the account line templates
 ################################################################################
 
-CSS_CLASSES = [('default','Default'),('l1', 'Level 1'), ('l2', 'Level 2'),
+CSS_CLASSES = [('default', 'Default'), ('l1', 'Level 1'), ('l2', 'Level 2'),
                 ('l3', 'Level 3'), ('l4', 'Level 4'), ('l5', 'Level 5')]
 
 ################################################################################
@@ -64,27 +65,27 @@ class account_balance_reporting(osv.osv):
         'name': fields.char('Name', size=64, required=True, select=True),
         # Template used to calculate this report
         'template_id': fields.many2one('account.balance.reporting.template', 'Template', ondelete='set null', required=True, select=True,
-                            states = {'calc_done': [('readonly', True)], 'done': [('readonly', True)]}),
+                            states={'calc_done': [('readonly', True)], 'done': [('readonly', True)]}),
         # Date of the last calculation
         'calc_date': fields.datetime("Calculation date"),
         # State of the report
-        'state': fields.selection([('draft','Draft'),('calc','Processing'),('calc_done','Processed'),('done','Done'),('canceled','Canceled')], 'State'),
+        'state': fields.selection([('draft', 'Draft'), ('calc', 'Processing'), ('calc_done', 'Processed'), ('done', 'Done'), ('canceled', 'Canceled')], 'State'),
         # Company
         'company_id': fields.many2one('res.company', 'Company', ondelete='cascade', readonly=True, required=True),
         #
         # Current fiscal year and it's (selected) periods
         #
-        'current_fiscalyear_id': fields.many2one('account.fiscalyear','Fiscal year 1', select=True, required=True,
-                            states = {'calc_done': [('readonly', True)], 'done': [('readonly', True)]}),
+        'current_fiscalyear_id': fields.many2one('account.fiscalyear', 'Fiscal year 1', select=True, required=True,
+                            states={'calc_done': [('readonly', True)], 'done': [('readonly', True)]}),
         'current_period_ids': fields.many2many('account.period', 'account_balance_reporting_account_period_current_rel', 'account_balance_reporting_id', 'period_id', 'Fiscal year 1 periods',
-                            states = {'calc_done': [('readonly', True)], 'done': [('readonly', True)]}),
+                            states={'calc_done': [('readonly', True)], 'done': [('readonly', True)]}),
         #
         # Previous fiscal year and it's (selected) periods
         #
-        'previous_fiscalyear_id': fields.many2one('account.fiscalyear','Fiscal year 2', select=True,
-                            states = {'calc_done': [('readonly', True)], 'done': [('readonly', True)]}),
+        'previous_fiscalyear_id': fields.many2one('account.fiscalyear', 'Fiscal year 2', select=True,
+                            states={'calc_done': [('readonly', True)], 'done': [('readonly', True)]}),
         'previous_period_ids': fields.many2many('account.period', 'account_balance_reporting_account_period_previous_rel', 'account_balance_reporting_id', 'period_id', 'Fiscal year 2 periods',
-                            states = {'calc_done': [('readonly', True)], 'done': [('readonly', True)]}),
+                            states={'calc_done': [('readonly', True)], 'done': [('readonly', True)]}),
     }
 
     _defaults = {
@@ -196,10 +197,23 @@ class account_balance_reporting(osv.osv):
         Called when the user clicks the draft button to create
         a new workflow instance.
         """
+        line_obj = self.pool.get('account.balance.reporting.line')
+        line_account_obj = self.pool.get(
+            'account.balance.reporting.line.account')
         self.write(cr, uid, ids, {'state': 'draft', 'calc_date': None})
         wf_service = netsvc.LocalService("workflow")
         for item_id in ids:
             wf_service.trg_create(uid, 'account.balance.reporting', item_id, cr)
+
+        for report in self.browse(cr, uid, ids, context):
+            line_ids = line_obj.search(cr, uid, [
+                    ('report_id', '=', report.id),
+                    ], context=context)
+            for line in line_obj.browse(cr, uid, line_ids, context):
+                line_account_ids = line_account_obj.search(cr, uid, [
+                        ('report_line_id', '=', line.id),
+                        ], context=context)
+                line_account_obj.unlink(cr, uid, line_account_ids, context)
         return True
 
 
@@ -234,9 +248,9 @@ class account_balance_reporting_line(osv.osv):
         # Notes value (references to the notes)
         'notes': fields.text('Notes'),
         # Concept value in this fiscal year
-        'current_value': fields.float('Fiscal year 1', digits=(16,2)),
+        'current_value': fields.float('Fiscal year 1', digits=(16, 2)),
         # Concept value on the previous fiscal year
-        'previous_value': fields.float('Fiscal year 2', digits=(16,2)),
+        'previous_value': fields.float('Fiscal year 2', digits=(16, 2)),
         # Date of the last calculation
         'calc_date': fields.datetime("Calculation date"),
 
@@ -251,6 +265,12 @@ class account_balance_reporting_line(osv.osv):
         'parent_id': fields.many2one('account.balance.reporting.line', 'Parent', ondelete='cascade'),
         # Children accounting concepts
         'child_ids': fields.one2many('account.balance.reporting.line', 'parent_id', 'Children'),
+        'current_line_account_ids': fields.one2many(
+            'account.balance.reporting.line.account', 'report_line_id',
+            'Line Accounts', domain=[('fiscal_year', '=', 'current')]),
+        'previous_line_account_ids': fields.one2many(
+            'account.balance.reporting.line.account', 'report_line_id',
+            'Line Accounts', domain=[('fiscal_year', '=', 'previous')]),
     }
 
     _defaults = {
@@ -276,8 +296,8 @@ class account_balance_reporting_line(osv.osv):
         """
         if not len(ids):
             return []
-        res=[]
-        for item in self.browse(cr,uid,ids):
+        res = []
+        for item in self.browse(cr, uid, ids):
             res.append((item.id, "[%s] %s" % (item.code, item.name)))
         return res
 
@@ -288,9 +308,9 @@ class account_balance_reporting_line(osv.osv):
         """
         ids = []
         if name:
-            ids = self.search(cr, uid, [('code','ilike',name)]+ args, limit=limit)
+            ids = self.search(cr, uid, [('code', 'ilike', name)] + args, limit=limit)
         if not ids:
-            ids = self.search(cr, uid, [('name',operator,name)]+ args, limit=limit)
+            ids = self.search(cr, uid, [('name', operator, name)] + args, limit=limit)
         return self.name_get(cr, uid, ids, context=context)
 
 
@@ -375,6 +395,7 @@ class account_balance_reporting_line(osv.osv):
                         balance_mode = line.template_line_id.report_id.balance_mode
 
                         # Get the balance
+                        ctx['period'] = fyear
                         value = line._get_account_balance(template_value, balance_mode, ctx)
 
                     elif re.match(r'^[\+\-0-9a-zA-Z_\*]*$', template_value):
@@ -393,7 +414,7 @@ class account_balance_reporting_line(osv.osv):
                             if len(line_code) > 0:
                                 # Search for the line (perfect match)
                                 line_ids = self.search(cr, uid, [
-                                        ('report_id','=', line.report_id.id),
+                                        ('report_id', '=', line.report_id.id),
                                         ('code', '=', line_code),
                                     ])
                                 for child in self.browse(cr, uid, line_ids):
@@ -426,7 +447,6 @@ class account_balance_reporting_line(osv.osv):
                 })
         return True
 
-
     def _get_account_balance(self, cr, uid, ids, code, balance_mode=0, context=None):
         """
         It returns the (debit, credit, balance*) tuple for a account with the
@@ -443,10 +463,12 @@ class account_balance_reporting_line(osv.osv):
         instead of the balance writing "debit(551)" or "credit(551)".
         """
         acc_facade = self.pool.get('account.account')
+        report_line_account_obj = self.pool.get(
+            'account.balance.reporting.line.account')
         res = 0.0
         line = self.browse(cr, uid, ids)[0]
 
-        assert balance_mode in ('0','1','2','3'), "balance_mode should be in [0..3]"
+        assert balance_mode in ('0', '1', '2', '3'), "balance_mode should be in [0..3]"
 
         # We iterate over the accounts listed in "code", so code can be
         # a string like "430+431+432-438"; accounts split by "+" will be added,
@@ -468,7 +490,7 @@ class account_balance_reporting_line(osv.osv):
                 #
                 if account_code.startswith('-'):
                     sign = -1.0
-                    account_code = account_code[1:] # Strip the sign
+                    account_code = account_code[1:]  # Strip the sign
                 else:
                     sign = 1.0
 
@@ -476,14 +498,14 @@ class account_balance_reporting_line(osv.osv):
                 if re.match(r'^debit\(.*\)$', account_code):
                     # Use debit instead of balance
                     mode = 'debit'
-                    account_code = account_code[6:-1] # Strip debit()
+                    account_code = account_code[6:-1]  # Strip debit()
                     if balance_mode == '2':
                         # We use credit-debit in the balance
                         sign = -1.0 * sign
                 elif re.match(r'^credit\(.*\)$', account_code):
                     # Use credit instead of balance
                     mode = 'credit'
-                    account_code = account_code[7:-1] # Strip credit()
+                    account_code = account_code[7:-1]  # Strip credit()
                     if balance_mode == '2':
                         # We use credit-debit in the balance
                         sign = -1.0 * sign
@@ -512,21 +534,43 @@ class account_balance_reporting_line(osv.osv):
                 # Search for the account (perfect match)
                 account_ids = acc_facade.search(cr, uid, [
                         ('code', '=', account_code),
-                        ('company_id','=', line.report_id.company_id.id)
+                        ('company_id', '=', line.report_id.company_id.id)
                     ], context=context)
                 if not account_ids:
                     # We didn't find the account, search for a subaccount ending with '0'
                     account_ids = acc_facade.search(cr, uid, [
                             ('code', '=like', '%s%%0' % account_code),
-                            ('company_id','=', line.report_id.company_id.id)
+                            ('company_id', '=', line.report_id.company_id.id)
                         ], context=context)
 
-                if len(account_ids) > 0:
-                    balance = acc_facade.browse(cr, uid, account_ids, context)[0].balance
-                    if ((mode == 'debit' and balance > 0.0) or 
-                            (mode == 'credit' and balance < 0.0) or
-                            (mode == 'balance')):
-                        res += balance * sign
+                if account_ids:
+                    account_ids = acc_facade.search(cr, uid, [
+                            ('parent_id', 'child_of', account_ids),
+                            ('type', '!=', 'view'),
+                        ], context=context)
+                    for account in acc_facade.browse(cr, uid, account_ids,
+                            context):
+                        balance = account.balance
+                        if ((mode == 'debit' and balance > 0.0) or
+                                (mode == 'credit' and balance < 0.0) or
+                                (mode == 'balance')):
+                            res += balance * sign
+    
+                            if (not report_line_account_obj.search(cr, uid, [
+                                    ('account_id', '=', account.id),
+                                    ('fiscal_year', '=', context['period']),
+                                    ('report_line_id', '=', line.id),
+                                    ], context=context)
+                                    and (account.debit or account.credit)):                                
+                                vals = {
+                                    'account_id': account.id,
+                                    'debit': account.debit,
+                                    'credit': account.credit,
+                                    'report_line_id': line.id,
+                                    'fiscal_year': context['period'],
+                                    }
+                                report_line_account_obj.create(cr, uid, vals,
+                                    context)
 
                 else:
                     netsvc.Logger().notifyChannel('account_balance_reporting', netsvc.LOG_WARNING, "Account with code '%s' not found!" % account_code)
@@ -535,6 +579,25 @@ class account_balance_reporting_line(osv.osv):
 
 
 account_balance_reporting_line()
+
+
+class account_balance_reporting_line_account(osv.osv):
+    _name = "account.balance.reporting.line.account"
+    _columns = {
+        'account_id': fields.many2one('account.account', 'account'),
+        'debit': fields.float('Debit', digits_compute=dp.get_precision(
+                'Account')),
+        'credit': fields.float('Credit', digits_compute=dp.get_precision(
+                'Account')),
+        'report_line_id': fields.many2one('account.balance.reporting.line',
+            'Report Line'),
+        'fiscal_year': fields.selection([
+                ('current', 'Current'),
+                ('previous', 'Previous'),
+                ], 'Fiscal year'),
+        }
+
+account_balance_reporting_line_account()
 
 
 class account_balance_reporting_withlines(osv.osv):
@@ -547,7 +610,7 @@ class account_balance_reporting_withlines(osv.osv):
 
     _columns = {
         'line_ids': fields.one2many('account.balance.reporting.line', 'report_id', 'Lines',
-                            states = {'done': [('readonly', True)]}),
+                            states={'done': [('readonly', True)]}),
     }
 
 account_balance_reporting_withlines()
