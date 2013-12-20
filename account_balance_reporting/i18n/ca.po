@@ -7,16 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenERP Server 5.0.6\n"
 "Report-Msgid-Bugs-To: support@openerp.com\n"
-"POT-Creation-Date: 2013-07-31 07:35+0000\n"
-"PO-Revision-Date: 2013-07-31 09:36+0100\n"
-"Last-Translator: Jesús Martín <jmartin@zikzakmedia.com>\n"
+"POT-Creation-Date: 2013-07-31 07:52+0000\n"
+"PO-Revision-Date: 2013-12-20 02:33+0000\n"
+"Last-Translator: jmartin (Zikzakmedia) <jmartin@zikzakmedia.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
-"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-07-30 05:31+0000\n"
-"X-Generator: Launchpad (build 13405)\n"
+"X-Launchpad-Export-Date: 2013-12-20 05:21+0000\n"
+"X-Generator: Launchpad (build 16872)\n"
+"Language: ca\n"
 
 #. module: account_balance_reporting
 #: field:account.balance.reporting.line.account,report_line_id:0
@@ -77,6 +77,7 @@ msgid "Debit-Credit, reversed with brakets"
 msgstr "Deure-Haver, invers amb parèntesis"
 
 #. module: account_balance_reporting
+#: report:report_account_balance_reporting.generic_detailed:0
 #: report:report_account_balance_reporting.generic_non_zero_detailed:0
 msgid "D"
 msgstr "D"
@@ -121,7 +122,9 @@ msgstr "Comptes de línia"
 #. module: account_balance_reporting
 #: help:account.balance.reporting.template.line,code:0
 msgid "Concept code, may be used on formulas to reference this line"
-msgstr "Codi de concepte, pot ser usat en les fórmules per fer referència a aquesta línia."
+msgstr ""
+"Codi de concepte, pot ser usat en les fórmules per fer referència a aquesta "
+"línia."
 
 #. module: account_balance_reporting
 #: help:account.balance.reporting.template.line,sequence:0
@@ -182,7 +185,6 @@ msgstr "Estat"
 
 #. module: account_balance_reporting
 #: field:account.balance.reporting.line.account,debit:0
-#: report:report_account_balance_reporting.generic_detailed:0
 msgid "Debit"
 msgstr "Deure"
 
@@ -200,13 +202,15 @@ msgstr "Detalls exercici fiscal 2"
 #. module: account_balance_reporting
 #: help:account.balance.reporting.template,balance_mode:0
 msgid ""
-"Formula calculation mode: Depending on it, the balance is calculated as follows:\n"
+"Formula calculation mode: Depending on it, the balance is calculated as "
+"follows:\n"
 "  Mode 0: debit-credit (default);\n"
 "  Mode 1: debit-credit, credit-debit for accounts in brackets;\n"
 "  Mode 2: credit-debit;\n"
 "  Mode 3: credit-debit, debit-credit for accounts in brackets."
 msgstr ""
-"Mode de càlcul de la fórmula: Depenent del mode, el saldo es calcula com segueix:\n"
+"Mode de càlcul de la fórmula: Depenent del mode, el saldo es calcula com "
+"segueix:\n"
 "  Mode 0: deure-haver (per defecte);\n"
 "  Mode 1: deure-haver, haver-deure pels comptes amb parèntesis;\n"
 "  Mode 2: haver-deure;\n"
@@ -230,7 +234,8 @@ msgid ""
 "comparing the values of 'accounting concepts' between two fiscal years\n"
 "or a set of fiscal periods.\n"
 "\n"
-"Accounting concepts values can be calculated as the sum of some account balances,\n"
+"Accounting concepts values can be calculated as the sum of some account "
+"balances,\n"
 "the sum of its children, other account concepts or constant values.\n"
 "\n"
 "Generated reports are stored as objects on the server,\n"
@@ -238,22 +243,26 @@ msgid ""
 "(to add notes for example) before printing.\n"
 "\n"
 "The module lets the user add new templates of the reports concepts,\n"
-"and associate them a specific \"XML reports\" (OpenERP RML files for example)\n"
+"and associate them a specific \"XML reports\" (OpenERP RML files for "
+"example)\n"
 "with the design used when printing.\n"
 "So it is very easy to add predefined country-specific official reports.\n"
 "\n"
-"The user interface has been designed to be as much user-friendly as it can be.\n"
+"The user interface has been designed to be as much user-friendly as it can "
+"be.\n"
 "\n"
 "Note: It has been designed to meet Spanish/Spain localization needs,\n"
 "but it might be used as a generic accounting report engine.\n"
 "            "
 msgstr ""
 "\n"
-"El mòdul permet a l'usuari crear informes de balanços de comptes i plantilles,\n"
+"El mòdul permet a l'usuari crear informes de balanços de comptes i "
+"plantilles,\n"
 "comparant els valors 'conceptes comptables' entre dos exercicis fiscals\n"
 "o un conjunt de períodes fiscals.\n"
 "\n"
-"Els valors dels conceptes comptables es poden calcular com la suma dels balanços d'alguns comptes,\n"
+"Els valors dels conceptes comptables es poden calcular com la suma dels "
+"balanços d'alguns comptes,\n"
 "la suma dels seus fills, altres conceptes de comptes o valors constants.\n"
 "\n"
 "Els informes generats s'emmagatzemen com a objectes en el servidor,\n"
@@ -261,13 +270,15 @@ msgstr ""
 "(per afegir notes, per exemple) abans d'imprimir.\n"
 "\n"
 "El mòdul permet a l'usuari afegir noves plantilles de conceptes d'informes,\n"
-"i associar-los a \"informes XML\" específics (fitxers RML d'OpenERP, per exemple)\n"
+"i associar-los a \"informes XML\" específics (fitxers RML d'OpenERP, per "
+"exemple)\n"
 "amb el disseny utilitzat a l'imprimir.\n"
 "Per tant és senzill afegir informes oficials específics per cada país.\n"
 "\n"
 "La interfície d'usuari s'ha dissenyat per ser el més amigable possible.\n"
 "\n"
-"Nota: S'ha dissenyat per complir les necessitats de la localització espanyola,\n"
+"Nota: S'ha dissenyat per complir les necessitats de la localització "
+"espanyola,\n"
 "però pot ser utilitzat com a un motor genèric d'informes de comptabilitat.\n"
 "            "
 
@@ -304,6 +315,7 @@ msgid "Report design"
 msgstr "Disseny de l'informe"
 
 #. module: account_balance_reporting
+#: report:report_account_balance_reporting.generic_detailed:0
 #: report:report_account_balance_reporting.generic_non_zero_detailed:0
 msgid "C"
 msgstr "H"
@@ -421,7 +433,6 @@ msgstr "Sistema"
 
 #. module: account_balance_reporting
 #: field:account.balance.reporting.line.account,credit:0
-#: report:report_account_balance_reporting.generic_detailed:0
 msgid "Credit"
 msgstr "Haver"
 
@@ -601,19 +612,25 @@ msgstr "]"
 #: help:account.balance.reporting.template.line,current_value:0
 #: help:account.balance.reporting.template.line,previous_value:0
 msgid ""
-"Value calculation formula: Depending on this formula the final value is calculated as follows:\n"
+"Value calculation formula: Depending on this formula the final value is "
+"calculated as follows:\n"
 "  Empy template value: sum of (this concept) children values.\n"
 "  Number with decimal point (\"10.2\"): that value (constant).\n"
-"  Account numbers separated by commas (\"430,431,(437)\"): Sum of the account balances\n"
+"  Account numbers separated by commas (\"430,431,(437)\"): Sum of the "
+"account balances\n"
 "    (the sign of the balance depends on the balance mode).\n"
-"  Concept codes separated by \"+\" (\"11000+12000\"): Sum of those concepts values.\n"
+"  Concept codes separated by \"+\" (\"11000+12000\"): Sum of those concepts "
+"values.\n"
 msgstr ""
-"Fórmula pel càlcul del valor: Depenent d'aquesta fórmula el valor final es calcula com segueix:\n"
+"Fórmula pel càlcul del valor: Depenent d'aquesta fórmula el valor final es "
+"calcula com segueix:\n"
 "  Valor buit: Suma dels valors dels fills (d'aquest concepte).\n"
 "  Número amb punt decimal (\"10.2\"): Aquest número (constant).\n"
-"  Números de comptes separats per comes (\"430,431,(437)\"): Suma dels saldos dels comptes\n"
+"  Números de comptes separats per comes (\"430,431,(437)\"): Suma dels "
+"saldos dels comptes\n"
 "    (el signe del saldo depèn del mode de saldo).\n"
-"  Codis de conceptes separats per \"+\" (\"11000+12000\"): Suma dels valors d'aquests conceptes.\n"
+"  Codis de conceptes separats per \"+\" (\"11000+12000\"): Suma dels valors "
+"d'aquests conceptes.\n"
 
 #. module: account_balance_reporting
 #: report:report_account_balance_reporting.generic:0
@@ -660,11 +677,14 @@ msgstr "Informe de balanç de comptes"
 msgid "Account balance reporting engine"
 msgstr "Motor d'informes de balanços de comptes"
 
+#~ msgid "account.balance.report"
+#~ msgstr "account.balance.report"
+
 #~ msgid "Invalid model name in the action definition."
 #~ msgstr "Nom de model no vàlid en la definició de l'acció."
 
-#~ msgid "Invalid XML for View Architecture!"
-#~ msgstr "﻿XML no vàlid per a la definició de la vista!"
+#~ msgid "account.balance.report.template.line"
+#~ msgstr "account.balance.report.template.line"
 
 #~ msgid ""
 #~ "The Object name must start with x_ and not contain any special character !"
@@ -672,14 +692,11 @@ msgstr "Motor d'informes de balanços de comptes"
 #~ "El nom de l'objecte ha de començar amb x_ i no contenir cap caràcter "
 #~ "especial!"
 
-#~ msgid "account.balance.report"
-#~ msgstr "account.balance.report"
-
-#~ msgid "account.balance.report.template.line"
-#~ msgstr "account.balance.report.template.line"
-
 #~ msgid "account.balance.report.line"
 #~ msgstr "account.balance.report.line"
 
 #~ msgid "account.balance.report.template"
 #~ msgstr "account.balance.report.template"
+
+#~ msgid "Invalid XML for View Architecture!"
+#~ msgstr "﻿XML no vàlid per a la definició de la vista!"

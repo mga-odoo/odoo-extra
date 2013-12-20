@@ -6,19 +6,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenERP Server 5.0.14\n"
 "Report-Msgid-Bugs-To: support@openerp.com\n"
-"POT-Creation-Date: 2009-09-27 08:18+0000\n"
+"POT-Creation-Date: 2013-07-31 07:52+0000\n"
 "PO-Revision-Date: 2011-02-15 15:01+0000\n"
 "Last-Translator: Olivier Dony (OpenERP) <Unknown>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2013-04-20 05:34+0000\n"
-"X-Generator: Launchpad (build 16567)\n"
+"X-Launchpad-Export-Date: 2013-12-20 05:21+0000\n"
+"X-Generator: Launchpad (build 16872)\n"
 
 #. module: account_balance_reporting
-#: field:account.balance.reporting,current_period_ids:0
-msgid "Fiscal year 1 periods"
+#: field:account.balance.reporting.line.account,report_line_id:0
+msgid "Report Line"
 msgstr ""
 
 #. module: account_balance_reporting
@@ -27,8 +27,15 @@ msgid "Style-sheet class"
 msgstr ""
 
 #. module: account_balance_reporting
-#: constraint:ir.actions.act_window:0
-msgid "Invalid model name in the action definition."
+#: field:account.balance.reporting,template_id:0
+#: field:account.balance.reporting.template.line,report_id:0
+msgid "Template"
+msgstr ""
+
+#. module: account_balance_reporting
+#: view:account.balance.reporting:0
+#: view:account.balance.reporting.line:0
+msgid "Fiscal year 1 Details"
 msgstr ""
 
 #. module: account_balance_reporting
@@ -63,6 +70,17 @@ msgid "Calculate report"
 msgstr ""
 
 #. module: account_balance_reporting
+#: selection:account.balance.reporting.template,balance_mode:0
+msgid "Debit-Credit, reversed with brakets"
+msgstr ""
+
+#. module: account_balance_reporting
+#: report:report_account_balance_reporting.generic_detailed:0
+#: report:report_account_balance_reporting.generic_non_zero_detailed:0
+msgid "D"
+msgstr ""
+
+#. module: account_balance_reporting
 #: field:account.balance.reporting.line,notes:0
 msgid "Notes"
 msgstr ""
@@ -94,8 +112,9 @@ msgid "Fiscal year 2"
 msgstr ""
 
 #. module: account_balance_reporting
-#: selection:account.balance.reporting.template,balance_mode:0
-msgid "Debit-Credit, reversed with brakets"
+#: field:account.balance.reporting.line,current_line_account_ids:0
+#: field:account.balance.reporting.line,previous_line_account_ids:0
+msgid "Line Accounts"
 msgstr ""
 
 #. module: account_balance_reporting
@@ -114,20 +133,16 @@ msgid "Negate"
 msgstr ""
 
 #. module: account_balance_reporting
-#: model:ir.model,name:account_balance_reporting.model_account_balance_reporting_template_line
-msgid "account.balance.reporting.template.line"
+#: selection:account.balance.reporting.line.account,fiscal_year:0
+msgid "Previous"
 msgstr ""
 
 #. module: account_balance_reporting
-#: rml:report_account_balance_reporting.generic:0
-#: rml:report_account_balance_reporting.generic_non_zero:0
+#: report:report_account_balance_reporting.generic:0
+#: report:report_account_balance_reporting.generic_detailed:0
+#: report:report_account_balance_reporting.generic_non_zero:0
+#: report:report_account_balance_reporting.generic_non_zero_detailed:0
 msgid "CODE"
-msgstr ""
-
-#. module: account_balance_reporting
-#: field:account.balance.reporting,template_id:0
-#: field:account.balance.reporting.template.line,report_id:0
-msgid "Template"
 msgstr ""
 
 #. module: account_balance_reporting
@@ -141,8 +156,10 @@ msgid "Confirm"
 msgstr ""
 
 #. module: account_balance_reporting
-#: rml:report_account_balance_reporting.generic:0
-#: rml:report_account_balance_reporting.generic_non_zero:0
+#: report:report_account_balance_reporting.generic:0
+#: report:report_account_balance_reporting.generic_detailed:0
+#: report:report_account_balance_reporting.generic_non_zero:0
+#: report:report_account_balance_reporting.generic_non_zero_detailed:0
 msgid "NOTES"
 msgstr ""
 
@@ -163,13 +180,19 @@ msgid "State"
 msgstr ""
 
 #. module: account_balance_reporting
+#: field:account.balance.reporting.line.account,debit:0
+msgid "Debit"
+msgstr ""
+
+#. module: account_balance_reporting
 #: wizard_button:account_balance_reporting.print_wizard,init,print:0
 msgid "Print"
 msgstr ""
 
 #. module: account_balance_reporting
-#: field:account.balance.reporting.template,type:0
-msgid "Type"
+#: view:account.balance.reporting:0
+#: view:account.balance.reporting.line:0
+msgid "Fiscal year 2 Details"
 msgstr ""
 
 #. module: account_balance_reporting
@@ -224,6 +247,16 @@ msgid ""
 msgstr ""
 
 #. module: account_balance_reporting
+#: model:ir.model,name:account_balance_reporting.model_account_balance_reporting_template_line
+msgid "account.balance.reporting.template.line"
+msgstr ""
+
+#. module: account_balance_reporting
+#: model:ir.model,name:account_balance_reporting.model_account_balance_reporting
+msgid "account.balance.reporting"
+msgstr ""
+
+#. module: account_balance_reporting
 #: field:account.balance.reporting.line,report_id:0
 msgid "Report"
 msgstr ""
@@ -246,8 +279,9 @@ msgid "Report design"
 msgstr ""
 
 #. module: account_balance_reporting
-#: constraint:ir.ui.view:0
-msgid "Invalid XML for View Architecture!"
+#: report:report_account_balance_reporting.generic_detailed:0
+#: report:report_account_balance_reporting.generic_non_zero_detailed:0
+msgid "C"
 msgstr ""
 
 #. module: account_balance_reporting
@@ -269,6 +303,20 @@ msgstr ""
 #. module: account_balance_reporting
 #: field:account.balance.reporting,previous_period_ids:0
 msgid "Fiscal year 2 periods"
+msgstr ""
+
+#. module: account_balance_reporting
+#: selection:account.balance.reporting,state:0
+msgid "Canceled"
+msgstr ""
+
+#. module: account_balance_reporting
+#: sql_constraint:account.balance.reporting.line:0
+#: sql_constraint:account.balance.reporting.template.line:0
+#: code:addons/account_balance_reporting/account_balance_reporting.py:288
+#: code:addons/account_balance_reporting/account_balance_reporting_template.py:211
+#, python-format
+msgid "The code must be unique for this report!"
 msgstr ""
 
 #. module: account_balance_reporting
@@ -299,12 +347,6 @@ msgstr ""
 #: view:account.balance.reporting:0
 #: selection:account.balance.reporting,state:0
 msgid "Draft"
-msgstr ""
-
-#. module: account_balance_reporting
-#: constraint:ir.model:0
-msgid ""
-"The Object name must start with x_ and not contain any special character !"
 msgstr ""
 
 #. module: account_balance_reporting
@@ -354,6 +396,11 @@ msgid "System"
 msgstr ""
 
 #. module: account_balance_reporting
+#: field:account.balance.reporting.line.account,credit:0
+msgid "Credit"
+msgstr ""
+
+#. module: account_balance_reporting
 #: selection:account.balance.reporting,state:0
 msgid "Processed"
 msgstr ""
@@ -369,8 +416,8 @@ msgid "Balance mode"
 msgstr ""
 
 #. module: account_balance_reporting
-#: model:ir.model,name:account_balance_reporting.model_account_balance_reporting_line
-msgid "account.balance.reporting.line"
+#: field:account.balance.reporting.line.account,account_id:0
+msgid "account"
 msgstr ""
 
 #. module: account_balance_reporting
@@ -380,13 +427,18 @@ msgid "Code"
 msgstr ""
 
 #. module: account_balance_reporting
+#: field:account.balance.reporting.line.account,fiscal_year:0
+msgid "Fiscal year"
+msgstr ""
+
+#. module: account_balance_reporting
 #: selection:account.balance.reporting,state:0
 msgid "Done"
 msgstr ""
 
 #. module: account_balance_reporting
-#: model:ir.model,name:account_balance_reporting.model_account_balance_reporting
-msgid "account.balance.reporting"
+#: field:account.balance.reporting,current_period_ids:0
+msgid "Fiscal year 1 periods"
 msgstr ""
 
 #. module: account_balance_reporting
@@ -441,8 +493,18 @@ msgid "Generic balance report"
 msgstr ""
 
 #. module: account_balance_reporting
+#: selection:account.balance.reporting.line.account,fiscal_year:0
+msgid "Current"
+msgstr ""
+
+#. module: account_balance_reporting
 #: view:account.balance.reporting.template:0
 msgid "Account balance report templates"
+msgstr ""
+
+#. module: account_balance_reporting
+#: model:ir.model,name:account_balance_reporting.model_account_balance_reporting_template
+msgid "account.balance.reporting.template"
 msgstr ""
 
 #. module: account_balance_reporting
@@ -456,8 +518,18 @@ msgid "Description"
 msgstr ""
 
 #. module: account_balance_reporting
+#: field:account.balance.reporting.template,type:0
+msgid "Type"
+msgstr ""
+
+#. module: account_balance_reporting
 #: view:account.balance.reporting.template.line:0
 msgid "Account balance report template line"
+msgstr ""
+
+#. module: account_balance_reporting
+#: model:ir.model,name:account_balance_reporting.model_account_balance_reporting_line_account
+msgid "account.balance.reporting.line.account"
 msgstr ""
 
 #. module: account_balance_reporting
@@ -490,8 +562,14 @@ msgid "Values"
 msgstr ""
 
 #. module: account_balance_reporting
-#: model:ir.model,name:account_balance_reporting.model_account_balance_reporting_template
-msgid "account.balance.reporting.template"
+#: model:ir.actions.report.xml,name:account_balance_reporting.report_account_balance_reporting_detailed_default_non_zero
+msgid "Generic detailed balance report (non zero lines)"
+msgstr ""
+
+#. module: account_balance_reporting
+#: report:report_account_balance_reporting.generic_detailed:0
+#: report:report_account_balance_reporting.generic_non_zero_detailed:0
+msgid "]"
 msgstr ""
 
 #. module: account_balance_reporting
@@ -510,9 +588,16 @@ msgid ""
 msgstr ""
 
 #. module: account_balance_reporting
-#: rml:report_account_balance_reporting.generic:0
-#: rml:report_account_balance_reporting.generic_non_zero:0
+#: report:report_account_balance_reporting.generic:0
+#: report:report_account_balance_reporting.generic_detailed:0
+#: report:report_account_balance_reporting.generic_non_zero:0
+#: report:report_account_balance_reporting.generic_non_zero_detailed:0
 msgid "CONCEPT"
+msgstr ""
+
+#. module: account_balance_reporting
+#: model:ir.model,name:account_balance_reporting.model_account_balance_reporting_line
+msgid "account.balance.reporting.line"
 msgstr ""
 
 #. module: account_balance_reporting
@@ -524,6 +609,11 @@ msgstr ""
 #: field:account.balance.reporting.line,sequence:0
 #: field:account.balance.reporting.template.line,sequence:0
 msgid "Sequence"
+msgstr ""
+
+#. module: account_balance_reporting
+#: model:ir.actions.report.xml,name:account_balance_reporting.report_account_balance_reporting_detailed_generic
+msgid "Generic detailed balance report"
 msgstr ""
 
 #. module: account_balance_reporting
@@ -541,8 +631,3 @@ msgstr ""
 #: model:ir.module.module,shortdesc:account_balance_reporting.module_meta_information
 msgid "Account balance reporting engine"
 msgstr "Account balance reporting engine"
-
-#. module: account_balance_reporting
-#: selection:account.balance.reporting,state:0
-msgid "Canceled"
-msgstr ""
